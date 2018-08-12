@@ -1,0 +1,73 @@
+\documentclass[a4paper,12pt,numbers=noenddot]{report}
+
+\usepackage{polski}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{url} 
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{gensymb}
+\usepackage{pdfpages}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+
+\usepackage{titlesec, blindtext, color}
+
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter{. }}{0pt}{\Huge\bfseries}
+
+
+\usepackage[
+  inner = 3cm,
+  outer = 2.5cm,
+  top = 2.5cm,
+  bottom = 2.5cm,
+]{geometry}
+
+
+\title{TYTUŁ pracy}
+\date{\today}
+\author{Hubert Marcinkowski}
+
+\begin{document}
+	\nocite{*}
+	\pagenumbering{gobble}
+	\maketitle
+	%\includepdf{title2.pdf}
+
+	\newpage
+	\pagenumbering{arabic}
+	\tableofcontents
+	\newpage
+	%\setcitestyle{square}	
+	
+\chapter{Wstęp}
+Magisterka, czas zacząć
+\chapter{Wyjaśnienie pojęć}
+Wyjaśniam
+\chapter{Metoda}
+Tu daję metodę, hipotezę
+	\section{Hipotezy}
+Pierwsza hipoteza
+Druga hipoteza
+
+\chapter{Wyniki badań}
+Tu przedstawiam wyniki badań
+\chapter{Wnioski}
+Tu zapiszę wnioski
+\chapter{Zakończenie}
+Tu podsumuję?
+
+%\pagenumbering{gobble}
+
+\chapter{Zawartość płyty}
+\begin{enumerate}[label={[\arabic*]}]
+  \item Tekst pracy w formacie PDF
+  \item Pliki z wynikami przeprowadzonych badań
+  \item Plik z wynikami przeprowadzonej analizy
+\end{enumerate}
+
+%TODO: Bibliografia
+\end{document}
