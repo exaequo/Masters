@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  12 AUG 2018 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  13 AUG 2018 23:54
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -870,7 +870,14 @@ LaTeX Font Info:    External font `plex10' loaded for size
  [1
 
 {C:/Users/Hubert/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Master.to
-c)
+c
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 5.
+)
 \tf@toc=\write4
 \openout4 = `Master.toc'.
 
@@ -902,14 +909,18 @@ Rozdzia\PlPrIeC {\l } 6.
 
 ]
 Rozdzia\PlPrIeC {\l } 7.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
 [8
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+Rozdzia\PlPrIeC {\l } 8.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+[9
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 
 
 Package rerunfilecheck Warning: File `Master.out' has changed.
@@ -917,25 +928,25 @@ Package rerunfilecheck Warning: File `Master.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Master.out':
-(rerunfilecheck)             Before: 252A41379181495BC3D2DDA09C8F25D5;328
-(rerunfilecheck)             After:  4A85515AB3BE335FAE37389FA508DB41;383.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+(rerunfilecheck)             Before: BAFFA6ABADC5432E97E01D6ABB36D620;650
+(rerunfilecheck)             After:  E3B41B986426E8E5A8EA2B2A8D44A63F;705.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 9060 strings out of 493308
- 128095 string characters out of 3138793
- 232859 words of memory out of 3000000
- 12456 multiletter control sequences out of 15000+200000
- 11130 words of font info for 32 fonts, out of 3000000 for 9000
+ 9095 strings out of 493308
+ 128537 string characters out of 3138793
+ 233859 words of memory out of 3000000
+ 12479 multiletter control sequences out of 15000+200000
+ 14604 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,6n,39p,910b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plrm.enc}<D:/Programy/LaTex/I
 nstalled/fonts/type1/public/pl/plbx12.pfb><D:/Programy/LaTex/Installed/fonts/ty
 pe1/public/pl/plr12.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plr1
 7.pfb>
-Output written on Master.pdf (9 pages, 39647 bytes).
+Output written on Master.pdf (10 pages, 48754 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

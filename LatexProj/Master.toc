@@ -1,8 +1,13 @@
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{2}{chapter.1}
-\contentsline {chapter}{\numberline {2}Wyja\IeC {\'s}nienie poj\IeC {\k e}\IeC {\'c}}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Metoda}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}Hipotezy}{4}{section.3.1}
-\contentsline {chapter}{\numberline {4}Wyniki bada\IeC {\'n}}{5}{chapter.4}
-\contentsline {chapter}{\numberline {5}Wnioski}{6}{chapter.5}
-\contentsline {chapter}{\numberline {6}Zako\IeC {\'n}czenie}{7}{chapter.6}
-\contentsline {chapter}{\numberline {7}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{8}{chapter.7}
+\contentsline {chapter}{\numberline {2}Cel, za\IeC {\l }o\IeC {\.z}enia oraz zakres pracy}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Analiza podobnych rozwi\IeC {\k a}za\IeC {\'n}}{4}{chapter.3}
+\contentsline {chapter}{\numberline {4}Metoda}{5}{chapter.4}
+\contentsline {section}{\numberline {4.1}Sphaze}{5}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Mechaniki gry}{5}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Samouczki}{5}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Hipotezy}{5}{section.4.2}
+\contentsline {section}{\numberline {4.3}Badanie}{5}{section.4.3}
+\contentsline {chapter}{\numberline {5}Wyniki bada\IeC {\'n}}{6}{chapter.5}
+\contentsline {chapter}{\numberline {6}Wnioski}{7}{chapter.6}
+\contentsline {chapter}{\numberline {7}Zako\IeC {\'n}czenie}{8}{chapter.7}
+\contentsline {chapter}{\numberline {8}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{9}{chapter.8}
