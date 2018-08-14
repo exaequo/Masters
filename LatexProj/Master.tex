@@ -57,21 +57,39 @@ W pracy tej opisane zostało badanie mające na celu zweryfikowanie wpływ speł
 \chapter{Cel, założenia oraz zakres pracy}
 Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfejsów na jakość przyswajania nowych mechanik gry mobilnej. Zbadane zostały wybrane dwie opisane przez H. Desuvire oraz Ch. Wiberg [odnośnik!] reguły, które odnoszą się do użyteczności projektowanych aplikacji.
 
+!
+Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystane zostają, by sprawdzić ich wpływ na jakość przyswojenia nowych reguł przedstawianych użytkownikowi, mechanik rozgrywki.
+!
+
 Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
-\chapter{Interfejsy gier mobilnych}
-Tutaj opisuję dokładnie problemy związane
+
+\chapter{Wyjaśnienie pojęć}
+
 \chapter{Analiza podobnych rozwiązań}
+- grywalność.
+- kontrola.
+- Heurystyka?
 Tutaj opisuję inne rozwiązania? badania?
-\chapter{Metoda}
-	\section{Sphaze}
-Opis sphaze
-		\subsection{Mechaniki gry}
-		\subsection{Samouczki}
+
+\chapter{Gra mobilna}
+Gra, która wykorzystana została na potrzeby badań należy do gatunku gier logicznych. Przed użytkownikiem postawione jest abstrakcyjne zadanie doprowadzenia obracających się kul do środka labiryntu składającego się z współcentrycznych pierścieni. Sfery poruszają się jedynie po wyraźnie zarysowanych ścieżkach. Wygląd przykładowego poziomu zawierającego dwie kule oraz trzy pierścienie zamieszczony został na rys. !!!REF!!!.
+
+Osoba grająca nie ma wpływu na ruch sfer, jedynie na obrót pierścieni planszy. Każda rotacja na tych elementach powoduje zmianę połączeń między ścieżkami na nich się znajdującymi. Kule cały czas poruszają się do przodu, chyba że spotkają na swojej drodze skrzyżowanie. Wybierają wtedy ścieżkę, którą zdefiniować można jako "najbardziej prawą". Oznacza to, mając możliwość skręcenia w prawo, zawsze wybiorą tą opcję. Gdy nie ma możliwości obrotu w prawo, sprawdzane jest, czy dostępna jest ścieżka na wprost. W następnej kolejności przeprowadzony zostaje test, czy istnieje skręt w lewo. W przypadku braku możliwości wyboru żadnej z przedstawionych opcji, uznawane jest, że natrafiono na "ślepy zaułek", konieczne jest zatem zawrócenie.
+
+Użytkownik decyduje również, z którego miejsca na planszy ma wystartować jaka sfera. Wprowadzenie pierwszej kuli na strefę labiryntu traktowane jest jako rozpoczęcie rozgrywki. Przykładowe punkty startowe, na których ustawić można kule ukazane zostały na rys. !!!REF!!!  Na każdym poziomie zdefiniowane jest ograniczenie czasowe, którego przekroczenie jednoznacznie wiąże się z koniecznością powtórzenia zadanej planszy.
+
+Gracz ma zatem ograniczoną kontrolę nad rozgrywką, gdyż jego akcje wpływają jedynie pośrednio na jej przebieg. Obrót pierścieni wpływa jednie na możliwości ruchu, jakimi dysponują kule. Zadaniem użytkownika jest dostosowanie się do tego stanu i przewidzenie, jak obiekty poruszać się będą w zadanym przez niego środowisku. Nieświadome podejmowanie decyzji może bowiem prowadzić do sytuacji, które szybko potrafią stać się mało zrozumiałe dla użytkownika, który nie do końca rozumie, co się dzieje w przestrzeni gry.
+
+	\subsection{Samouczki}
+Wymagane jest zatem, by gracz przyswoił podstawowe prawa tej gry jak najszybciej. W przeciwnym wypadku spodziewać się można, ich prędko zacznie odczuwać frustrację spowodowaną pozornie małym wpływem jego akcji na finalny wynik gry. 
+
+Z tego też powodu przygotowane zostały tzw. samouczki mające na celu wyjaśnienie użytkownikowi kluczowych mechanik. Nowe informacje przekazywane są stopniowo. Każdy kolejny element kluczowy jest najpierw przedstawiany w prostym, kontrolowanym środowisku, a następnie powtarzany już w coraz bardziej złożonych sytuacjach.
+	
+\chapter{Metoda badawcza}
 	\section{Hipotezy}
 Hipoteza 1.
 
 Hipoteza 2.
-
 	\section{Badanie}
 Pierwsza hipoteza
 Druga hipoteza
