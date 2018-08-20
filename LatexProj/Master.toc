@@ -1,13 +1,27 @@
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{2}{chapter.1}
 \contentsline {chapter}{\numberline {2}Cel, za\IeC {\l }o\IeC {\.z}enia oraz zakres pracy}{3}{chapter.2}
-\contentsline {chapter}{\numberline {3}Wyja\IeC {\'s}nienie poj\IeC {\k e}\IeC {\'c}}{4}{chapter.3}
-\contentsline {chapter}{\numberline {4}Analiza podobnych rozwi\IeC {\k a}za\IeC {\'n}}{5}{chapter.4}
-\contentsline {chapter}{\numberline {5}Gra mobilna}{6}{chapter.5}
-\contentsline {subsection}{\numberline {5.0.1}Samouczki}{7}{subsection.5.0.1}
-\contentsline {chapter}{\numberline {6}Metoda badawcza}{10}{chapter.6}
-\contentsline {section}{\numberline {6.1}Hipotezy}{10}{section.6.1}
-\contentsline {section}{\numberline {6.2}Badanie}{10}{section.6.2}
-\contentsline {chapter}{\numberline {7}Wyniki bada\IeC {\'n}}{11}{chapter.7}
-\contentsline {chapter}{\numberline {8}Wnioski}{12}{chapter.8}
-\contentsline {chapter}{\numberline {9}Zako\IeC {\'n}czenie}{13}{chapter.9}
-\contentsline {chapter}{\numberline {10}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{14}{chapter.10}
+\contentsline {chapter}{\numberline {3}Grywalno\IeC {\'s}\IeC {\'c} w grach mobilnych}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Grywalno\IeC {\'s}\IeC {\'c}}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Kontrola}{4}{section.3.2}
+\contentsline {chapter}{\numberline {4}Znane metody badawcze}{5}{chapter.4}
+\contentsline {chapter}{\numberline {5}Badanie zdolno\IeC {\'s}ci przyswajania mechanik gry}{6}{chapter.5}
+\contentsline {section}{\numberline {5.1}Za\IeC {\l }o\IeC {\.z}enia}{6}{section.5.1}
+\contentsline {section}{\numberline {5.2}Zastosowany sprz\IeC {\k e}t}{6}{section.5.2}
+\contentsline {section}{\numberline {5.3}Gra mobilna}{6}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Samouczki}{8}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Rodzaje interfejs\IeC {\'o}w}{9}{section.5.4}
+\contentsline {section}{\numberline {5.5}Struktura badania}{9}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Czas absolutny}{9}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Czas kuli}{9}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Czas my\IeC {\'s}lenia}{9}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{9}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{9}{subsection.5.5.5}
+\contentsline {chapter}{\numberline {6}Wyniki}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Interfejs SWIPE 3D}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Interfejs SWIPE 2D}{11}{section.6.2}
+\contentsline {section}{\numberline {6.3}Interfejs CLICK 3D}{11}{section.6.3}
+\contentsline {section}{\numberline {6.4}Interfejs CLICK 2D}{11}{section.6.4}
+\contentsline {chapter}{\numberline {7}Podsumowanie i wnioski}{}{chapter.7}
+\contentsline {chapter}{\numberline {8}Bibliografia}{}{chapter.8}
+\contentsline {chapter}{\numberline {9}Spis rysunk\'ow}{}{chapter.9}
+\contentsline {chapter}{\numberline {10}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{}{chapter.10}

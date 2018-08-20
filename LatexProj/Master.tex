@@ -34,8 +34,8 @@
 \begin{document}
 	\nocite{*}
 	\pagenumbering{gobble}
-	\maketitle
-	%\includepdf{title2.pdf}
+	%\maketitle
+	\includepdf{first_page.pdf}
 
 	\newpage
 	\pagenumbering{arabic}
@@ -63,16 +63,20 @@ Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystan
 
 Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
 
-\chapter{Wyjaśnienie pojęć}
-Grywalność - 
+\chapter{Grywalność w grach mobilnych}
 
-Kontrola -
+\section{Grywalność}
 
-\chapter{Analiza podobnych rozwiązań}
+\section{Kontrola}
+
+\chapter{Znane metody badawcze}
 
 Tutaj opisuję inne rozwiązania? badania?
 
-\chapter{Gra mobilna}
+\chapter{Badanie zdolności przyswajania mechanik gry}
+\section{Założenia}
+\section{Zastosowany sprzęt}
+\section{Gra mobilna}
 \textit{Sphaze} - gra, która wykorzystana została na potrzeby badań należy do gatunku gier logicznych. Przed użytkownikiem postawione jest abstrakcyjne zadanie doprowadzenia obracających się kul do środka labiryntu składającego się z współcentrycznych pierścieni. Sfery poruszają się jedynie po wyraźnie zarysowanych ścieżkach. Wygląd przykładowego poziomu zawierającego dwie kule oraz trzy pierścienie zamieszczony został na rysunku \ref{fig:sphaze_1}.
 
 \begin{figure}[h!]
@@ -130,26 +134,46 @@ Drugi samouczek ustawiony został dopiero na trzeciej planszy. W tym miejscu chc
 	\label{fig:tut_L3_1}
 \end{figure}
 
+\section{Rodzaje interfejsów}
+Cytat do głównego artykułu: \cite{ArticlePLAY}
+Cytat do głównego artykułu: \cite{ArticlePLAY2}
+Cytat do głównego artykułu: \cite{DUMMY:1}
 
-\chapter{Metoda badawcza}
-	\section{Hipotezy}
-Hipoteza 1.
-
-Hipoteza 2.
-	\section{Badanie}
-Pierwsza hipoteza
-Druga hipoteza
-
-\chapter{Wyniki badań}
+\section{Struktura badania}
+	\subsection{Czas absolutny}
+	\subsection{Czas kuli}
+	\subsection{Czas myślenia}
+	\subsection{Ilość obrotów}
+	\subsection{Ilość dotknięć ekranu}
+\chapter{Wyniki}
 Tu przedstawiam wyniki badań
-\chapter{Wnioski}
-Poziom 3 zabiera kontrolę i to się graczom nie podobało. Układ poziomu wpływa na to, że gracze szukają tam "podstępu".
 
-\chapter{Zakończenie}
-Tu podsumuję?
+\section{Interfejs SWIPE 3D}
+Tekst
+\section{Interfejs SWIPE 2D}
+Tekst
+\section{Interfejs CLICK 3D}
+Tekst
+\section{Interfejs CLICK 2D}
+Tekst
+\chapter{Podsumowanie i wnioski}
 
-%\pagenumbering{gobble}
+Popełnione błędy: 
+- przez długi czas mierzone były złe dane
 
+Co możnaby lepiej:
+
+Wnioski:
+- Poziom 3 zabiera kontrolę i to się graczom nie podobało. Układ poziomu wpływa na to, że gracze szukają tam "podstępu".
+
+\pagenumbering{gobble}
+\bibliography{biblio} 
+\bibliographystyle{ieeetr}
+\renewcommand{\listoffigures}{\begingroup
+\tocchapter
+\tocfile{\listfigurename}{lof}
+\endgroup}
+\listoffigures
 \chapter{Zawartość płyty}
 \begin{enumerate}[label={[\arabic*]}]
   \item Tekst pracy w formacie PDF
