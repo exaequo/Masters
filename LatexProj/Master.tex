@@ -55,7 +55,7 @@ Projektowanie interfejsów jest tematyką bardzo złożoną i nadzwyczaj kluczow
 W pracy tej opisane zostało badanie mające na celu zweryfikowanie wpływ spełniania tych heurystyk na pozna
 
 \chapter{Cel, założenia oraz zakres pracy}
-Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfejsów na jakość przyswajania nowych mechanik gry mobilnej. Zbadane zostały wybrane dwie opisane przez H. Desuvire oraz Ch. Wiberg [odnośnik!] reguły, które odnoszą się do użyteczności projektowanych aplikacji.
+Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfejsów na jakość przyswajania nowych mechanik gry mobilnej. Zbadane zostały wybrane dwie opisane przez H. Desuvire oraz Ch. Wiberg \cite{ArticlePLAY} reguły, które odnoszą się do użyteczności projektowanych aplikacji.
 
 !
 Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystane zostają, by sprawdzić ich wpływ na jakość przyswojenia nowych reguł przedstawianych użytkownikowi, mechanik rozgrywki.
@@ -65,17 +65,25 @@ Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy g
 
 \chapter{Grywalność w grach mobilnych}
 
+\section{Mechanika gry}
+Przed rozpoczęciem analizy, kluczowym zdaje się określenie, co dokładnie definiowane jest pojęciem mechaniki gry komputerowej. 
 \section{Grywalność}
+ .... definiuje pojęcie grywalności jako ...
 
 \section{Kontrola}
+Kontrolą określane jest...
 
 \chapter{Znane metody badawcze}
 
-Tutaj opisuję inne rozwiązania? badania?
+Tutaj opisuję artykuły? badania?
 
 \chapter{Badanie zdolności przyswajania mechanik gry}
+
 \section{Założenia}
-\section{Zastosowany sprzęt}
+
+
+%\section{Zastosowany sprzęt}
+%Do przebiegu eksperymentu zastosowanych zostało trzy rózne 
 \section{Gra mobilna}
 \textit{Sphaze} - gra, która wykorzystana została na potrzeby badań należy do gatunku gier logicznych. Przed użytkownikiem postawione jest abstrakcyjne zadanie doprowadzenia obracających się kul do środka labiryntu składającego się z współcentrycznych pierścieni. Sfery poruszają się jedynie po wyraźnie zarysowanych ścieżkach. Wygląd przykładowego poziomu zawierającego dwie kule oraz trzy pierścienie zamieszczony został na rysunku \ref{fig:sphaze_1}.
 
@@ -125,26 +133,68 @@ Plansza dla tego poziomu składa się z dwóch poziomu składa się z dwóch pie
 Gdy gracz włączy ten poziom wymagane jest od niego aby najpierw obrócił właśnie ten element. Celem jest doprowadzenie do połączenia ścieżek znajdujących się na pierścieniach. Gdy gracz wykona ruch powodujący rozłączenie tych dróg, samouczek powróci do tego etapu. Pozwala to w łatwy sposób uzmysłowić użytkownikowi, o wadze, jaką ma stworzenie odpowiedniej drogi dla kul. 
 Następnym zadaniem jest ustawienie jedynej sfery na poziomie w jej miejscu startowym. Samouczek znika dopiero w momencie poprawnego wykonania tej akcji. Gdy to nastąpi i użytkownik nie wprowadzi dalszych zmian w obrocie pierścieni, kula w szybki sposób dociera do środka labiryntu, a co za tym idzie - kończy poziom.
 
-Drugi samouczek ustawiony został dopiero na trzeciej planszy. W tym miejscu chcemy zwrócić uwagę gracza na zachowanie kul w momencie dotarcia do skrzyżowania. Wygląd tego poziomu zobaczyć można na rysunku \ref{fig:tut_L3_1}. Labirynt w tym wypadku składa się z trzech pierścieni, z czego z dwoma z nich użytkownik może wejść w interakcję. Obecny tutaj samouczek wyzwala się dopiero w momencie, gdy za przeprowadzonymi wcześniej akcjami gracza sfera dotrze do skrzyżowania znajdującego się na środkowym pierścieniu. Zostaje wtedy zabrana użytkownikowi kontrola a kamera skupia się na problematycznym miejscu. Oprócz tego, zanim zostanie wykonany manewr kulki, zostaje pod nią narysowana strzałka wskazująca, w którą stronę ona skręci. Całość opisanych akcji zajmuje podczas normalnej gry tylko ułamek sekundy, dlatego czas gry zostaje w tym momencie czterokrotnie spowolniony. Gry kulka opuszcza skrzyżowanie, kamera wraca do podstawowej pozycji a ruchy gracza znowu wpływają na układ pierścieni. 
-
+Drugi samouczek ustawiony został dopiero na trzeciej planszy. W tym miejscu chcemy zwrócić uwagę gracza na zachowanie kul w momencie dotarcia do skrzyżowania. Wygląd tego poziomu zobaczyć można na rysunku \ref{fig:tut_L3_1}. Labirynt w tym wypadku składa się z trzech pierścieni, z czego z dwoma z nich użytkownik może wejść w interakcję. Obecny tutaj samouczek wyzwala się dopiero w momencie, gdy za przeprowadzonymi wcześniej akcjami gracza sfera dotrze do skrzyżowania znajdującego się na środkowym pierścieniu. Zostaje wtedy zabrana użytkownikowi kontrola a kamera skupia się na problematycznym miejscu. Oprócz tego, zanim zostanie wykonany manewr kulki, zostaje pod nią narysowana strzałka wskazująca, w którą stronę ona skręci. Gry kulka opuszcza skrzyżowanie, kamera wraca do podstawowej pozycji a ruchy gracza znowu wpływają na układ pierścieni. Całość opisanych akcji zajmuje podczas normalnej gry tylko ułamek sekundy, dlatego czas gry zostaje w tym momencie czterokrotnie spowolniony. 
 \begin{figure}[h!]
 	\centering
   	\includegraphics[height=10cm]{fig/tmp2.jpg}
 	\caption{Wygląd poziomu zawierającego samouczek tyczący się skrętu kul. Czerwonym okręgiem zaznaczone zostało skrzyżowanie.}
 	\label{fig:tut_L3_1}
 \end{figure}
+Mimo tego, całość przedstawionych operacji trwa niecałe trzy sekundy. Oprócz tego składa się z ruchów kamery, które użytkownik widzi jedyny raz w tym miejscu rozgrywki. Istnieje zatem szansa, iż nie uda mu się zrozumieć pełnego przekazu, który miał być zawarty w tym samouczku. Dlatego też następne dwa poziomy, które zobaczyć można na rysunku \ref{fig:tut_L3_2}, stworzone zostały z myślą o tym, by pomóc graczom ze zrozumieniem mechaniki skrętu kul. W obydwu tych poziomach rozwiązanie, które jest początkowo sugerowane, powoduje powstanie sytuacji, w której kulka skręcając w prawo oddala się od środka labiryntu. Użytkownicy, którzy nie rozumieją jeszcze sposobu poruszania się kulki bardzo szybko są wtedy w stanie zauważyć, że kryje się za tym jakiś algorytm. Gdy to zostanie osiągnięte, zrozumienie w jaki sposób wyznaczana jest trasa dla sfery przychodzi znacznie łatwiej.
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[height=10cm]{fig/tmp2.jpg}
+	\caption{Początkowy wygląd czwartego i piątego poziomu gry \textit{Sphaze}. Mają one na celu pomóc użytkownikowi zrozumieć mechanikę ruchu kul.}
+	\label{fig:tut_L3_2}
+\end{figure}
 
 \section{Rodzaje interfejsów}
 Cytat do głównego artykułu: \cite{ArticlePLAY}
-Cytat do głównego artykułu: \cite{ArticlePLAY2}
-Cytat do głównego artykułu: \cite{DUMMY:1}
 
+\subsection{Interfejs SWIPE 3D}
+Tekst
+\subsection{Interfejs SWIPE 2D}
+Tekst
+\subsection{Interfejs CLICK 3D}
+Tekst
+\subsection{Interfejs CLICK 2D}
+Tekst
 \section{Struktura badania}
+Na potrzeby przeprowadzenia testów przygotowane zostało badanie mające na celu wydobycie z przebiegów gry przydatnych informacji. 
+...
+
+Do celów badania przygotowane zostały cztery wersje gry, które zawierały w sobie opisane wcześniej interfejsy. Osobie badanej przyznawana była losowo wybrana aplikacja z tej puli i przedstawiana była jako jedyna wersja gry. 
+Badane były osoby, które nigdy wcześniej nie spotkały się z grą będącą obiektem testów. Miały one za zadanie przejść zadane poziomy bez żadnej wcześniejszej informacji o tym, jaki jest chociażby warunek przejścia do następnej planszy. 
+
+Osoba badana informowana była o tym, że jej wyniki są zapisywane dopiero w wtedy, gdy wymagane od niej było, by przystąpiła ponownie do pierwszych pięciu poziomów. Miało to na celu możliwe zminimalizowanie presji czasu, która mogłaby się pojawić przy otrzymaniu aplikacji do testowania.(JAKIŚ LINK?)
+
+
+Dla każdego przejścia poziomu przez danego użytkownika zebrane zostały następujące dane:
+\begin{itemize}
+\item czas absolutny, 
+\item czas ruchu kuli,
+\item ilość obrotów pierścieni,
+\item ilość dotknięć ekranu.
+\end{itemize}
+Oprócz tego, obliczona została dodatkowa zmienna, która zależna jest od czasu absolutnego oraz czasu ruchu kuli - czas myślenia użytkownika.
+
 	\subsection{Czas absolutny}
+Czas, który użytkownik potrzebował na przejście poziomu, licząc od jego załadowania określany jest mianem absolutnego $t_{abs}$. Zawiera on w sobie długość trwania obejrzanej przez użytkownika animacji wejścia poziomu, a jego liczenie przerywane jest wraz z wejściem ostatniej kuli na poziomie do środka labiryntu. Czas ten nie zawiera zatem w sobie informacji o tym, jak długo użytkownik pozostawał na ekranie podsumowującym dany poziom. Spowodowane to było obserwacją, że czas spędzony w tym ekranie uznany został za pomijalny w przeprowadzanych badaniach.
 	\subsection{Czas kuli}
+Oprócz obliczania tego, ile czasu potrzebne było użytkownikowi na przejście poziomu wymiernym okazało się również sprawdzanie jak optymalne ścieżki wybrane zostały dla sfer. Wszystkie plansze, które wykorzystane zostały w badaniu korzystały tylko z jednej kulki, która na każdej z nich poruszała się z tą samą szybkością. Oznacza to, że droga ta jest wprost proporcjonalna do czasu, w jakim poruszała się kulka - $t_{ball}$. Jego obliczanie zaczyna się wraz z wykonaniem przez użytkownika akcji startu sfery w wybranym punkcie startowym labiryntu, a kończy się, podobnie jak w przypadku $t_{abs}$, wraz z dotarciem tej sfery do środka. Im większa ta zmienna, tym bardziej można przypuszczać, iż użytkownik nie przewidział, jak zachowa się kula na planszy. Zaobserwować można tutaj, w zależności od urządzenia na którym przeprowadzone zostały pomiary, iż zmienna ta jest obciążona błędem pomiaru rzędu $5 ms$.
 	\subsection{Czas myślenia}
+Przydatnym w celach analizy wyników okazał się również czas myślenia - $t_{think}$. Opisać go można zależnością $t_{think} = t_{abs} - t_{ball}$. Określa on, jak długo zajęło użytkownikowi opracowanie, w jaki sposób powinien podejść do przejścia poziomu. Wyekstrahowanie go z pozostałych dwóch czasów pozwoliło w prosty sposób porównywać stosunek czasu poświęconego na planowanie do tego, jaki zajęło wprowadzanie tego planu w życie przez danego użytkownika.
 	\subsection{Ilość obrotów}
+Jednym z kluczowych aspektów gry testowej są pierścienie, z których składają się labirynty na poziomach. Można je obracać zarówno przed rozpoczęciem ruchu kulek, jak i w jego trakcie. Dla każdego poziomu zdefiniowana jest minimalna ilość obrotów konieczna do jego przejścia ($r_{rotMin}$). W trakcie rozgrywki zliczana jest ich ilość, jakie wykonał użytkownik i oznaczana jako $r_{rot}$. 
+
+Częsta sytuacja, gdy $r_{rot} > r_{rotMin}$  może zatem być wyznacznikiem tego, iż użytkownik nie przewidział jakiejś sytuacji, która pojawiła się w rozgrywce i musiał improwizować podczas, gdy czasomierz odmierzał już ilość sekund pozostałych do końca poziomu. Innym wyjaśnieniem znacznej ilości obrotów pierścieni na poziomie może również być fakt, iż gracz mógł zechcieć przed rozpoczęciem faktycznej rozgrywki wizualnie zobaczyć interesujące go kombinacje obrotów i opracować plan działania. Rozróżnić można, z którą sytuacją mamy do czynienia poprzez porównanie relacji czasów $t_{think}$ oraz $t_{ball}$ do tych wyznaczonych poprzez ich odpowiedniki referencyjne - $t_{thinkMin}$ i $t_{ballMin}$.
 	\subsection{Ilość dotknięć ekranu}
+Zliczane również jest każde dotknięcie ekranu, jakie wykonał użytkownik podczas rozgrywki (oznaczane jako $c_{scr}$). Po ich stosunku względem ilości obrotów pierścieni wywnioskować można, jak dobrze użytkownik rozumiał, jakie operacje musi wykonać, by przejść poziom. Gdy $\frac{c_{scr}}{r_{rot}} >> 1$ oznacza to, że mechaniki obrotu pierścieni i startowania kulki nie są dla użytkownika intuicyjne, popełnia przy nich błędy. Innym wytłumaczeniem może być również niezrozumienie szaty graficznej aplikacji, a co za tym idzie zgadywanie, z którymi elementami gry można wchodzić w interakcję. Liczbę wszystkich błędów dotknięć, jakie użytkownik popełnił w trakcie przechodzenia danego poziomu obliczyć można z następującego wzoru:
+\begin{equation}
+c_{err} = c_{scr} - r_{rot} - c_{start},
+\end{equation}
+gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
 \chapter{Wyniki}
 Tu przedstawiam wyniki badań
 

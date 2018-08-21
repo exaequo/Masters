@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  20 AUG 2018 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  21 AUG 2018 23:37
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -849,7 +849,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex (file ./first_page.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<first_page.pdf, id=111, 597.55246pt x 845.07718pt>
+<first_page.pdf, id=127, 597.55246pt x 845.07718pt>
 File: first_page.pdf Graphic file (type pdf)
 <use first_page.pdf>
 Package pdftex.def Info: first_page.pdf  used on input line 38.
@@ -870,7 +870,7 @@ ion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./first_page.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<first_page.pdf, id=114, page=1, 597.55246pt x 845.07718pt>
+<first_page.pdf, id=130, page=1, 597.55246pt x 845.07718pt>
 File: first_page.pdf Graphic file (type pdf)
 <use first_page.pdf, page 1>
 Package pdftex.def Info: first_page.pdf , page1 used on input line 38.
@@ -940,51 +940,61 @@ Rozdzia\PlPrIeC {\l } 4.
 ]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (22.40973pt too wide) in paragraph at lines 76--76
+Overfull \hbox (22.40973pt too wide) in paragraph at lines 80--80
 |[]\OT4/cmr/bx/n/24.88 Badanie zdol-no-�ci przy-swa-ja-nia me-
  []
 
-<fig/tmp.jpg, id=235, 491.8375pt x 867.24pt>
+<fig/tmp.jpg, id=257, 491.8375pt x 867.24pt>
 File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
-Package pdftex.def Info: fig/tmp.jpg  used on input line 84.
+Package pdftex.def Info: fig/tmp.jpg  used on input line 92.
 (pdftex.def)             Requested size: 161.36127pt x 284.52756pt.
 [6
 
  <./fig/tmp.jpg>]
 File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
-Package pdftex.def Info: fig/tmp.jpg  used on input line 96.
+Package pdftex.def Info: fig/tmp.jpg  used on input line 104.
 (pdftex.def)             Requested size: 161.36127pt x 284.52756pt.
  [7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 117.
 
  (D:\Programy\LaTex\Installed\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
-<fig/tmp2.jpg, id=250, 984.67876pt x 867.24pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+<fig/tmp2.jpg, id=272, 984.67876pt x 867.24pt>
 File: fig/tmp2.jpg Graphic file (type jpg)
 <use fig/tmp2.jpg>
-Package pdftex.def Info: fig/tmp2.jpg  used on input line 119.
+Package pdftex.def Info: fig/tmp2.jpg  used on input line 127.
 (pdftex.def)             Requested size: 323.05185pt x 284.52756pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+File: fig/tmp2.jpg Graphic file (type jpg)
+<use fig/tmp2.jpg>
+Package pdftex.def Info: fig/tmp2.jpg  used on input line 139.
+(pdftex.def)             Requested size: 323.05185pt x 284.52756pt.
 [8]
-File: fig/tmp2.jpg Graphic file (type jpg)
-<use fig/tmp2.jpg>
-Package pdftex.def Info: fig/tmp2.jpg  used on input line 132.
-(pdftex.def)             Requested size: 323.05185pt x 284.52756pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <./fig/tmp2.jpg>] [10]
+File: fig/tmp2.jpg Graphic file (type jpg)
+<use fig/tmp2.jpg>
+Package pdftex.def Info: fig/tmp2.jpg  used on input line 147.
+(pdftex.def)             Requested size: 323.05185pt x 284.52756pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9 <./fig/tmp2.jpg>]
+
+LaTeX Warning: Text page 10 contains only floats.
+
+[10] [11] [12] [13]
 Rozdzia\PlPrIeC {\l } 6.
-[11
+[14
 
 ]
 Rozdzia\PlPrIeC {\l } 7.
@@ -1001,7 +1011,7 @@ Rozdzia\PlPrIeC {\l } 8.
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 \listoffigures
+l.226 \listoffigures
                      [2
 
 ]
@@ -1014,44 +1024,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.177 \chapter
+l.227 \chapter
               {Zawartość płyty} [3
 
 ]
 Rozdzia\PlPrIeC {\l } 10.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 \end{document}
+l.235 \end{document}
                      [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 706178B000F18ADDEBB28C323EF1BB7F;1678.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
+(rerunfilecheck)             Checksum: 81E31D9371A5954DD48E8B23A47DF889;1965.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 9173 strings out of 493308
- 129819 string characters out of 3138793
- 238405 words of memory out of 3000000
- 12523 multiletter control sequences out of 15000+200000
+ 9187 strings out of 493308
+ 130014 string characters out of 3138793
+ 241567 words of memory out of 3000000
+ 12528 multiletter control sequences out of 15000+200000
  11925 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,18n,43p,1071b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plit.enc}{D:/Programy/LaTex/I
-nstalled/fonts/enc/dvips/pl/plrm.enc}<D:/Programy/LaTex/Installed/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl
-/plbx12.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plr12.pfb><D:/Pr
-ogramy/LaTex/Installed/fonts/type1/public/pl/plti12.pfb>
-Output written on Master.pdf (16 pages, 1498745 bytes).
+{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plmi.enc}{D:/Programy/LaTex/I
+nstalled/fonts/enc/dvips/pl/plms.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvi
+ps/pl/plit.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plrm.enc}<D:/Pro
+gramy/LaTex/Installed/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programy/La
+Tex/Installed/fonts/type1/public/pl/plbx12.pfb><D:/Programy/LaTex/Installed/fon
+ts/type1/public/pl/plmi12.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/p
+l/plmi6.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plmi8.pfb><D:/Pr
+ogramy/LaTex/Installed/fonts/type1/public/pl/plr12.pfb><D:/Programy/LaTex/Insta
+lled/fonts/type1/public/pl/plsy10.pfb><D:/Programy/LaTex/Installed/fonts/type1/
+public/pl/plti12.pfb>
+Output written on Master.pdf (19 pages, 1530175 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 
