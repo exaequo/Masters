@@ -61,6 +61,8 @@ Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfej
 Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystane zostają, by sprawdzić ich wpływ na jakość przyswojenia nowych reguł przedstawianych użytkownikowi, mechanik rozgrywki.
 !
 
+! TUTAJ TE HEURYSTYKI TRZEBA WRZUCIĆ
+
 Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
 
 \chapter{Grywalność w grach mobilnych}
@@ -75,7 +77,9 @@ Kontrolą określane jest...
 
 \chapter{Znane metody badawcze}
 
-Tutaj opisuję artykuły? badania?
+\section{Heurystyki PLAY}
+
+\section{Inne heurystyki}
 
 \chapter{Badanie zdolności przyswajania mechanik gry}
 
@@ -85,11 +89,11 @@ Tutaj opisuję artykuły? badania?
 %\section{Zastosowany sprzęt}
 %Do przebiegu eksperymentu zastosowanych zostało trzy rózne 
 \section{Gra mobilna}
-\textit{Sphaze} - gra, która wykorzystana została na potrzeby badań należy do gatunku gier logicznych. Przed użytkownikiem postawione jest abstrakcyjne zadanie doprowadzenia obracających się kul do środka labiryntu składającego się z współcentrycznych pierścieni. Sfery poruszają się jedynie po wyraźnie zarysowanych ścieżkach. Wygląd przykładowego poziomu zawierającego dwie kule oraz trzy pierścienie zamieszczony został na rysunku \ref{fig:sphaze_1}.
+Na potrzeby badań wykorzystana została mobilna gra \textit{Sphaze}, która należy do gatunku aplikacji logicznych. Przed użytkownikiem stawiane jest abstrakcyjne zadanie doprowadzenia obracających się kul do środka labiryntu składającego się z współcentrycznych pierścieni. Sfery poruszają się jedynie po wyraźnie zarysowanych ścieżkach. Wygląd przykładowego poziomu zawierającego dwie kule oraz trzy pierścienie zamieszczony został na rysunku \ref{fig:sphaze_1}.
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[height=10cm]{fig/tmp.jpg}
+  	\includegraphics[height=8cm]{fig/tmp.jpg}
 	\caption{Wygląd przykładowego poziomu gry \textit{Sphaze}.}
 	\label{fig:sphaze_1}
 \end{figure}
@@ -101,7 +105,7 @@ Na każdym poziomie zdefiniowane jest ograniczenie czasowe, którego przekroczen
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[height=10cm]{fig/tmp.jpg}
+  	\includegraphics[height=8cm]{fig/tmp.jpg}
 	\caption{Przykładowe rozmieszczenie punktów startowych na poziomie. Punkty startowe zostały oznaczone czerwonymi okręgami.}
 	\label{fig:sphaze_startpoints_1}
 \end{figure}
@@ -124,7 +128,7 @@ Wygląd poszczególnych etapów tego poziomu dla jednej wersji gry przedstawiony
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[height=10cm]{fig/tmp2.jpg}
+  	\includegraphics[height=8cm]{fig/tmp2.jpg}
 	\caption{Wygląd pierwszego samouczka przed którym postawiony jest gracz.}
 	\label{fig:tut_L1_1}
 \end{figure}
@@ -136,7 +140,7 @@ Następnym zadaniem jest ustawienie jedynej sfery na poziomie w jej miejscu star
 Drugi samouczek ustawiony został dopiero na trzeciej planszy. W tym miejscu chcemy zwrócić uwagę gracza na zachowanie kul w momencie dotarcia do skrzyżowania. Wygląd tego poziomu zobaczyć można na rysunku \ref{fig:tut_L3_1}. Labirynt w tym wypadku składa się z trzech pierścieni, z czego z dwoma z nich użytkownik może wejść w interakcję. Obecny tutaj samouczek wyzwala się dopiero w momencie, gdy za przeprowadzonymi wcześniej akcjami gracza sfera dotrze do skrzyżowania znajdującego się na środkowym pierścieniu. Zostaje wtedy zabrana użytkownikowi kontrola a kamera skupia się na problematycznym miejscu. Oprócz tego, zanim zostanie wykonany manewr kulki, zostaje pod nią narysowana strzałka wskazująca, w którą stronę ona skręci. Gry kulka opuszcza skrzyżowanie, kamera wraca do podstawowej pozycji a ruchy gracza znowu wpływają na układ pierścieni. Całość opisanych akcji zajmuje podczas normalnej gry tylko ułamek sekundy, dlatego czas gry zostaje w tym momencie czterokrotnie spowolniony. 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[height=10cm]{fig/tmp2.jpg}
+  	\includegraphics[height=8cm]{fig/tmp2.jpg}
 	\caption{Wygląd poziomu zawierającego samouczek tyczący się skrętu kul. Czerwonym okręgiem zaznaczone zostało skrzyżowanie.}
 	\label{fig:tut_L3_1}
 \end{figure}
@@ -144,25 +148,62 @@ Mimo tego, całość przedstawionych operacji trwa niecałe trzy sekundy. Opróc
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[height=10cm]{fig/tmp2.jpg}
+  	\includegraphics[height=8cm]{fig/tmp2.jpg}
 	\caption{Początkowy wygląd czwartego i piątego poziomu gry \textit{Sphaze}. Mają one na celu pomóc użytkownikowi zrozumieć mechanikę ruchu kul.}
 	\label{fig:tut_L3_2}
 \end{figure}
 
-\section{Rodzaje interfejsów}
-Cytat do głównego artykułu: \cite{ArticlePLAY}
+\section{Heurystyki}
+Z listy heurystyk PLAY \cite{ArticlePLAY} wybrane zostały dwie zaliczające się do kategorii użyteczności oraz mechanik gry. Określają one, jak projektowana powinna być gra, by grywalność była jak największa. Wyróżnione heurystyki zostały wybrane jako nietrywialne i subiektywnie najprostsze do efektywnego zweryfikowania. Opisane one zostały w tabeli \ref{tab:tab1}.
 
-\subsection{Interfejs SWIPE 3D}
-Tekst
+\begin{table}[h!]
+  \centering
+  \caption{Wybrane analizowane heurystyki PLAY z dziedziny informacji o statusie i wyniku.}
+  \label{tab:tab1}
+  \begin{tabular}{|r|l|}
+    \hline
+    1. & Wskaźniki wyniku są płynne, oczywiste, dostępne oraz nie wpływają na rozgrywkę.\\
+    \hline
+    2. & Sterowanie jest intuicyjne i mapowane w sposób naturalny.\\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{Rodzaje interfejsów}
+W rozgrywce widoczny jest jedynie jeden wskaźnik statusu - określa on pozostały użytkownikowi czas na poziomie. Przedstawić go można jako jako dwuwymiarowy przycisk podobny do tego, który używany jest do zatrzymania gry, lub jako siatkę w przestrzeni gry. Każde podejście ma swoje zalety. W przypadku elementu 2D użytkownik nie ma wątpliwości co do jego informacyjnego przeznaczenia. Dla wersji w świecie gry nie zawsze to musi być spełnione. Wręcz przeciwnie, użytkownik, który dopiero uczy się na czym polegają mechaniki gry może odczuć frustrację bądź zniechęcenie wywołane tym, że nie jest możliwe wejście w interakcję z elementem umieszczonym w bezpośredniej przestrzeni gry. Plusem tego rozwiązania jest dużo bardziej zrozumiałe połączenie między fragmentami rozgrywki. Prostszym zdaje się zrozumienie powodu startowania czasomierza w chwili ustawienia pierwszej kulki na planszy, gdy zarówno labirynt, jak i reprezentacja zegara współdzielą ze sobą jedną przestrzeń.
+
+Spełnianie drugiej z wybranych heurystyk określić można jako sterowanie zbliżone do tego, jak wyglądałoby wykonywanie akcji z gry w normalnym świecie. Tak więc, aby obrócić pierścień naturalnym zdaje się ruch przeciągania. Również przeniesienie kulki z miejsca na miejsce wydaje się oczywiste, że powinno zostać wykonane poprzez "złapanie" jej i przeciągnięcie w miejsce docelowe gdzie finalnie następuje jej "upuszczenie". Dzięki takiemu podejściu do tych mechanik uzyskane zostaje wrażenie fizyczności obiektów w przestrzeni gry. Stworzona zostaje iluzja, że zachodzi faktyczna interakcja z obiektami, które wyświetlane są na ekranie. Inaczej prezentuje się to przy mniej realnej wersji interakcji. Wykorzystana w niej zostaje inna znana mechanika z urządzeń mobilnych - proste kliknięcie w interesujące nas miejsce. Tym sposobem użytkownik jest w stanie zakomunikować, w którą stronę chce obrócić pierścień poprzez dotknięcie go z odpowiedniej strony. Przeniesienie kulki w tym scenariuszu odbywa się poprzez dotknięcie wybranej sfery, a następnie powtórzenie tej akcji dla miejsca docelowego. W tym wypadku użytkownik, który dobrze rozumie te mechaniki może znacznie szybciej wykonywać akcje w trakcie gry. Wiąże się to jednak z utratą części wiarygodności, którą uzyskać można było sposobem pierwszym.
+
+Na podstawie wybranych heurystyk przygotowane zostały zatem cztery wersje gry. Każda z nich spełnia inną kombinację zadanych założeń. Takie podejście pozwala na dokładne przetestowanie, jaki wpływ zasady te mają na grywalność aplikacji. 
 \subsection{Interfejs SWIPE 2D}
-Tekst
-\subsection{Interfejs CLICK 3D}
-Tekst
+Jako pierwszy wyróżniony został interfejs \textit{SWIPE 2D}, który w założeniu spełnia zarówno pierwszą, jak i drugą heurystykę. Jego reprezentację graficzną dla pierwszego poziomu gry zobaczyć można na rysunku \ref{fig:interface_swipe_2d}. Zegar zdefiniowany jest w nim jako element dwuwymiarowy znajdujący się w górnej części ekranu, a wszelkie interakcje rozwiązane są poprzez jak najwierniejsze odwzorowanie ich odpowiedników z rzeczywistości. Spodziewać się zatem można najmniejszej ilości błędów popełnianych przez użytkowników już od samego początku gry. Również różnice w czasach pojedynczego testu powinny być dla tej wersji względnie niewielkie.
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[height=8cm]{fig/tmp.jpg}
+	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{SWIPE 2D}.}
+	\label{fig:interface_swipe_2d}
+\end{figure}
+\subsection{Interfejs SWIPE 3D}
+Wersja interfejsu wykorzystująca mechanikę przesuwania lecz niespełniająca pierwszej z wybranych heurystyk określona została mianem \textit{SWIPE 3D}. Jego wygląd zaprezentowany jest na rysunku \ref{fig:interface_swipe_3d}. Siatka stanowiąca zegar umieszczona została w świecie gry, jako element znajdujący się wizualnie przy wyborze kul. Położenie to zostało zmienione z racji na charakterystyczne ustawienie kamery w grze. Nie pozwala ono na ustawienie tak ciężkiego elementu powyżej labiryntu, gdyż wpływałoby to negatywnie na estetykę gry. To rozwiązanie wpływać może rozgrywkę, gdyż niewykluczona jest sytuacja, w której gracz może odbierać czasomierz jako element, z którym  należy wejść w jakąś interakcję. Spodziewać się tu można zatem większej ilości błędów, które popełniane mogą być przy pierwszej styczności użytkownika z grą.
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[height=8cm]{fig/tmp.jpg}
+	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{SWIPE 3D}.}
+	\label{fig:interface_swipe_3d}
+\end{figure}
 \subsection{Interfejs CLICK 2D}
-Tekst
+Interfejs \textit{CLICK 2D} wizualnie nie rózni się od wersji \textit{SWIPE 2D}. Zmieniony jest tu jednak styl sterowania głównymi mechanikami gry na takie, które są w znacznie mniejszym stopniu reprezentacją rzeczywistych interakcji. Cechują się one tym, że by osiągnąć ten sam cel wykonywane mogą być znacznie szybsze ruchy (kliknięcie zamiast przesuwania palca po ekranie). Oznaczać to może, że doświadczony użytkownik jest w stanie uzyskać w tej wersji lepsze czasy niż ten, który umiejętnie posługuje się wersją z mechaniką przesuwania. Idąc tym tropem założyć można, iż różnica w czasach przechodzenia poszczególnych poziomów będzie zatem tutaj zauważalnie większa, gdyż wymaga on nauczenia się mniej intuicyjnej zasady gry.
+\subsection{Interfejs CLICK 3D}
+Podobnie jak w poprzednim przypadku, w wersji interfejsu \textit{CLICK 2D} brak jest różnic wizualnych względem \textit{SWIPE 2D}. W tym wypadku jednak nie jest spełniona żadna ze sprawdzanych heurystyk. Oznaczać to może, że wyniki dla tego wypadku będą najmniej korzystne. Spodziewać się można dużej ilości początkowych błędów spowodowanych mniej odciętym od całości gry zegarem oraz większych różnic w statystykach podczas przechodzenia tego samego poziomu dwukrotnie przez pojedynczego gracza.
 \section{Struktura badania}
 Na potrzeby przeprowadzenia testów przygotowane zostało badanie mające na celu wydobycie z przebiegów gry przydatnych informacji. 
 ...
+
+CO UŻYTKOWNIK MIAŁ WYKONAĆ
+
+WARUNKI
+
+JAK ZBIERANE BYŁY DANE
 
 Do celów badania przygotowane zostały cztery wersje gry, które zawierały w sobie opisane wcześniej interfejsy. Osobie badanej przyznawana była losowo wybrana aplikacja z tej puli i przedstawiana była jako jedyna wersja gry. 
 Badane były osoby, które nigdy wcześniej nie spotkały się z grą będącą obiektem testów. Miały one za zadanie przejść zadane poziomy bez żadnej wcześniejszej informacji o tym, jaki jest chociażby warunek przejścia do następnej planszy. 
@@ -197,6 +238,9 @@ c_{err} = c_{scr} - r_{rot} - c_{start},
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
 \chapter{Wyniki}
 Tu przedstawiam wyniki badań
+
+ILU UŻYTKOWNIKÓW ZOSTAŁO ZBADANYCH
+
 
 \section{Interfejs SWIPE 3D}
 Tekst
