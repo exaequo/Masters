@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  22 AUG 2018 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  23 AUG 2018 21:19
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -940,8 +940,8 @@ Rozdzia\PlPrIeC {\l } 4.
 ]
 Rozdzia\PlPrIeC {\l } 5.
 
-Overfull \hbox (22.40973pt too wide) in paragraph at lines 84--84
-|[]\OT4/cmr/bx/n/24.88 Badanie zdol-no-�ci przy-swa-ja-nia me-
+Overfull \hbox (21.63507pt too wide) in paragraph at lines 84--84
+|[]\OT4/cmr/bx/n/24.88 Badanie przy-swa-ja-nia me-cha-nik gry| 
  []
 
 <fig/tmp.jpg, id=277, 491.8375pt x 867.24pt>
@@ -949,14 +949,21 @@ File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
 Package pdftex.def Info: fig/tmp.jpg  used on input line 96.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [7
 
- <./fig/tmp.jpg>]
+]
 File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
 Package pdftex.def Info: fig/tmp.jpg  used on input line 108.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
- [8]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <./fig/tmp.jpg>]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 121.
 
  (D:\Programy\LaTex\Installed\tex\latex\base\omscmr.fd
@@ -970,20 +977,25 @@ File: fig/tmp2.jpg Graphic file (type jpg)
 Package pdftex.def Info: fig/tmp2.jpg  used on input line 131.
 (pdftex.def)             Requested size: 258.44447pt x 227.62204pt.
 
-[9 <./fig/tmp2.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: fig/tmp2.jpg Graphic file (type jpg)
 <use fig/tmp2.jpg>
 Package pdftex.def Info: fig/tmp2.jpg  used on input line 143.
 (pdftex.def)             Requested size: 258.44447pt x 227.62204pt.
+[9]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: fig/tmp2.jpg Graphic file (type jpg)
 <use fig/tmp2.jpg>
 Package pdftex.def Info: fig/tmp2.jpg  used on input line 151.
 (pdftex.def)             Requested size: 258.44447pt x 227.62204pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[10]
+[10 <./fig/tmp2.jpg>]
 Overfull \hbox (20.66109pt too wide) in paragraph at lines 163--170
  [][] 
  []
@@ -1001,10 +1013,11 @@ File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
 Package pdftex.def Info: fig/tmp.jpg  used on input line 190.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
+[12]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] [13] [14] [15] [16]
+[13] [14] [15] [16]
 Rozdzia\PlPrIeC {\l } 6.
 [17
 
@@ -1023,7 +1036,7 @@ Rozdzia\PlPrIeC {\l } 8.
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.270 \listoffigures
+l.274 \listoffigures
                      [2
 
 ]
@@ -1036,36 +1049,36 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.271 \chapter
+l.275 \chapter
               {Zawartość płyty} [3
 
 ]
 Rozdzia\PlPrIeC {\l } 10.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 279.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.279 \end{document}
+l.283 \end{document}
                      [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 279.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 279.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 279.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 283.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 005D62106B63998FFB6AA7E1D79F4D2F;2149.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 279.
+(rerunfilecheck)             Checksum: E766B0DED12B44B776496118E58F3B06;2139.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
  9203 strings out of 493308
  130208 string characters out of 3138793
- 239885 words of memory out of 3000000
+ 240886 words of memory out of 3000000
  12535 multiletter control sequences out of 15000+200000
  11925 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,43p,1409b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,18n,43p,1398b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plmi.enc}{D:/Programy/LaTex/I
 nstalled/fonts/enc/dvips/pl/plms.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvi
 ps/pl/plit.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plrm.enc}<D:/Pro
@@ -1076,7 +1089,7 @@ l/plmi6.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plmi8.pfb><D:/Pr
 ogramy/LaTex/Installed/fonts/type1/public/pl/plr12.pfb><D:/Programy/LaTex/Insta
 lled/fonts/type1/public/pl/plsy10.pfb><D:/Programy/LaTex/Installed/fonts/type1/
 public/pl/plti12.pfb>
-Output written on Master.pdf (22 pages, 1545156 bytes).
+Output written on Master.pdf (22 pages, 1547658 bytes).
 PDF statistics:
  424 PDF objects out of 1000 (max. 8388607)
  69 named destinations out of 1000 (max. 500000)

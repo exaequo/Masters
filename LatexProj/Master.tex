@@ -81,10 +81,10 @@ Kontrolą określane jest...
 
 \section{Inne heurystyki}
 
-\chapter{Badanie zdolności przyswajania mechanik gry}
-
+\chapter{Badanie przyswajania mechanik gry}
+Sprawdzenie poziomu, w jakim użytkownik zrozumiał mechaniki w grze w którą gra, nie należy do prostych zadań. Na początku wymagane jest odpowiednie sprecyzowanie założeń jakie muszą być spełnione do przeprowadzenia badań. Równie ważnym aspektem jest przygotowanie aplikacji, która jest w stanie zapewnić sprawdzenie podstawowych danych z przebiegu rozgrywki. Następnie należy zaprojektować odpowiednie badanie, które pozwoli na zebranie wyników, które pozwolą na określenie parametrów przebiegów gry.
 \section{Założenia}
-
+Gdy użytkownik po raz pierwszy styka się z pewnym rozwiązaniem, którego nigdy wcześniej nie widział w żadnej innej grze, to przed faktycznym zaczęciem rozgrywki musi on najpierw zrozumieć zadaną mu mechanikę. Założyć można zatem, iż to jak dany gracz radzi sobie na tym etapie gry jest ściśle skorelowane z tym jak dobrze rozumie postawione przed nim zadanie. Zbierając odpowiednie dane można zatem wydobyć informację o tym, jaki poziom przystosowania do rozgrywki osiągnął gracz. Przygotowując różne wersje gry spełniające w innym stopniu wybrane heurystyki PLAY będzie zatem możliwe ocenić która z nich zawiera w sobie mechaniki, których gracze musieli spędzić najmniej czasu na nauce.
 
 %\section{Zastosowany sprzęt}
 %Do przebiegu eksperymentu zastosowanych zostało trzy rózne 
@@ -197,19 +197,23 @@ Interfejs \textit{CLICK 2D} wizualnie nie rózni się od wersji \textit{SWIPE 2D
 Podobnie jak w poprzednim przypadku, w wersji interfejsu \textit{CLICK 2D} brak jest różnic wizualnych względem \textit{SWIPE 2D}. W tym wypadku jednak nie jest spełniona żadna ze sprawdzanych heurystyk. Oznaczać to może, że wyniki dla tego wypadku będą najmniej korzystne. Spodziewać się można dużej ilości początkowych błędów spowodowanych mniej odciętym od całości gry zegarem oraz większych różnic w statystykach podczas przechodzenia tego samego poziomu dwukrotnie przez pojedynczego gracza.
 \section{Struktura badania}
 Na potrzeby przeprowadzenia testów przygotowane zostało badanie mające na celu wydobycie z przebiegów gry przydatnych informacji. 
-...
+Użytkownik miał za zadanie zagrać w przygotowaną wcześniej grę w ściśle określony sposób:
+\begin{itemize}
+\item przejść pierwszych pięć poziomów,
+\item zagrać w arbitralnie dobraną liczbę następnych plansz (przynajmniej 5),
+\item ponownie rozegrać pierwszych pięć poziomów.
+\end{itemize}
+Zarówno przed jak i po przeprowadzeniu badania osoba testująca nie musiała wypełniać żadnej ankiety odnośnie swoich wrażeń z gry. Oznacza to też, iż dane takie jak płeć, czy wiek gracza nie były brane pod uwagę w dalszej ocenie wyników. Gra automatycznie zapisywała wyniki badania do pliku, który później podlegał analizie.
 
-CO UŻYTKOWNIK MIAŁ WYKONAĆ
+Zauważyć należy iż dane zbierane były tylko dla pierwszych pięciu plansz. Powtórzenie ich przejścia na koniec indywidualnego testu jest kluczowe dla wyników badań. Przy pierwszym podejściu do poziomów 1-5 gracz nie wie, czego aplikacja może od niego wymagać. Jest to jego pierwsze starcie z mechanikami, których musi się nauczyć. \
+Inaczej sprawa się ma z drugimi wynikami danej osoby badanej. Z racji tego, że wymagane jest by przeszła ona przynajmniej 10 poziomów, założyć można, iż zaznajomiła się ona z podstawowymi prawami gry. Różnice pomiędzy tymi wynikami pozwalają na określenie jak dużego postępu dokonał gracz, o ile lepiej zrozumiał zadane mechaniki. Zminimalizowana zostaje w ten sposób różnica pomiędzy umiejętnościami różnych osób. Gdy porównywane są one do samych siebie nie nie trzeba brać pod uwagę czynników, takich jak przykładowo predyspozycje do sprawnego przechodzenia gier logicznych.
 
-WARUNKI
+Pomijalny staje się również wpływ, jaki miało środowisko, w którym przeprowadzany był eksperyment. W uproszczeniu założyć można, że w warunkach, jakie były zapewnione użytkownikom zarówno oświetlenie, jak i poziom hałasu utrzymywał się na jednym poziomie dla jednego testu.
 
-JAK ZBIERANE BYŁY DANE
+Same testy odbywały się zarówno na wyciszonym, względnie odizolowanym pomieszczeniu ale także w dużo trudniejszych warunkach - jako część większych wydarzeń, bądź podczas jazdy komunikacją miejską. 
 
 Do celów badania przygotowane zostały cztery wersje gry, które zawierały w sobie opisane wcześniej interfejsy. Osobie badanej przyznawana była losowo wybrana aplikacja z tej puli i przedstawiana była jako jedyna wersja gry. 
-Badane były osoby, które nigdy wcześniej nie spotkały się z grą będącą obiektem testów. Miały one za zadanie przejść zadane poziomy bez żadnej wcześniejszej informacji o tym, jaki jest chociażby warunek przejścia do następnej planszy. 
-
-Osoba badana informowana była o tym, że jej wyniki są zapisywane dopiero w wtedy, gdy wymagane od niej było, by przystąpiła ponownie do pierwszych pięciu poziomów. Miało to na celu możliwe zminimalizowanie presji czasu, która mogłaby się pojawić przy otrzymaniu aplikacji do testowania.(JAKIŚ LINK?)
-
+Badane były osoby, które nigdy wcześniej nie spotkały się z grą będącą obiektem testów. Miały one za zadanie przejść zadane poziomy bez żadnej wcześniejszej informacji o tym, jaki jest chociażby warunek przejścia do następnej planszy. Informacja o tym, że wyniki podlegają zapisowi przekazywana była dopiero wtedy, gdy wymagane było, by osoba testowana przystąpiła ponownie do pierwszych pięciu poziomów. Miało to na celu możliwe zminimalizowanie presji czasu, która mogłaby się pojawić przy otrzymaniu aplikacji do testowania.(JAKIŚ LINK?)
 
 Dla każdego przejścia poziomu przez danego użytkownika zebrane zostały następujące dane:
 \begin{itemize}
