@@ -66,18 +66,58 @@ Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystan
 Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
 
 \chapter{Grywalność w grach mobilnych}
-
+Przed rozpoczęciem analizy kluczowym zdaje się dokładne wyjaśnienie podstawowych pojęć, jakie wykorzystywane są w tej pracy. W tym rozdziale wyjaśnione zostanie co definiowane jest jako mechanika gry, doświadczenie użytkownika, czym jest grywalność i użyteczność a także przybliżone będą ograniczenia i przeszkody rozgrywką na urządzeniach mobilnych.
 \section{Mechanika gry}
-Przed rozpoczęciem analizy, kluczowym zdaje się określenie, co dokładnie definiowane jest pojęciem mechaniki gry komputerowej. 
+Mechanikę gry zdefiniować można jako  \cite{online_GameMechanics}
+
+\section{Doświadczenie użytkownika}
+
+\cite{art_UserExperience}
+
 \section{Grywalność}
- .... definiuje pojęcie grywalności jako ...
+Określić można jako zestaw własności, które opisują doświadczenie gracza (ang. \textit{Player Experience}) przy użyciu określonego systemu growego, którego głównym celem jest zapewnienie rozrywki poprzez jego użytkowanie zgodnie z jego przeznaczeniem. Odnosi się do jakości samej gry.
+Grywalność składa się z trzech komponentów: funkcjonalności, użyteczności oraz rozgrywki.
+ .... definiuje pojęcie grywalności jako ... \cite{art_Playability}
 
-\section{Kontrola}
-Kontrolą określane jest...
+\section{Użyteczność}
+Użyteczność definiowana jest podatność danej gry do bycia używaną przez ludzi prosto i wydajnie.\cite{art_Usability} Jest to swojego rodzaju miara pozwalająca na określenie stopnia, w jakim dany produkt może być zrozumiany i wykorzystywany. Określa ona również jak bardzo aplikacja jest zachęcająca dla użytkowników, którzy jej używają w określonym środowisku. \cite{art_evaluationOfMGevaluationSystem} 
+\\
+Można wyróżnić siedem podstawowych czynników użyteczności: \cite{art_UsabilityEvaluationSystematicReview}
+\begin{enumerate}
+\item Bezmyślność (ang. \textit{learnability}) - określa jak łatwo użytkownik jest w stanie wykonać postawione mu przez grę zadanie za pierwszym podejściem oraz jak szybko jest w stanie polepszyć uzyskany wynik.
+\item Wydajność (ang. \textit{efficiency}) - definiuje czas, jaki potrzebny jest doświadczonemu użytkownikowi na wykonanie zadania.
+\item Zapamiętywanie (ang. \textit{memorability}) - miara oznaczająca łatwość, z jaką użytkownik potrafi wrócić do gry po pewnej przerwie.
+\item Błędy (ang. \textit{errors}) - ilość błędów gry, jakie użytkownik popełnia w trakcie rozgrywki.
+\item Satysfakcja użytkownika (ang. \textit{user satisfaction}) - określa nastawienie użytkownika do gry
+\item Prostota (ang. \textit{simplicity}) - stopień swobody z jakim wykonywać można zadania w grze. Odnosi się zwykle do nawigacji w różnego rodzaju ekranach menu.
+\item Czytelność (ang. \textit{readability}) - określa jak łatwo użytkownik jest w stanie zrozumieć zawartość gry.
+\end{enumerate}
 
-\chapter{Znane metody badawcze}
+Wyróżnia się dwie główne metodologie mierzenia użyteczności: testowanie poprzez rozgrywkę (ang. \textit{play-testing}) oraz opinie ekspertów (ang. \textit{expert review}).
 
-\section{Heurystyki PLAY}
+\subsection{Testowanie poprzez rozgrywkę}
+Testowanie poprzez rozgrywkę zakłada
+
+\subsection{Opinie ekspertów}
+Inaczej wygląda testowanie za pomocą opinii ekspertów. W tym wypadku rzadko zdarza się, by użytkownicy z grupy docelowej brali udział w badaniu. Testerami jest tu dwóch lub więcej ekspertów z dziedziny użyteczności aplikacji.
+\\
+Opis w art UsabilityTestingComp
+\\
+Uważane jest przez wielu badaczy jako bardziej miarodajna metoda mierzenia użyteczności niż testowanie przez rozgrywkę. \cite{art_UsabilityTestingComp}
+
+\section{Czynniki wpływające na rozgrywkę w grach mobilnych}
+Zauważyć należy, że rozgrywka na urządzeniu mobilnym może wielce odbiegać od tej zaobserwowanej przy komputerze stacjonarnym. 
+\chapter{State of the Art}
+
+Pierwsze pojęcie heurystyk (Nielsen) \cite{art_Nielsen}
+
+Kolejność 
+
+Artykuł 1: \cite{art_UsabilityEvaluationSystematicReview}\\
+Artykuł 2: \cite{art_evaluationOfMGevaluationSystem}\\
+Artykuł 3: \cite{art_playabilityHeuristics}\\
+Artykuł 4: \cite{art_evaluationOfMG}
+
 
 \section{Inne heurystyki}
 
@@ -241,9 +281,15 @@ c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
 \chapter{Wyniki}
-Tu przedstawiam wyniki badań
+Tu przedstawiam wyniki badań\\
 
-ILU UŻYTKOWNIKÓW ZOSTAŁO ZBADANYCH
+ILU UŻYTKOWNIKÓW ZOSTAŁO ZBADANYCH, W JAKIM PRZEDZIALE\\
+JAKA SPECYFIKACJA TELEFONU \\
+JAKI TYPOWY CZAS BADANIA \\
+
+DANE:\\
+wykres błędów w zależności od poziomu\\
+
 
 
 \section{Interfejs SWIPE 3D}
@@ -260,7 +306,8 @@ Popełnione błędy:
 - przez długi czas mierzone były złe dane
 
 Co możnaby lepiej:
-
+- experts review
+- eyetracking
 Wnioski:
 - Poziom 3 zabiera kontrolę i to się graczom nie podobało. Układ poziomu wpływa na to, że gracze szukają tam "podstępu".
 

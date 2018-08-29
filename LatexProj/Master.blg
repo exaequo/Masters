@@ -3,6 +3,11 @@ The style file: ieeetr.bst
 Database file #1: biblio.bib
 Warning--empty author in ArticlePLAY
 Warning--empty journal in ArticlePLAY
-Warning--empty author in ArticlePLAY2
-Warning--empty journal in ArticlePLAY2
-(There were 4 warnings)
+Warning--empty journal in art_UsabilityEvaluationSystematicReview
+Warning--empty journal in art_evaluationOfMGevaluationSystem
+Warning--empty journal in art_playabilityHeuristics
+Warning--empty journal in art_evaluationOfMG
+Warning--empty journal in art_Usability
+Warning--empty journal in art_Playability
+Warning--empty journal in art_UserExperience
+(There were 9 warnings)

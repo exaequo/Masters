@@ -1,15 +1,55 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{ArticlePLAY}
 ``Game usability heuristics (play) for evaluating and designing better games:
   The next iteration,'' pp.~557--566, 2009.
 
-\bibitem{ArticlePLAY2}
-``Game usability heuristics (play) for evaluating and designing better games:
-  The next iteration,'' pp.~557--566, 2009.
+\bibitem{online_GameMechanics}
+M.~Sicart, ``Defining game mechanics.''
+  \url{http://gamestudies.org/0802/articles/sicart}, 2008.
+\newblock [data dostępu: 09.01.2017].
+
+\bibitem{art_UsabilityEvaluationSystematicReview}
+A.~Hussain and R.~G. Mohammed, ``Usability evaluation of mobile game
+  applications : A systematic review,'' 2015.
+
+\bibitem{art_evaluationOfMGevaluationSystem}
+S.~Soomro, W.~F. Wan~Ahmad, and S.~Sulaiman, ``Evaluation of mobile games with
+  playability heuristic evaluation system,'' pp.~1--6, 06 2014.
+
+\bibitem{art_playabilityHeuristics}
+H.~Korhonen and E.~M.~I.~Koivisto, ``Playability heuristics for mobile games,''
+  pp.~9--16, 01 2006.
+
+\bibitem{art_evaluationOfMG}
+A.~Ponnada and A.~Kannan, ``Evaluation of mobile games using playability
+  heuristics,'' pp.~244--247, 08 2012.
+
+\bibitem{art_Nielsen}
+J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in {\em
+  Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
+  CHI '90, (New York, NY, USA), pp.~249--256, ACM, 1990.
 
 \bibitem{DUMMY:1}
 J.~Doe, {\em The Book without Title}.
 \newblock Dummy Publisher, 2100.
+
+\bibitem{art_Usability}
+H.~Mohamed @~Omar and A.~Jaafar, ``Conceptual framework for a heuristics based
+  methodology for interface evaluation of educational games,'' vol.~3, 04 2010.
+
+\bibitem{art_Playability}
+J.~Paavilainen, ``Playability: A game-centric definition,'' pp.~487--494, 10
+  2017.
+
+\bibitem{art_UserExperience}
+J.~González-Sánchez, F.~L. Vela, F.~Montero~Simarro, and N.~Padilla-Zea,
+  ``Playability: Analysing user experience in video games,'' vol.~31, 10 2012.
+
+\bibitem{art_UsabilityTestingComp}
+H.~Korhonen, ``Comparison of playtesting and expert review methods in mobile
+  game evaluation,'' in {\em Proceedings of the 3rd International Conference on
+  Fun and Games}, Fun and Games '10, (New York, NY, USA), pp.~18--27, ACM,
+  2010.
 
 \end{thebibliography}
