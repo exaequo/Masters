@@ -3,35 +3,33 @@
 \BOOKMARK [0][-]{chapter.3}{Grywalnosc w grach mobilnych}{}% 3
 \BOOKMARK [1][-]{section.3.1}{Mechanika gry}{chapter.3}% 4
 \BOOKMARK [1][-]{section.3.2}{Doswiadczenie uzytkownika}{chapter.3}% 5
-\BOOKMARK [1][-]{section.3.3}{Grywalnosc}{chapter.3}% 6
-\BOOKMARK [1][-]{section.3.4}{Uzytecznosc}{chapter.3}% 7
-\BOOKMARK [2][-]{subsection.3.4.1}{Testowanie poprzez rozgrywke}{section.3.4}% 8
-\BOOKMARK [2][-]{subsection.3.4.2}{Opinie ekspert\363w}{section.3.4}% 9
-\BOOKMARK [1][-]{section.3.5}{Czynniki wp\233ywajace na rozgrywke w grach mobilnych}{chapter.3}% 10
-\BOOKMARK [0][-]{chapter.4}{State of the Art}{}% 11
-\BOOKMARK [1][-]{section.4.1}{Inne heurystyki}{chapter.4}% 12
-\BOOKMARK [0][-]{chapter.5}{Badanie przyswajania mechanik gry}{}% 13
-\BOOKMARK [1][-]{section.5.1}{Za\233ozenia}{chapter.5}% 14
-\BOOKMARK [1][-]{section.5.2}{Gra mobilna}{chapter.5}% 15
-\BOOKMARK [2][-]{subsection.5.2.1}{Samouczki}{section.5.2}% 16
-\BOOKMARK [1][-]{section.5.3}{Heurystyki}{chapter.5}% 17
-\BOOKMARK [1][-]{section.5.4}{Rodzaje interfejs\363w}{chapter.5}% 18
-\BOOKMARK [2][-]{subsection.5.4.1}{Interfejs SWIPE 2D}{section.5.4}% 19
-\BOOKMARK [2][-]{subsection.5.4.2}{Interfejs SWIPE 3D}{section.5.4}% 20
-\BOOKMARK [2][-]{subsection.5.4.3}{Interfejs CLICK 2D}{section.5.4}% 21
-\BOOKMARK [2][-]{subsection.5.4.4}{Interfejs CLICK 3D}{section.5.4}% 22
-\BOOKMARK [1][-]{section.5.5}{Struktura badania}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.5.1}{Czas absolutny}{section.5.5}% 24
-\BOOKMARK [2][-]{subsection.5.5.2}{Czas kuli}{section.5.5}% 25
-\BOOKMARK [2][-]{subsection.5.5.3}{Czas myslenia}{section.5.5}% 26
-\BOOKMARK [2][-]{subsection.5.5.4}{Ilosc obrot\363w}{section.5.5}% 27
-\BOOKMARK [2][-]{subsection.5.5.5}{Ilosc dotkniec ekranu}{section.5.5}% 28
-\BOOKMARK [0][-]{chapter.6}{Wyniki}{}% 29
-\BOOKMARK [1][-]{section.6.1}{Interfejs SWIPE 3D}{chapter.6}% 30
-\BOOKMARK [1][-]{section.6.2}{Interfejs SWIPE 2D}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.3}{Interfejs CLICK 3D}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.4}{Interfejs CLICK 2D}{chapter.6}% 33
-\BOOKMARK [0][-]{chapter.7}{Podsumowanie i wnioski}{}% 34
-\BOOKMARK [0][-]{chapter.8}{Bibliografia}{}% 35
-\BOOKMARK [0][-]{chapter.9}{Spis rysunk\363w}{}% 36
-\BOOKMARK [0][-]{chapter.10}{Zawartosc p\233yty}{}% 37
+\BOOKMARK [1][-]{section.3.3}{Uzytecznosc}{chapter.3}% 6
+\BOOKMARK [2][-]{subsection.3.3.1}{Mierzenie uzytecznosci}{section.3.3}% 7
+\BOOKMARK [1][-]{section.3.4}{Grywalnosc}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.5}{Czynniki wp\233ywajace na rozgrywke w grach mobilnych}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Stan techniki}{}% 10
+\BOOKMARK [0][-]{chapter.5}{Badanie przyswajania mechanik gry}{}% 11
+\BOOKMARK [1][-]{section.5.1}{Za\233ozenia}{chapter.5}% 12
+\BOOKMARK [1][-]{section.5.2}{Gra mobilna}{chapter.5}% 13
+\BOOKMARK [2][-]{subsection.5.2.1}{Samouczki}{section.5.2}% 14
+\BOOKMARK [1][-]{section.5.3}{Heurystyki}{chapter.5}% 15
+\BOOKMARK [1][-]{section.5.4}{Rodzaje interfejs\363w}{chapter.5}% 16
+\BOOKMARK [2][-]{subsection.5.4.1}{Interfejs SWIPE 2D}{section.5.4}% 17
+\BOOKMARK [2][-]{subsection.5.4.2}{Interfejs SWIPE 3D}{section.5.4}% 18
+\BOOKMARK [2][-]{subsection.5.4.3}{Interfejs CLICK 2D}{section.5.4}% 19
+\BOOKMARK [2][-]{subsection.5.4.4}{Interfejs CLICK 3D}{section.5.4}% 20
+\BOOKMARK [1][-]{section.5.5}{Struktura badania}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.5.1}{Czas absolutny}{section.5.5}% 22
+\BOOKMARK [2][-]{subsection.5.5.2}{Czas kuli}{section.5.5}% 23
+\BOOKMARK [2][-]{subsection.5.5.3}{Czas myslenia}{section.5.5}% 24
+\BOOKMARK [2][-]{subsection.5.5.4}{Ilosc obrot\363w}{section.5.5}% 25
+\BOOKMARK [2][-]{subsection.5.5.5}{Ilosc dotkniec ekranu}{section.5.5}% 26
+\BOOKMARK [0][-]{chapter.6}{Wyniki}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Interfejs SWIPE 3D}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Interfejs SWIPE 2D}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Interfejs CLICK 3D}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.4}{Interfejs CLICK 2D}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{Podsumowanie i wnioski}{}% 32
+\BOOKMARK [0][-]{chapter.8}{Bibliografia}{}% 33
+\BOOKMARK [0][-]{chapter.9}{Spis rysunk\363w}{}% 34
+\BOOKMARK [0][-]{chapter.10}{Zawartosc p\233yty}{}% 35

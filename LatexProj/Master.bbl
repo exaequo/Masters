@@ -7,7 +7,12 @@
 \bibitem{online_GameMechanics}
 M.~Sicart, ``Defining game mechanics.''
   \url{http://gamestudies.org/0802/articles/sicart}, 2008.
-\newblock [data dostępu: 09.01.2017].
+\newblock [data dostępu: 29.08.2018].
+
+\bibitem{online_UXDef}
+D.~Norman and J.~Nielsen, ``The definition of user experience (ux).''
+  \url{https://www.nngroup.com/articles/definition-user-experience/}.
+\newblock [data dostępu: 30.08.2018].
 
 \bibitem{art_UsabilityEvaluationSystematicReview}
 A.~Hussain and R.~G. Mohammed, ``Usability evaluation of mobile game
@@ -29,10 +34,6 @@ A.~Ponnada and A.~Kannan, ``Evaluation of mobile games using playability
 J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in {\em
   Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
   CHI '90, (New York, NY, USA), pp.~249--256, ACM, 1990.
-
-\bibitem{DUMMY:1}
-J.~Doe, {\em The Book without Title}.
-\newblock Dummy Publisher, 2100.
 
 \bibitem{art_Usability}
 H.~Mohamed @~Omar and A.~Jaafar, ``Conceptual framework for a heuristics based

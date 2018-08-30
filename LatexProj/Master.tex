@@ -59,25 +59,22 @@ Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfej
 
 !
 Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystane zostają, by sprawdzić ich wpływ na jakość przyswojenia nowych reguł przedstawianych użytkownikowi, mechanik rozgrywki.
-!
+!\\
 
-! TUTAJ TE HEURYSTYKI TRZEBA WRZUCIĆ
-
+! TUTAJ TE HEURYSTYKI TRZEBA WRZUCIĆ\\
+\\
 Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
 
 \chapter{Grywalność w grach mobilnych}
-Przed rozpoczęciem analizy kluczowym zdaje się dokładne wyjaśnienie podstawowych pojęć, jakie wykorzystywane są w tej pracy. W tym rozdziale wyjaśnione zostanie co definiowane jest jako mechanika gry, doświadczenie użytkownika, czym jest grywalność i użyteczność a także przybliżone będą ograniczenia i przeszkody rozgrywką na urządzeniach mobilnych.
+Przed rozpoczęciem analizy kluczowym zdaje się dokładne wyjaśnienie podstawowych pojęć, jakie wykorzystywane są w tej pracy. W tym rozdziale wyjaśnione zostanie co definiowane jest jako mechanika gry, doświadczenie użytkownika, czym jest grywalność i użyteczność a także przybliżone będą ograniczenia i przeszkody związane z rozgrywką na urządzeniach mobilnych.
 \section{Mechanika gry}
-Mechanikę gry zdefiniować można jako  \cite{online_GameMechanics}
+Mechaniki gry zdefiniować można jako zestaw reguł zaprojektowanych w celu zapewnienia użytkownikowi interakcji ze stanem gry. Zestawienie różnych mechanik rozgrywki określa stopień skomplikowania jak również ilość akcji, których wykonanie wymagane jest od użytkownika. Innymi słowy określić je można jako zbiór zasad, które pozwalają graczowi na postęp w przestrzeni gry. \cite{online_GameMechanics}
 
 \section{Doświadczenie użytkownika}
 
+Pojęciem doświadczenia użytkownika (\textit{User Experience} - UX) opisuje się całość wrażeń, z którymi spotyka się osoba podczas procesu użytkowania określonego produktu bądź usługi. Pod tym pojęciem zawierają się wszelkie aspekty interakcji człowiek-komputer oraz wrażenia osoby użytkującej dotyczące takich aspektów systemu jak na przykład łatwość w użyciu czy wydajność. Wyróżnia się trzy czynniki wpływające na UX: system, użytkownik oraz kontekst użycia. \cite{online_UXDef}
+Celem projektowania dobrego UX jest osiągnięcie jak największej produktywności przy pracy z systemem, czyli innymi słowy - spełnienie oczekiwań użytkownika. Ważnym aspektem poprawnie zaprojektowanego UX jest również to, by korzystanie z przygotowanego systemu było przyjemne i proste. Projektowania doświadczenia użytkownika się między innymi w celu wyeliminowania błędów interfejsów, czy zmniejszenia ilości operacji, które wymagane są do wykonania określonego zadania.
 \cite{art_UserExperience}
-
-\section{Grywalność}
-Określić można jako zestaw własności, które opisują doświadczenie gracza (ang. \textit{Player Experience}) przy użyciu określonego systemu growego, którego głównym celem jest zapewnienie rozrywki poprzez jego użytkowanie zgodnie z jego przeznaczeniem. Odnosi się do jakości samej gry.
-Grywalność składa się z trzech komponentów: funkcjonalności, użyteczności oraz rozgrywki.
- .... definiuje pojęcie grywalności jako ... \cite{art_Playability}
 
 \section{Użyteczność}
 Użyteczność definiowana jest podatność danej gry do bycia używaną przez ludzi prosto i wydajnie.\cite{art_Usability} Jest to swojego rodzaju miara pozwalająca na określenie stopnia, w jakim dany produkt może być zrozumiany i wykorzystywany. Określa ona również jak bardzo aplikacja jest zachęcająca dla użytkowników, którzy jej używają w określonym środowisku. \cite{art_evaluationOfMGevaluationSystem} 
@@ -95,31 +92,55 @@ Można wyróżnić siedem podstawowych czynników użyteczności: \cite{art_Usab
 
 Wyróżnia się dwie główne metodologie mierzenia użyteczności: testowanie poprzez rozgrywkę (ang. \textit{play-testing}) oraz opinie ekspertów (ang. \textit{expert review}).
 
-\subsection{Testowanie poprzez rozgrywkę}
-Testowanie poprzez rozgrywkę zakłada
+\subsection{Mierzenie użyteczności}
+Testowanie poprzez rozgrywkę zakłada \\
 
-\subsection{Opinie ekspertów}
 Inaczej wygląda testowanie za pomocą opinii ekspertów. W tym wypadku rzadko zdarza się, by użytkownicy z grupy docelowej brali udział w badaniu. Testerami jest tu dwóch lub więcej ekspertów z dziedziny użyteczności aplikacji.
 \\
 Opis w art UsabilityTestingComp
 \\
 Uważane jest przez wielu badaczy jako bardziej miarodajna metoda mierzenia użyteczności niż testowanie przez rozgrywkę. \cite{art_UsabilityTestingComp}
 
+
+\section{Grywalność}
+Grywalność określić można jako zestaw własności, które opisują doświadczenie gracza (ang. \textit{Player Experience}) przy użyciu określonego systemu growego, którego głównym celem jest zapewnienie rozrywki poprzez jego użytkowanie zgodnie z jego przeznaczeniem. \cite{art_Playability} Odnosi się do jakości samej gry. Jest to pojęcie często używane zarówno w procesach projektowania jak i analizy gier pod względem ich reguł, mechanik czy zadań stawianych przez nie graczom. Na grywalność wpływa bardzo wiele czynników związanych z samą rozgrywką, jak na przykład responsywność na akcje gracza czy intensywność interakcji.
+Grywalność składa się z trzech komponentów: podstawowych mechanik (zasady oraz zadania, które użytkownik ma wykonać), narracji oraz interaktywności (zestaw elementów, które są widoczne dla gracza i z którymi może wejść w interakcję w przestrzeni gry). \cite{art_UserExperience}
+
+Jak można zauważyć, pojęcie grywalności jest ściśle powiązane z użytecznością. Zaznaczyć jednak należy, że w kontekście gier, jest ono dużo dokładniejsze. Mierzy ono nie tylko jak dobrze gracz jest w stanie wykonywać zadania, ale również to, czy odczuwa w trakcie wykonywania tych operacji przyjemność. Aspekty miary, jaką jest grywalność nie są ściśle określone dla każdej gry. Oznacza to, że w zależności od gatunku do jakiego przypisana jest dana aplikacja, przypisać można różne wagi poszczególnym jej aspektom.
+
+Zarówno jak w przypadku użyteczności, wyróżnić można siedem czynników charakteryzujących grywalność:
+
+\begin{enumerate}
+\item Efektywność - czas i środki, jakie potrzebne są, by zaoferować graczom przyjemne doświadczenia z wykonywania zadań postawionych przez grę.
+\item Bezmyślność (ang. \textit{learnability}) - stopień w jakim gracz jest w stanie zrozumieć i nauczyć się systemów i mechanik gry. Zauważyć należy, że w przypadku gier nie zawsze wskazane jest, by gracze zrozumieli wszystkie zasady w nich panujące. Niekiedy krzywa uczenia projektowana jest w taki sposób, by wymusić na graczu posiadanie zadanych umiejętności, by posunąć się dalej w rozgrywce.
+\item Zanurzenie - określa w jakim stopniu zawartość danej gry jest wiarygodna do tego stopnia, że gracz bezpośrednio wczuwa się w wirtualny świat. Oznacza to, że podczas wykonywania wymaganych interakcji użytkownik czuje się częścią tego świata.
+\item Satysfakcja - przyjemność pochodząca z grania w grę bądź wynikająca z jakiegoś określonego aspektu gry. Wyróżnić można tu zarówno zabawę, jaką odczuł użytkownik podczas rozgrywki, ale także zawód którego mógł doznać przy wykonywaniu wybranych zadań.
+\item Motywacja - zestaw charakterystyk gry, który zachęca gracza do wykonywania określonych akcji i kontynuowania dalszej rozgrywki po ich wykonaniu. Zaliczać się do nich mogą chociażby nagrody w postaci zasób kluczowych dla danej gry, które wręczane są użytkownikowi po spełnieniu zadanego warunku.
+\item Emocje - odnosi się do bezwarunkowych impulsów, jakie odczuwa gracz w odpowiedzi na stymulant w postaci gry.
+\item Socjalizacja - zestaw parametrów gry, które zachęcają do współpracy, bądź interakcji między użytkownikami. Ten rodzaj wspólnych doświadczeń sprawia, iż dzięki relacjom, które nawiązywane są podczas grania, gracze doceniają grę w zupełnie innym wymiarze 
+\end{enumerate}
+
 \section{Czynniki wpływające na rozgrywkę w grach mobilnych}
 Zauważyć należy, że rozgrywka na urządzeniu mobilnym może wielce odbiegać od tej zaobserwowanej przy komputerze stacjonarnym. 
-\chapter{State of the Art}
+\chapter{Stan techniki}
 
-Pierwsze pojęcie heurystyk (Nielsen) \cite{art_Nielsen}
+Najpierw heurystyki wprowadził Nielsen \cite{art_Nielsen}\\
 
-Kolejność 
+Później zaprojektowane zostały heurystyki dotyczące grywalności gier mobilnych, gdyż wcześniejsze nie nie pozwalały dobrze opisać gier mobilnych \cite{art_playabilityHeuristics}\\
+
+W dalszych latach sprawdzane było, czy heurystyki  te mają jednoznaczny wpływ na sukces danej gry \cite{art_evaluationOfMG}\\
+
+Inni badacze również poszukiwali zestawu heurystyk mogących poprawnie opisać zestaw reguł, które powinny być spełnione w celu stworzenia gry, która będzie zachęcała graczy. TACY a TACY zaproponowali zestaw heurystyk PLAY, który rozbija.. \cite{ArticlePLAY}\\
+
+Wszelkie opisane w ten sposób heurystyki oraz sposoby mierzenia użyteczności okazywały się jednak w dalszym stopniu niewystarczające. Artykuły dotyczące tej tematyki były porozrzuczane i niepowiązane ze sobą. Próbę rozwiązania tego problemu podjął AUTOR ARTYKUŁU. W 2015 roku opublikowany został artykuł będący dogłębnym przeglądem artykułów zajmujących się ewaluacją gier mobilnych. \cite{art_UsabilityEvaluationSystematicReview} Opracowanych zostało przeszło 21 niezależnych badań, co dało możliwość unormowanie podstawowych pojęć, które są wykorzystywane. Przedstawione w nim zostały koncepcje, czynniki i metodologie ewaluowania użyteczności gier mobilnych. Wyróżnionych zostało siedem podstawowych czynników, które należy sprawdzać w przypadku badań w tym zakresie: bezmyślność, wydajność, zapamiętywanie, błędy, satysfakcja, prostota oraz zrozumiałość. Autorzy zaobserwowali również, że najchętniej stosowanymi metodologiami mierzenia użyteczności są recenzje ekspertów oraz testy użytkowników.
+
+Grupa badaczy z ... zauważyła, iż obecne sposoby sprawdzania poprawności heurystyk są bardzo czasochłonne. \cite{art_evaluationOfMGevaluationSystem} Zaobserwowali, iż istnieje potrzeba na ulepszenie metod ewaluacji poprzez zautomatyzowanie tego procesu. Zaprojektowali w tym celu system \textit{Playability Heuristic Evaluation System} (PHES). Według autorów, podejście do ewaluacj gier powinno być zbliżone do tego stosowanego każdej innej aplikacji. Różnicą na którą zwrócili uwagę jest obecny w tym temacie aspekt grywalności, który wymusza analizowani również takich czynników, jak przyjemność z rozgrywki. System PHES okazał się akceptowalny. Zmniejszył on czas potrzebny na ewaluację heurystyk w wybranych grach. Zauważyć należy jednak, iż ich rozwiązanie nie pozwalało na całkowity brak grupy ekspertów, którzy oceniali dane produkcje, a ledwie zautomatyzowało niektóre z ich akcji. Również czas który został zaoszczędzony nie spełnił postawionych oczekiwań, gdyż zaobserwowano zysk rzędu 20 procent.
 
 Artykuł 1: \cite{art_UsabilityEvaluationSystematicReview}\\
 Artykuł 2: \cite{art_evaluationOfMGevaluationSystem}\\
 Artykuł 3: \cite{art_playabilityHeuristics}\\
 Artykuł 4: \cite{art_evaluationOfMG}
 
-
-\section{Inne heurystyki}
 
 \chapter{Badanie przyswajania mechanik gry}
 Sprawdzenie poziomu, w jakim użytkownik zrozumiał mechaniki w grze w którą gra, nie należy do prostych zadań. Na początku wymagane jest odpowiednie sprecyzowanie założeń jakie muszą być spełnione do przeprowadzenia badań. Równie ważnym aspektem jest przygotowanie aplikacji, która jest w stanie zapewnić sprawdzenie podstawowych danych z przebiegu rozgrywki. Następnie należy zaprojektować odpowiednie badanie, które pozwoli na zebranie wyników, które pozwolą na określenie parametrów przebiegów gry.
