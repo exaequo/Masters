@@ -42,7 +42,7 @@
 	\tableofcontents
 	\newpage
 	%\setcitestyle{square}	
-	
+%CHAPTER_______________________________________________________________________________________WSTĘP_______	
 \chapter{Wstęp}
 Projektowanie interfejsów jest tematyką bardzo złożoną i nadzwyczaj kluczową w procesie tworzenia aplikacji, w tym, między innymi, gier komputerowych. Złe zaprojektowanie tej części w prosty sposób może przyczynić się do całkowitego braku zrozumienia całego przesłania gry przez użytkowników. Istnieje wiele metodologii mających na celu analizę jakości stworzonego projektu - od metod całkowicie subiektywnych po takie, które stawiają za zadanie sprowadzenie jak największej części elementów do postaci parametrycznej. 
 
@@ -53,20 +53,29 @@ Projektowanie interfejsów jest tematyką bardzo złożoną i nadzwyczaj kluczow
 - coś o tym, że użytkownik w czasie gry często zostaje postawiony przed przyswojeniem bardzo abstrakcyjnego zadania w celu zrozumienia, a co za tym idzie grania w daną grę
 
 W pracy tej opisane zostało badanie mające na celu zweryfikowanie wpływ spełniania tych heurystyk na pozna
-
+%CHAPTER__________________________________________________________________________CEL, ZAŁOŻENIA, ZAKRES__
 \chapter{Cel, założenia oraz zakres pracy}
-Celem tej pracy było zbadanie wpływu określonych heurystyk tworzenia interfejsów na jakość przyswajania nowych mechanik gry mobilnej. Zbadane zostały wybrane dwie opisane przez H. Desuvire oraz Ch. Wiberg \cite{ArticlePLAY} reguły, które odnoszą się do użyteczności projektowanych aplikacji.
+Celem tej pracy było zbadanie wpływu określonych heurystyk dotyczących projektowania interfejsów na jakość przyswajania nowych mechanik gry mobilnej, która z nich korzysta. Badaniu podane zostały zasady, które odnoszą się do użyteczności tworzonych aplikacji.
 
-!
-Zwykle heurystyki dla gier mobilnych sprawdzają grywalność, tutaj wykorzystane zostają, by sprawdzić ich wpływ na jakość przyswojenia nowych reguł przedstawianych użytkownikowi, mechanik rozgrywki.
-!\\
+Ustalanie heurystyk ma na celu określenie wytycznych, za pomocą których deweloperzy gier są już w stanie określić, czy przygotowywany przez nich projekt ma szansę spodobać się odbiorcom. Spodziewać się można, że przy porównaniu dwóch aplikacji zajmujących się jednym zagadnieniem, gdzie jedna z nich spełnia większą ilość heurystyk użyteczności z zadanego zakresu to poprawnie wykonane testy wykażą, że jest ona bardziej użyteczna. Cecha ta definiuje między innymi stopień wydajności z jaką użytkownik jest w stanie zrozumieć prezentowane mu przez aplikację treści. Oznaczać to może, że badając, jakie heurystyki spełnia dana gra, jesteśmy w stanie oszacować jak zrozumiała mogła by ona być dla jej docelowego użytkownika.\\
+Bazując na tych założeniach, praca ta ma na celu sprawdzenie następujących hipotez:
 
-! TUTAJ TE HEURYSTYKI TRZEBA WRZUCIĆ\\
-\\
-Przeprowadzone zostało doświadczenie, które miało na celu określenie, czy gra, której interfejs spełnia zadane warunki jest lepiej rozumiana i szybciej opanowywana od takiej, której nie są spełnione wybrane heurystyki. Przygotowana została w tym celu aplikacja na urządzenia mobilne, w której użytkownikom postawione zostają zadania, które nie wpisują się w popularne szablony obecnych gier na te platformy. Wyróżnione zostały cztery różne wersje interfejsów przedstawianych użytkownikowi, każda wersja spełniała inny złożenie heurystyk.
+\begin{enumerate}
+\item Zrozumienie mechanik gry mobilnej przychodzi użytkownikom łatwiej dla gier spełniających więcej heurystyk użyteczności.
+\item Użytkownicy popełniają mniej błędów w wypadku gier spełniających więcej heurystyk użyteczności
+\item Użytkownicy grający w grę spełniającą mniej heurystyk użyteczności osiągają gorsze wyniki od tych, którzy grają w wersję spełniającą ich więcej.
+\end{enumerate}
 
+W celu ich przetestowania przeprowadzone zostało doświadczenie, w którym za pomocą testów rozgrywki (ang. \textit{playtesting}) badane były cztery wersje tej samej gry mobilnej w różnym stopniu spełniające wybrane heurystyki odnoszące się do użyteczności gier. Dane z każdego testu były zapisywane automatycznie przez aplikację do pliku a następnie zostały one przeniesione do arkusza kalkulacyjnego, gdzie wykonano ich analizę. Wyniki opracowano i przedstawiono w postaci czytelnych dla osób postronnych wykresów.
+
+
+%CHAPTER_______________________________________________________________________________WYJAŚNIANIE POJĘĆ___
 \chapter{Grywalność w grach mobilnych}
 Przed rozpoczęciem analizy kluczowym zdaje się dokładne wyjaśnienie podstawowych pojęć, jakie wykorzystywane są w tej pracy. W tym rozdziale wyjaśnione zostanie co definiowane jest jako mechanika gry, doświadczenie użytkownika, czym jest grywalność i użyteczność a także przybliżone będą ograniczenia i przeszkody związane z rozgrywką na urządzeniach mobilnych.
+
+\section{Heurystyka}
+Mianem heurystyk określa się zestaw zasad, których przeznaczeniem jest zwiększenie prawdopodobieństwo rozwiązania określonego problemu \cite{art_WithHeuristic}. Służą one jako pomoc przy rozwiązywaniu problemów przy pomocy eksperymentalnych metod. W przypadku metod mierzących użyteczność skupiają się one na zagadnieniach, które sprawiają problemy podczas interakcji\cite{art_Nielsen}\cite{art_evaluatingPlayabilityMG}. 
+
 \section{Mechanika gry}
 Mechaniki gry zdefiniować można jako zestaw reguł zaprojektowanych w celu zapewnienia użytkownikowi interakcji ze stanem gry. Zestawienie różnych mechanik rozgrywki określa stopień skomplikowania jak również ilość akcji, których wykonanie wymagane jest od użytkownika. Innymi słowy określić je można jako zbiór zasad, które pozwalają graczowi na postęp w przestrzeni gry. \cite{online_GameMechanics}
 
@@ -77,7 +86,7 @@ Celem projektowania dobrego UX jest osiągnięcie jak największej produktywnoś
 \cite{art_UserExperience}
 
 \section{Użyteczność}
-Użyteczność definiowana jest podatność danej gry do bycia używaną przez ludzi prosto i wydajnie.\cite{art_Usability} Jest to swojego rodzaju miara pozwalająca na określenie stopnia, w jakim dany produkt może być zrozumiany i wykorzystywany. Określa ona również jak bardzo aplikacja jest zachęcająca dla użytkowników, którzy jej używają w określonym środowisku. \cite{art_evaluationOfMGevaluationSystem} 
+Użyteczność definiowana jest jako podatność danej aplikacji do bycia używaną przez ludzi prosto i wydajnie\cite{art_Usability}. Jest to swojego rodzaju miara pozwalająca na określenie stopnia, w jakim dany produkt może być zrozumiany i wykorzystywany. Określa ona również jak bardzo aplikacja jest zachęcająca dla użytkowników, którzy jej używają w określonym środowisku. \cite{art_evaluationOfMGevaluationSystem} 
 \\
 Można wyróżnić siedem podstawowych czynników użyteczności: \cite{art_UsabilityEvaluationSystematicReview}
 \begin{enumerate}
@@ -93,14 +102,13 @@ Można wyróżnić siedem podstawowych czynników użyteczności: \cite{art_Usab
 Wyróżnia się dwie główne metodologie mierzenia użyteczności: testowanie poprzez rozgrywkę (ang. \textit{play-testing}) oraz opinie ekspertów (ang. \textit{expert review}).
 
 \subsection{Mierzenie użyteczności}
-Testowanie poprzez rozgrywkę zakłada \\
+Testowanie poprzez rozgrywkę zakłada, iż testowanie odbywa się przez osoby z grupy docelowej tworzonego produktu\cite{art_evaluatingPlayabilityMG}. Wchodzą oni w interakcję z aplikacją a ich zachowanie i wrażenia z rozgrywki są zbierane przez samą grę lub przez obserwujących ich badaczy. Metoda ta pozwala na bezpośrednie zaobserwowanie przez deweloperów w jaki sposób gracze wykonują polecenia, które przekazywane im są za pośrednictwem aplikacji.
+Zauważyć jednak należy wiele przeszkód, które nie pozwalają na określenie tego sposobu sprawdzania użyteczności jako bardzo przystępnego. Przygotowanie odpowiedniego środowiska do przeprowadzenia badania niejednokrotnie może wiązać się z dużymi nakładami pieniężnymi jak i czasowymi. Testowanie przez graczy spoza zespołu deweloperskiego nie pozwala na uzyskanie wymiernych wyników do czasu, aż dostępny jest działający prototyp aplikacji. Musi on zwykle być wycinkiem zawierającym wszelkie właściwości, którymi cechować się ma finalna wersja gry. Problem zwiększa się w przypadku, gdy podczas takich testów na jaw wychodzą błędy związane z grywalnością produktu. Próba ich naprawy nierzadko oznaczać może konieczność wprowadzenia poważnych zmian w projekcie, co z kolei prowadzi do poniesienia dużych kosztów przez deweloperów. Zignorowanie tych problemów również jest ryzykowne, gdyż istnieje szansa na to, iż mogą one wpłynąć negatywnie na wrażenia związane z rozgrywką \cite{art_evaluationOfMG}.
 
-Inaczej wygląda testowanie za pomocą opinii ekspertów. W tym wypadku rzadko zdarza się, by użytkownicy z grupy docelowej brali udział w badaniu. Testerami jest tu dwóch lub więcej ekspertów z dziedziny użyteczności aplikacji.
-\\
-Opis w art UsabilityTestingComp
-\\
-Uważane jest przez wielu badaczy jako bardziej miarodajna metoda mierzenia użyteczności niż testowanie przez rozgrywkę. \cite{art_UsabilityTestingComp}
+Z tego też powodu przez wielu badaczy testowanie za pomocą opinii ekspertów jest dużo bezpieczniejszym podejściem \cite{art_UsabilityTestingComp}. W tym wypadku rzadko zdarza się, by użytkownicy z grupy docelowej brali udział w badaniu. Testerami jest tu dwóch lub więcej ekspertów biegłych w dziedzinie użyteczności aplikacji \ref{art_Nielsen}. Zwykle zakresy ich ekspertyz są zbiorami jak najbardziej rozłącznymi tak, by uzyskać jak największy obszar oceny. Przeprowadzają oni niezależne testy w oparciu o ogólnie przyjęte heurystyki i następnie porównując swoje notatki podejmują finalną decyzję odnośnie danej aplikacji.
+Dużą zaletą tej metody jest szybkość, z jaką otrzymać można pełną ocenę użyteczności gry. Eksperci dysponując dużym zakresem wiedzy w sprawdzanej dziedzinie są w stanie przeprowadzić pełną ewaluację w zaledwie kilka godzin używania zarówno funkcjonalnych prototypów jak i takich, które w małym stopniu odwzorowują finalny produkt (papierowe makiety, koncepty czy nawet same opisy interakcji). 
 
+Wybór metody, którą należy obrać do analizy często zależne jest od czynników takich jak ilość czasu i pieniędzy, jakie można zainwestować w proces testowania użyteczności. W wypadku, gdy niedobór środków, które można na taką ocenę przeznaczyć jest czynnikiem pomijalnym najlepszym rozwiązaniem jest hybryda tych rodzajów badań. Pozwala to na połączenie ich zalet jednocześnie minimalizując ich wady.
 
 \section{Grywalność}
 Grywalność określić można jako zestaw własności, które opisują doświadczenie gracza (ang. \textit{Player Experience}) przy użyciu określonego systemu growego, którego głównym celem jest zapewnienie rozrywki poprzez jego użytkowanie zgodnie z jego przeznaczeniem. \cite{art_Playability} Odnosi się do jakości samej gry. Jest to pojęcie często używane zarówno w procesach projektowania jak i analizy gier pod względem ich reguł, mechanik czy zadań stawianych przez nie graczom. Na grywalność wpływa bardzo wiele czynników związanych z samą rozgrywką, jak na przykład responsywność na akcje gracza czy intensywność interakcji.
@@ -120,28 +128,35 @@ Zarówno jak w przypadku użyteczności, wyróżnić można siedem czynników ch
 \item Socjalizacja - zestaw parametrów gry, które zachęcają do współpracy, bądź interakcji między użytkownikami. Ten rodzaj wspólnych doświadczeń sprawia, iż dzięki relacjom, które nawiązywane są podczas grania, gracze doceniają grę w zupełnie innym wymiarze 
 \end{enumerate}
 
-\section{Czynniki wpływające na rozgrywkę w grach mobilnych}
-Zauważyć należy, że rozgrywka na urządzeniu mobilnym może wielce odbiegać od tej zaobserwowanej przy komputerze stacjonarnym. 
+
+%CHAPTER____________________________________________________________________________________STAN TECHNIKI__
 \chapter{Stan techniki}
+Gry komputerowe są bardzo charakterystyczną formą aplikacji. Wymagane od nich jest nie tylko to, żeby wykonywały jakieś zaprogramowane reakcje, czy obliczenia, ale także to, by gdy używane są przez grupę użytkowników docelowych w określonym środowisku było dobrą rozrywką. Duży nacisk przy produkcji stawiany jest zatem w poprawne ich zaprojektowanie. W dziedzinie projektowania trudno jednak stwierdzić, w którym momencie można zakończyć ten etap tworzenia produktu. 
 
-Najpierw heurystyki wprowadził Nielsen \cite{art_Nielsen}\\
+\section{Dziesięć heurystyk Nielsena}
+Poszukiwano zatem zestawu zasad, które spełnić powinna gra. Znalezienie takowych oznaczać by mogło, że dokładniejsze ich wypełnianie daje większe szanse na odniesienie sucesu. W 1990 roku Nielsen i Molich \cite{art_Nielsen} zaproponowali zestaw dziesięciu heurystyk, które powinny być spełniane przy projektowaniu interfejsu użytkownika. Zaliczały się w nich między innymi konieczność informowania odbiorcy o statusie systemu, czy niedopuszczanie do tego, by odbiorca mógł popełnić jakikolwiek błąd w procesie użytkowania aplikacji. Zasady te były rozwijane przez lata i przez wielu uważane są jako absolutna podstawa przy projektowaniu. 
 
-Później zaprojektowane zostały heurystyki dotyczące grywalności gier mobilnych, gdyż wcześniejsze nie nie pozwalały dobrze opisać gier mobilnych \cite{art_playabilityHeuristics}\\
+\section{Heurystyki PLAY}
+Projektowanie gier zakłada jednak czasem cele inne niż to, czy interfejs jest prosty w użyciu i czy udostępnia proste wykonywanie zadań, gdyż gry zwykle nie są nakierowane na to, by wymagać od użytkownika wykonywania jedynie jakichś ściśle określonych zadań. Dla tego rodzaju aplikacji celem może być stworzenie świata, w którym użytkownik może się łatwo zanurzyć bądź też zapewnienie odpowiedniej dozy rozrywki i wyzwania. Z tego też powodu Heather Desurvire wraz z Charlotte Wiberg przygotowały zestaw heurystyk, który uwzględniał te aspekty \cite{art_PLAY1}. Wyniki oparte zostały o badania przeprowadzone w środowisku graczy. Zostało udowodnione, że zebrane wówczas dane pozwalają na określenie wypracowanych zasad jako pomocne w procesie projektowania gier. Późniejsze testy pokazały jednak pewną wadę opracowanego systemu. Okazało się, że przydatny jest tylko w ściśle określonych warunkach. Autorzy nie uwzględnili różnorodności gier komputerowych, którą zauważyć można w takim aspekcie jak chociażby ich gatunek. \\
+Trzy lata później postanowili naprawić swój błąd proponując rozwiązanie, które zawierałoby w sobie takie heurystyki, które mogły by być zaaplikowane do każdej gry przy zaaplikowaniu określonej ramy koncepcyjnej \cite{art_PLAY2}. Opracowane zasady pomocne miały w całości procesu projektowania lecz ich największa wartość objawiać się powinna na początku fazy konceptu, gdzie zmiany w projekcie są najmniej kosztowne. By udowodnić, że przedstawione przez nich Heurystyki PLAY można przekształcić tak, by odnosiły się one do ściśle określonych zakresów poruszanej tematyki. Zaproponowali zatem rozwiązanie, które aplikować można do gier typu RTS (Real-Time Strategy), FPS (First Person Shooter) oraz do gier akcji. Z zebranych przez siebie danych wyznaczyli zestaw zasad, które w ramach zadanych gatunków, pozwolić miał na rozróżnienie między dobrymi i złymi grami. 
 
-W dalszych latach sprawdzane było, czy heurystyki  te mają jednoznaczny wpływ na sukces danej gry \cite{art_evaluationOfMG}\\
+\section{Playability Heuristics for Mobile Games}
+Bardzo szybko okazało się, że sporządzone heurystyki w przypadku gier tworzonych na urządzenia mobilne mają znacznie mniejsze przełożenie. W przypadku projektowania użyteczności na tę platformę pod uwagę trzeba brać między innymi takie czynniki jak to, czy finalny produkt czytelny będzie w każdym środowisku, w kótrym gracze mogą po niego sięgnąć. W przypadku aplikacji na urządzenia stacjonarne pozwolić sobie można na mniejszą ocenę takich aspektów jak ten czy elementy, z którymi można wejść w interakcję są w dużym kontraście względem otoczenia. W przypadku gier na telefony i tablety spodziewać się można, że gracz może zechcieć zagrać w bardzo niesprzyjających warunkach. Również sposób, w jaki dochodzi do interakcji na tych urządzeniach znacznie odbiega od tego, którego zaobserwować można na większości komputerów. Chcąc poinformować aplikację o swoich intencjach gracz musi dotknąć ekranu, nierzadko w ten sposób przesłaniając sobie na chwilę znaczną jego część. 
+Próba zaspokojenia zapotrzebowania na sporządzenie reguł do których projektanci gier mogliby się stosować dla tego typu produkcji xostała podjęta już w 2006 roku przez Hannu Korhonena oraz Elinę Koivisto \cite{art_playabilityHeuristics}. W swojej publikacji przedstawili zestaw heurystyk, który stosowany mógł być dla dowolnej gry mobilnej. Starali się w nim zawrzeć takie elementy, by móc zapewnić aby gra była dla użytkownika wygodna i niezawodna, gdyż tylko w taki sposób może on czerpać przyjemność z grania w nią. Zauważyli, że twórcy powinni zwracać uwagę na to, by w kązdym momencie gracz wiedział, jaki dokładnie jest cel jego rozgrywki, gdyż konieczne według nich jest to dla uzyskania przyjemnego doświadczenia z gry.
 
-Inni badacze również poszukiwali zestawu heurystyk mogących poprawnie opisać zestaw reguł, które powinny być spełnione w celu stworzenia gry, która będzie zachęcała graczy. TACY a TACY zaproponowali zestaw heurystyk PLAY, który rozbija.. \cite{ArticlePLAY}\\
+\section{Evaluation of mobile games using playability heuristics}
+Zauważyć należy, że od czasu przygotowania artykułu przez badaczy z Centrum Badań Nokii minęło 12 lat. Przez ten czas gry mobilne stały się dużo bardziej złożone, co znacznie zbliżyło je do gier, które tworzone są na jednostki stacjonarne. W 2012 roku grupa badaczy z Indyjskiego Instytutu Technologii sprawdzili, czy zaproponowane przeszło sześć lat wcześniej heurystyki mają wpływ na sukces, jaki odnosi aplikacja na rynku gier mobilnych  \cite{art_evaluationOfMG}. W teście wzięto pod uwagę cztery różne produkcje z gatunku gier wyścigowych. Ku zaskoczeniu autorów okazało się, że nawet gry, które osiągają wysokie nmoty w sklepach nie spełniają niektórych z ogólnie przyjętych heurystyk. Doprowadziło to do wniosku, że nie wszystkie heurystki są tak samo ważne i być może powinno się przypisać im odgórne wagi. Innym powodem, dla którego nie udało się uzyskać autorom jednoznacznego powiązania pomiędzy sukcesem gry, a procentem spełnianych przez nią heurystyk mogło okazać się zbyt mało dokładnie przeprowadzone badanie. Zbyt mała próbka badanych produkcji mogła mieć znaczny wpływ na wyniki badań.
 
-Wszelkie opisane w ten sposób heurystyki oraz sposoby mierzenia użyteczności okazywały się jednak w dalszym stopniu niewystarczające. Artykuły dotyczące tej tematyki były porozrzuczane i niepowiązane ze sobą. Próbę rozwiązania tego problemu podjął AUTOR ARTYKUŁU. W 2015 roku opublikowany został artykuł będący dogłębnym przeglądem artykułów zajmujących się ewaluacją gier mobilnych. \cite{art_UsabilityEvaluationSystematicReview} Opracowanych zostało przeszło 21 niezależnych badań, co dało możliwość unormowanie podstawowych pojęć, które są wykorzystywane. Przedstawione w nim zostały koncepcje, czynniki i metodologie ewaluowania użyteczności gier mobilnych. Wyróżnionych zostało siedem podstawowych czynników, które należy sprawdzać w przypadku badań w tym zakresie: bezmyślność, wydajność, zapamiętywanie, błędy, satysfakcja, prostota oraz zrozumiałość. Autorzy zaobserwowali również, że najchętniej stosowanymi metodologiami mierzenia użyteczności są recenzje ekspertów oraz testy użytkowników.
+\section{Usability Evaluation of Mobile Game Applications: A Systematic Review}
+Wszelkie opisane w ten sposób heurystyki oraz sposoby mierzenia użyteczności okazywały się jednak w dalszym stopniu niewystarczające. Artykuły dotyczące tej tematyki były porozrzuczane i niepowiązane ze sobą. Próbę rozwiązania tego problemu podjęli badacze z uniwersytetu Utara w Malezji. W 2015 roku opublikowany został artykuł będący dogłębnym przeglądem artykułów zajmujących się ewaluacją gier mobilnych \cite{art_UsabilityEvaluationSystematicReview}. Opracowanych zostało przeszło 21 niezależnych badań, co dało możliwość unormowanie podstawowych pojęć, które są wykorzystywane. Przedstawione w nim zostały koncepcje, czynniki i metodologie ewaluowania użyteczności gier mobilnych. Wyróżnionych zostało siedem podstawowych czynników, które należy sprawdzać w przypadku badań w tym zakresie: bezmyślność, wydajność, zapamiętywanie, błędy, satysfakcja, prostota oraz zrozumiałość. Autorzy zaobserwowali również, że najchętniej stosowanymi metodologiami mierzenia użyteczności są recenzje ekspertów oraz testy użytkowników.
 
-Grupa badaczy z ... zauważyła, iż obecne sposoby sprawdzania poprawności heurystyk są bardzo czasochłonne. \cite{art_evaluationOfMGevaluationSystem} Zaobserwowali, iż istnieje potrzeba na ulepszenie metod ewaluacji poprzez zautomatyzowanie tego procesu. Zaprojektowali w tym celu system \textit{Playability Heuristic Evaluation System} (PHES). Według autorów, podejście do ewaluacj gier powinno być zbliżone do tego stosowanego każdej innej aplikacji. Różnicą na którą zwrócili uwagę jest obecny w tym temacie aspekt grywalności, który wymusza analizowani również takich czynników, jak przyjemność z rozgrywki. System PHES okazał się akceptowalny. Zmniejszył on czas potrzebny na ewaluację heurystyk w wybranych grach. Zauważyć należy jednak, iż ich rozwiązanie nie pozwalało na całkowity brak grupy ekspertów, którzy oceniali dane produkcje, a ledwie zautomatyzowało niektóre z ich akcji. Również czas który został zaoszczędzony nie spełnił postawionych oczekiwań, gdyż zaobserwowano zysk rzędu 20 procent.
+\section{Evaluation of Mobile Games with Playability Heuristic Evaluation System}
+Grupa badaczy z z Uniwersytetu PETRONAS zauważyła, iż obecne sposoby sprawdzania poprawności heurystyk są bardzo czasochłonne. \cite{art_evaluationOfMGevaluationSystem} Zaobserwowali, iż istnieje potrzeba na ulepszenie metod ewaluacji poprzez zautomatyzowanie tego procesu. Zaprojektowali w tym celu system \textit{Playability Heuristic Evaluation System} (PHES). Według autorów, podejście do ewaluacj gier powinno być zbliżone do tego stosowanego każdej innej aplikacji. Różnicą na którą zwrócili uwagę jest obecny w tym temacie aspekt grywalności, który wymusza analizowani również takich czynników, jak przyjemność z rozgrywki. System PHES okazał się akceptowalny. Zmniejszył on czas potrzebny na ewaluację heurystyk w wybranych grach. Zauważyć należy jednak, iż ich rozwiązanie nie pozwalało na całkowity brak grupy ekspertów, którzy oceniali dane produkcje, a ledwie zautomatyzowało niektóre z ich akcji. Również czas który został zaoszczędzony nie spełnił postawionych oczekiwań, gdyż zaobserwowano zysk rzędu 20 procent.
 
-Artykuł 1: \cite{art_UsabilityEvaluationSystematicReview}\\
-Artykuł 2: \cite{art_evaluationOfMGevaluationSystem}\\
-Artykuł 3: \cite{art_playabilityHeuristics}\\
-Artykuł 4: \cite{art_evaluationOfMG}
+\section{Podsumowanie}
+W pracy tej wykorzystane zostaną heurystyki PLAY. Odnoszą się one do projektowania gier jako ogółu i nie wdrażają się w szczegóły związane z aplikacjami mobilnymi, ale opracowany zostanie tylko ich wybrany fragment, który zastosować można również w produkcjach na smartfony. Decyzja ta powodowana jest faktem, iż heurystyki te są uniwersalne i przez wielu ekspertów uważane jako całkowita podstawa w dziedzinie oceny grywalności. W procesie analizy przygotowywanych interfejsów brane pod uwagę będą również niektóre z czynników definiujących użyteczność w grach mobilnych. Analizowane będą bezmyślność, wydajność, błędy oraz w pewnym ograniczonym sensie - zapamiętywanie. Ocena pozostałych parametrów wiązałaby się z koniecznością wymagania od użytkowników wypełniania specjalnie do tego przygotowanych ankiet, które znacząco wpłynęłyby na długość pojedynczego testu, a co za tym idzie skutkować by mogły mniejszą ilością przebadanych osób.
 
-
+%CHAPTER_______________________________________________________________________________________METODA_____
 \chapter{Badanie przyswajania mechanik gry}
 Sprawdzenie poziomu, w jakim użytkownik zrozumiał mechaniki w grze w którą gra, nie należy do prostych zadań. Na początku wymagane jest odpowiednie sprecyzowanie założeń jakie muszą być spełnione do przeprowadzenia badań. Równie ważnym aspektem jest przygotowanie aplikacji, która jest w stanie zapewnić sprawdzenie podstawowych danych z przebiegu rozgrywki. Następnie należy zaprojektować odpowiednie badanie, które pozwoli na zebranie wyników, które pozwolą na określenie parametrów przebiegów gry.
 \section{Założenia}
@@ -301,12 +316,15 @@ Zliczane również jest każde dotknięcie ekranu, jakie wykonał użytkownik po
 c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
+
+%CHAPTER________________________________________________________________________________________WYNIKI______
 \chapter{Wyniki}
 Tu przedstawiam wyniki badań\\
 
 ILU UŻYTKOWNIKÓW ZOSTAŁO ZBADANYCH, W JAKIM PRZEDZIALE\\
 JAKA SPECYFIKACJA TELEFONU \\
 JAKI TYPOWY CZAS BADANIA \\
+
 
 DANE:\\
 wykres błędów w zależności od poziomu\\
@@ -321,6 +339,8 @@ Tekst
 Tekst
 \section{Interfejs CLICK 2D}
 Tekst
+
+%CHAPTER___________________________________________________________________________________________________
 \chapter{Podsumowanie i wnioski}
 
 Popełnione błędy: 

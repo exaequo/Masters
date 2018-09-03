@@ -4,6 +4,14 @@
 ``Game usability heuristics (play) for evaluating and designing better games:
   The next iteration,'' pp.~557--566, 2009.
 
+\bibitem{art_PLAY1}
+H.~Desurvire, H.~, C.~, M.~, T.~, and J.~A, ``Using heuristics to evaluate the
+  playability of games,'' 01 2004.
+
+\bibitem{art_PLAY2}
+H.~Desurvire, K.~Jegers, and C.~Wiberg, ``Evaluating fun and entertainment:
+  Developing a conceptual framework design of evaluation methods,'' 2007.
+
 \bibitem{online_GameMechanics}
 M.~Sicart, ``Defining game mechanics.''
   \url{http://gamestudies.org/0802/articles/sicart}, 2008.
@@ -30,6 +38,10 @@ H.~Korhonen and E.~M.~I.~Koivisto, ``Playability heuristics for mobile games,''
 A.~Ponnada and A.~Kannan, ``Evaluation of mobile games using playability
   heuristics,'' pp.~244--247, 08 2012.
 
+\bibitem{art_evaluatingPlayabilityMG}
+H.~Korhonen, ``Evaluating playability of mobile games with the expert review
+  method,'' 2014.
+
 \bibitem{art_Nielsen}
 J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in {\em
   Proceedings of the SIGCHI Conference on Human Factors in Computing Systems},
@@ -52,5 +64,9 @@ H.~Korhonen, ``Comparison of playtesting and expert review methods in mobile
   game evaluation,'' in {\em Proceedings of the 3rd International Conference on
   Fun and Games}, Fun and Games '10, (New York, NY, USA), pp.~18--27, ACM,
   2010.
+
+\bibitem{art_WithHeuristic}
+M.~Käki, ``Enhancing web search result access with automatic categorization,''
+  12 2005.
 
 \end{thebibliography}
