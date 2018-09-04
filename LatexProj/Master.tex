@@ -13,6 +13,12 @@
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{etoolbox}
 \usepackage{enumitem}
+ 
+\usepackage{multirow}
+\usepackage{bigstrut}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage{colortbl}
 
 \usepackage{titlesec, blindtext, color}
 
@@ -44,6 +50,8 @@
 	%\setcitestyle{square}	
 %CHAPTER_______________________________________________________________________________________WSTĘP_______	
 \chapter{Wstęp}
+Rynek gier mobilnych - wartość 35.3 miliardów dolarów amerykańskich (2017) \cite{art_Market2017}. Jest to największa część całego rynku - 32 procent, podczas gdy gry na komputery stacjonarne to zaledwie 23 procent. 
+
 Projektowanie interfejsów jest tematyką bardzo złożoną i nadzwyczaj kluczową w procesie tworzenia aplikacji, w tym, między innymi, gier komputerowych. Złe zaprojektowanie tej części w prosty sposób może przyczynić się do całkowitego braku zrozumienia całego przesłania gry przez użytkowników. Istnieje wiele metodologii mających na celu analizę jakości stworzonego projektu - od metod całkowicie subiektywnych po takie, które stawiają za zadanie sprowadzenie jak największej części elementów do postaci parametrycznej. 
 
 - Trudne zadanie związane z tym, że poszukiwany jest pewien zbiór reguł, który ułatwiłby proces projektowania. 
@@ -319,38 +327,190 @@ gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jedne
 
 %CHAPTER________________________________________________________________________________________WYNIKI______
 \chapter{Wyniki}
-Tu przedstawiam wyniki badań\\
+W rozdziale tym przedstawione zostaną warunki oraz wyniki przeprowadzonych badań posegregowane względem wersji gry, dla której zostały zmierzone. Oprócz tego wyróżnione będą statystyki mające na celu porównanie zebranych danych.
 
-ILU UŻYTKOWNIKÓW ZOSTAŁO ZBADANYCH, W JAKIM PRZEDZIALE\\
-JAKA SPECYFIKACJA TELEFONU \\
-JAKI TYPOWY CZAS BADANIA \\
+\section{Warunki}
+Testy przeprowadzane były w różnych środowiskach, zarówno takich pozwalających na skupienie (cichy, dobrze oświetlony pokój), jak i wyjątkowo niesprzyjających pod względem światła i hałasu otoczenia (podczas jazdy względnie zatłoczonym tramwajem w południe). Średni czas pojedynczego badania wynosił 15 minut. Niektórzy uczestnicy zniechęcali się przy pierwszym wyzwaniu im postawionym, podczas gdy zdarzały się przypadki, iż osobie bardzo zależało na pełnym ukończeniu wszystkich wyzwań poświęcając na to nawet półtorej godziny nieprzerwanego grania. Wyróżnić można dwa duże wydarzenia, na których ochotnicy mogli podejść i zagrać w arbitralnie wybraną dla nich wersję gry. Zaliczają się do nich:
+\begin{enumerate}
+\item Digital Dragons 2018 (27-28.05.2018) - gra brała udział w konkursie Indie Showcase. Udział w badaniu był wynikiem sesji poznawania gry w której brali udział zarówno członkowie jury, jak i osoby postronne.
+\item Konkurs Zespołowego Tworzenia Gier Komputerowych (ZTGK) 2018 - również i tutaj gra była prezentowana jaka pozycja w konkursie, udział w badaniu brali tu głównie członkowie jury z branż ściśle powiązanych z tworzeniem gier komputerowych.
+\end{enumerate}
+Badaniu poddanych zostało 51 osób w różnym wieku (13 - 53, średni wiek: 26 lat), z czego wyróżnić można 16 kobiet. W badanej grupie znajdowali się zarówno studenci jak i osoby będące zatrudnione w branży gier komputerowych. Ze względu na dużą swobodę, która udzielona była uczestnikom testującym aplikacje znaczna część graczy nie wykonała pełnego przebiegu badania, czyli podwójnego przejścia pierwszych pięciu poziomów. Z tego też powodu część wyników została wykluczona z ostatecznej analizy. Finalnie wykorzystane zostały wyniki z 36 testów (30 mężczyzn oraz 6 kobiet).
+
+Do wszystkich testów wykorzystany został telefon Samsung Note 3 N9005, którego specyfikacja zamieszczona została w tabeli \ref{tab:tab_telSpec}.
+
+\begin{table}[H]
+  \centering
+  \caption{Specyfikacja telefonu Samsung Note 3 N9005 \cite{online_Note3Spec}.}
+  \label{tab:tab_telSpec}
+  \begin{tabular}{|r|l|}
+    \hline
+    Chipset & Qualcomm Snapdragon 800 \\
+    \hline
+    CPU & 2.3 GHz Krait 400\\
+    \hline
+    GPU & Adreno 330 @450 MHz\\
+    \hline
+    RAM & 3 GB\\
+    \hline
+    Ekran & Super AMOLED (1080 x 1920) - 5.70''\\
+    \hline
+    Platforma & Android 5.0 Lollipop\\
+    \hline
+  \end{tabular}
+\end{table}
 
 
-DANE:\\
-wykres błędów w zależności od poziomu\\
+\section{Interfejs SWIPE 3D}%++++++++++++++++++++++++++++++++++++++++++++
+Dla tej wersji gry przeprowadzonych zostało 5 testów. Ich wyniki przedstawione zostały w tabeli \ref{tab:results_SWIPE3d}, analiza tych danych w tabeli \ref{tab:analysis_SWIPE3d}.
 
 
+%%% DUŻA TABELA START----------------------------------
+\begin{sidewaystable}[htbp]
+  %\centering
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs SWIPE 3D}
+  \resizebox{\textwidth}{!}{%
+	\input{tables/swipe_mesh.tex}
+  \end{tabular}%
+  }
+  \label{tab:results_SWIPE3d}%
+%%%____________
+  %\centering
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs SWIPE 3D}
+  \resizebox{\textwidth}{!}{%
+	\input{tables/RESULTS_swipe_mesh.tex}
+  \end{tabular}%
+  }
+  \label{tab:analysis_SWIPE3d}%
+\end{sidewaystable}%
+%%% DUŻA TABELA END----------------------------------
 
-\section{Interfejs SWIPE 3D}
+
+\section{Interfejs SWIPE 2D}%++++++++++++++++++++++++++++++++++++++++++++
 Tekst
-\section{Interfejs SWIPE 2D}
+%%% DUŻA TABELA START----------------------------------
+\begin{sidewaystable}[htbp]
+  %\centering
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs SWIPE 2D}
+  \resizebox{0.9\textwidth}{!}{%
+	\input{tables/swipe_2d.tex}
+  }
+  \label{tab:results_SWIPE2d}%
+  
+  %%%___________
+  
+  %\centering
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs SWIPE 2D}
+  \resizebox{0.9\textwidth}{!}{%
+	\input{tables/RESULTS_swipe_2d.tex}
+  }
+  \label{tab:analysis_SWIPE2d}%
+\end{sidewaystable}%
+%%% DUŻA TABELA END----------------------------------
+
+\section{Interfejs CLICK 3D}%++++++++++++++++++++++++++++++++++++++++++++
 Tekst
-\section{Interfejs CLICK 3D}
+
+%%% DUŻA TABELA START----------------------------------
+\begin{sidewaystable}[htbp]
+  %\centering
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs CLICK 3D}
+  \resizebox{0.9\textwidth}{!}{%
+	\input{tables/click_mesh.tex}
+  }
+  \label{tab:results_CLICK3d}%
+%%%____________
+  %\centering
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs CLICK 3D}
+  \resizebox{0.9\textwidth}{!}{%
+	\input{tables/RESULTS_click_mesh.tex}
+  }
+  \label{tab:analysis_CLICK3d}%
+\end{sidewaystable}%
+%%% DUŻA TABELA END----------------------------------
+
+\section{Interfejs CLICK 2D}%++++++++++++++++++++++++++++++++++++++++++++
 Tekst
-\section{Interfejs CLICK 2D}
-Tekst
+
+%%% DUŻA TABELA START----------------------------------
+\begin{sidewaystable}[htbp]
+  %\centering
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs CLICK 2D}
+  \resizebox{\textwidth}{!}{%
+	\input{tables/click_2d.tex}
+  }
+  \label{tab:results_CLICK2d}%
+%%%____________
+  %\centering
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs CLICK 2D}
+  \resizebox{\textwidth}{!}{%
+	\input{tables/RESULTS_click_2d.tex}
+  }
+  \label{tab:analysis_CLICK2d}%
+\end{sidewaystable}%
+%%% DUŻA TABELA END----------------------------------
+
+\section{Porównanie wyników}
+
+\subsection{Popełniane błędy}
+Na rysunku \ref{fig:diag_errors_1} przedstawiony został wykres porównujący ilość popełnianych błędów przy pierwszym przejściu gry z rozróżnieniem na poziom, na którym błędy te zostały zarejestrowane. Rysunek \ref{fig:diag_errors_2} przedstawia analogiczne dane dla drugiego podejścia, które wykonywali gracze.
+
+Największa ilość błędów 
+
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=\linewidth]{diag/errors_1.png}
+	\caption{Wykres przedstawiający średnią ilość błędów popełnianych przy pierwszym przejściu gry w zależności od poziomu. Oś odciętych oznacza kolejne poziomy gry, podczas gdy oś rzędnych określa średnią ilość błędów w dane wersji gry.}
+	\label{fig:diag_errors_1}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=\linewidth]{diag/errors_2.png}
+	\caption{Wykres przedstawiający średnią ilość błędów popełnianych przy drugim przejściu gry w zależności od poziomu. Oś odciętych oznacza kolejne poziomy gry, podczas gdy oś rzędnych określa średnią ilość błędów w dane wersji gry.}
+	\label{fig:diag_errors_2}
+\end{figure}
+
+Na rysunku \ref{fig:diag_errors_sum} zobaczyć można wynik zsumowania średniej wszystkich popełnionych błędów dla odpowiednich wersji gry w zależności od numeru podejścia do rozgrywki.
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=7cm]{diag/errors_sum.png}
+	\caption{Wykres przedstawiający sumaryczne średnie ilości błędów popełnianych przez graczy w zależności od tego, które jest to ich podejście do przechodzenia zadanych poziomów. Oś odciętych oznacza numery kolejnych prób, podczas gdy oś rzędnych określa sumaryczną średnią ilość błędów w dane wersji gry.}
+	\label{fig:diag_errors_sum}
+\end{figure}
+
+\subsection{Czasy przejść poziomów}
+zakres absolutnego + zakres ball time -> jak bardzo rozproszone wyniki są dla graczy - największe rozproszenie czasu kulki dla poziomu piątego pokazuje, że wersje swipujące wspierały szybsze znalezienie rozwiązania dla pierwszego poziomu, który wymagał zastanowienia się od strony gracza
+
+
 
 %CHAPTER___________________________________________________________________________________________________
 \chapter{Podsumowanie i wnioski}
 
+Które hipotezy zostały spełnione i w z jakiego powodu.
+
+
+\section{Wnioski}
 Popełnione błędy: 
 - przez długi czas mierzone były złe dane
+- danie zbyt dużej swobody badanym osobom
+
+Co zrobione było dobrze:
+- bardzo  wyraźne różnice w danych zebranych przez poszczególne wersje
 
 Co możnaby lepiej:
-- experts review
-- eyetracking
-Wnioski:
 - Poziom 3 zabiera kontrolę i to się graczom nie podobało. Układ poziomu wpływa na to, że gracze szukają tam "podstępu".
+- wybrano zbyt wąski zakres heurystyk
+- sprawdzić dla gier innego typu
+- przystosować interfejs tak, by żadna z wersji nie cechowała się większą ilością możliwych interakcji
+- w jednym środowisku kontrolowanym
+- experts review, który rzadko przecież wykorzystywany jest w branży gamedevowej
+- eyetracking do sprawdzania
+- 
+
+
 
 \pagenumbering{gobble}
 \bibliography{biblio} 
@@ -367,5 +527,23 @@ Wnioski:
   \item Plik z wynikami przeprowadzonej analizy
 \end{enumerate}
 
-%TODO: Bibliografia
 \end{document}
+
+
+%\begin{sidewaystable}[htbp]
+%  %\centering
+%  \caption{Add caption}
+%  \resizebox{0.5\textwidth}{!}{%
+%	\input{tables/RESULTS_swipe_mesh.tex}
+%  \end{tabular}%
+%  }
+%  \label{tab:addlabel}%
+%
+%\smallskip
+%  \caption{Add caption}
+%  \resizebox{0.5\textwidth}{!}{%
+%	\input{tables/RESULTS_swipe_mesh.tex}
+%  \end{tabular}%
+%  }
+%  \label{tab:addlabel2}%
+%\end{sidewaystable}%

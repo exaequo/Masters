@@ -32,11 +32,16 @@
 \contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{22}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{22}{subsection.5.5.5}
 \contentsline {chapter}{\numberline {6}Wyniki}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Interfejs SWIPE 3D}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Interfejs SWIPE 2D}{23}{section.6.2}
-\contentsline {section}{\numberline {6.3}Interfejs CLICK 3D}{23}{section.6.3}
-\contentsline {section}{\numberline {6.4}Interfejs CLICK 2D}{23}{section.6.4}
+\contentsline {section}{\numberline {6.1}Warunki}{23}{section.6.1}
+\contentsline {section}{\numberline {6.2}Interfejs SWIPE 3D}{24}{section.6.2}
+\contentsline {section}{\numberline {6.3}Interfejs SWIPE 2D}{24}{section.6.3}
+\contentsline {section}{\numberline {6.4}Interfejs CLICK 3D}{24}{section.6.4}
+\contentsline {section}{\numberline {6.5}Interfejs CLICK 2D}{24}{section.6.5}
+\contentsline {section}{\numberline {6.6}Por\IeC {\'o}wnanie wynik\IeC {\'o}w}{24}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{24}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{24}{subsection.6.6.2}
 \contentsline {chapter}{\numberline {7}Podsumowanie i wnioski}{}{chapter.7}
+\contentsline {section}{\numberline {7.1}Wnioski}{}{section.7.1}
 \contentsline {chapter}{\numberline {8}Bibliografia}{}{chapter.8}
 \contentsline {chapter}{\numberline {9}Spis rysunk\'ow}{}{chapter.9}
 \contentsline {chapter}{\numberline {10}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{}{chapter.10}

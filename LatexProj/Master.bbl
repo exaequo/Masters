@@ -22,6 +22,11 @@ D.~Norman and J.~Nielsen, ``The definition of user experience (ux).''
   \url{https://www.nngroup.com/articles/definition-user-experience/}.
 \newblock [data dostępu: 30.08.2018].
 
+\bibitem{online_Note3Spec}
+``Samsung galaxy note 3 lte specyfikacja techniczna.''
+  \url{http://www.mgsm.pl/pl/katalog/samsung/galaxynote3lte/}.
+\newblock [data dostępu: 4.09.2018].
+
 \bibitem{art_UsabilityEvaluationSystematicReview}
 A.~Hussain and R.~G. Mohammed, ``Usability evaluation of mobile game
   applications : A systematic review,'' 2015.
@@ -37,6 +42,9 @@ H.~Korhonen and E.~M.~I.~Koivisto, ``Playability heuristics for mobile games,''
 \bibitem{art_evaluationOfMG}
 A.~Ponnada and A.~Kannan, ``Evaluation of mobile games using playability
   heuristics,'' pp.~244--247, 08 2012.
+
+\bibitem{art_Market2017}
+``State of the polish video game industry '17,'' 2017.
 
 \bibitem{art_evaluatingPlayabilityMG}
 H.~Korhonen, ``Evaluating playability of mobile games with the expert review
