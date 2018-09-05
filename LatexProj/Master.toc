@@ -31,17 +31,23 @@
 \contentsline {subsection}{\numberline {5.5.3}Czas my\IeC {\'s}lenia}{22}{subsection.5.5.3}
 \contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{22}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{22}{subsection.5.5.5}
-\contentsline {chapter}{\numberline {6}Wyniki}{23}{chapter.6}
-\contentsline {section}{\numberline {6.1}Warunki}{23}{section.6.1}
-\contentsline {section}{\numberline {6.2}Interfejs SWIPE 3D}{24}{section.6.2}
-\contentsline {section}{\numberline {6.3}Interfejs SWIPE 2D}{24}{section.6.3}
-\contentsline {section}{\numberline {6.4}Interfejs CLICK 3D}{24}{section.6.4}
-\contentsline {section}{\numberline {6.5}Interfejs CLICK 2D}{24}{section.6.5}
-\contentsline {section}{\numberline {6.6}Por\IeC {\'o}wnanie wynik\IeC {\'o}w}{24}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{24}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{24}{subsection.6.6.2}
-\contentsline {chapter}{\numberline {7}Podsumowanie i wnioski}{}{chapter.7}
-\contentsline {section}{\numberline {7.1}Wnioski}{}{section.7.1}
-\contentsline {chapter}{\numberline {8}Bibliografia}{}{chapter.8}
-\contentsline {chapter}{\numberline {9}Spis rysunk\'ow}{}{chapter.9}
-\contentsline {chapter}{\numberline {10}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{}{chapter.10}
+\contentsline {section}{\numberline {5.6}Podw\IeC {\'o}jna analiza}{23}{section.5.6}
+\contentsline {chapter}{\numberline {6}Wyniki}{24}{chapter.6}
+\contentsline {section}{\numberline {6.1}Warunki}{24}{section.6.1}
+\contentsline {section}{\numberline {6.2}Interfejs SWIPE 3D}{25}{section.6.2}
+\contentsline {section}{\numberline {6.3}Interfejs SWIPE 2D}{25}{section.6.3}
+\contentsline {section}{\numberline {6.4}Interfejs CLICK 3D}{25}{section.6.4}
+\contentsline {section}{\numberline {6.5}Interfejs CLICK 2D}{25}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{25}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{25}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{31}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{31}{subsection.6.6.3}
+\contentsline {chapter}{\numberline {7}Wnioski}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hipoteza 1}{33}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hipoteza 2}{33}{section.7.2}
+\contentsline {section}{\numberline {7.3}Hipoteza 3}{34}{section.7.3}
+\contentsline {section}{\numberline {7.4}}{34}{section.7.4}
+\contentsline {chapter}{\numberline {8}Podsumowanie}{}{chapter.8}
+\contentsline {chapter}{\numberline {9}Bibliografia}{}{chapter.9}
+\contentsline {chapter}{\numberline {10}Spis rysunk\'ow}{}{chapter.10}
+\contentsline {chapter}{\numberline {11}Zawarto\IeC {\'s}\IeC {\'c} p\IeC {\l }yty}{}{chapter.11}

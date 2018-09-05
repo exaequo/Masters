@@ -74,6 +74,8 @@ Bazując na tych założeniach, praca ta ma na celu sprawdzenie następujących 
 \item Użytkownicy grający w grę spełniającą mniej heurystyk użyteczności osiągają gorsze wyniki od tych, którzy grają w wersję spełniającą ich więcej.
 \end{enumerate}
 
+Co rozumiemy przez "zrozumienie mechanik"
+
 W celu ich przetestowania przeprowadzone zostało doświadczenie, w którym za pomocą testów rozgrywki (ang. \textit{playtesting}) badane były cztery wersje tej samej gry mobilnej w różnym stopniu spełniające wybrane heurystyki odnoszące się do użyteczności gier. Dane z każdego testu były zapisywane automatycznie przez aplikację do pliku a następnie zostały one przeniesione do arkusza kalkulacyjnego, gdzie wykonano ich analizę. Wyniki opracowano i przedstawiono w postaci czytelnych dla osób postronnych wykresów.
 
 
@@ -321,9 +323,20 @@ Częsta sytuacja, gdy $r_{rot} > r_{rotMin}$  może zatem być wyznacznikiem teg
 	\subsection{Ilość dotknięć ekranu}
 Zliczane również jest każde dotknięcie ekranu, jakie wykonał użytkownik podczas rozgrywki (oznaczane jako $c_{scr}$). Po ich stosunku względem ilości obrotów pierścieni wywnioskować można, jak dobrze użytkownik rozumiał, jakie operacje musi wykonać, by przejść poziom. Gdy $\frac{c_{scr}}{r_{rot}} >> 1$ oznacza to, że mechaniki obrotu pierścieni i startowania kulki nie są dla użytkownika intuicyjne, popełnia przy nich błędy. Innym wytłumaczeniem może być również niezrozumienie szaty graficznej aplikacji, a co za tym idzie zgadywanie, z którymi elementami gry można wchodzić w interakcję. Liczbę wszystkich błędów dotknięć, jakie użytkownik popełnił w trakcie przechodzenia danego poziomu obliczyć można z następującego wzoru:
 \begin{equation}
+\label{eq_errors}
 c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
+
+\section{Podwójna analiza}
+
+Tutaj opisać dlaczego tak i co to może dać
+\begin{equation}
+\label{eq_relative}
+x_{ir} = x_{i2} - x_{i1},
+\end{equation}
+gdzie $x_{i1}$, $x_{i2}$ oznaczają odpowiednio wartość danego wyniku dla pierwszego i drugiego przejścia.
+
 
 %CHAPTER________________________________________________________________________________________WYNIKI______
 \chapter{Wyniki}
@@ -362,11 +375,13 @@ Do wszystkich testów wykorzystany został telefon Samsung Note 3 N9005, któreg
 
 
 \section{Interfejs SWIPE 3D}%++++++++++++++++++++++++++++++++++++++++++++
-Dla tej wersji gry przeprowadzonych zostało 5 testów. Ich wyniki przedstawione zostały w tabeli \ref{tab:results_SWIPE3d}, analiza tych danych w tabeli \ref{tab:analysis_SWIPE3d}.
-
+W badaniu tej wersji wzięło udział pięcioro uczestników. Zebrane wyniki przedstawione zostały w tabeli \ref{tab:results_SWIPE3d}, zaś ich podstawowa analiza w tabeli \ref{tab:analysis_SWIPE3d}. Zaob
+Dla wszystkich poziomów zaobserwować można, iż użytkownicy przy drugim przejściu potrzebowali mniej czasu na zastnawianie się, jak również zmniejszeniu uległa ilość operacji, które wykonywali, by wykonać przedstawione im zadania. 
+Interesującym okazać się może fakt, iż poziom 3. przy pierwszym podejściu zmuszał uczestników do najdłuższego zastanawiania się. Przy drugim podejściu wyraźna różnica w zastanawianiu się między poziomami została zatracona.
 
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
+
   %\centering
   \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs SWIPE 3D}
   \resizebox{\textwidth}{!}{%
@@ -450,12 +465,14 @@ Tekst
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
-\section{Porównanie wyników}
+\section{Analiza wyników}
 
 \subsection{Popełniane błędy}
-Na rysunku \ref{fig:diag_errors_1} przedstawiony został wykres porównujący ilość popełnianych błędów przy pierwszym przejściu gry z rozróżnieniem na poziom, na którym błędy te zostały zarejestrowane. Rysunek \ref{fig:diag_errors_2} przedstawia analogiczne dane dla drugiego podejścia, które wykonywali gracze.
 
-Największa ilość błędów 
+Wykres średniej ilości rotacji w stosunku do wartości referencyjnej
+Wykres średnie ilości dotknięć w stosunku do wartości referencyjnej
+
+Na rysunku \ref{fig:diag_errors_1} przedstawiony został wykres porównujący ilość popełnianych błędów przy pierwszym przejściu gry z rozróżnieniem na poziom, na którym błędy te zostały zarejestrowane. Dane przedstawione na nim zostały wyznaczone korzystając ze wzoru \ref{eq_errors}. Rysunek \ref{fig:diag_errors_2} przedstawia analogiczne dane dla drugiego podejścia, które wykonywali gracze.
 
 
 \begin{figure}[h!]
@@ -474,6 +491,64 @@ Największa ilość błędów
 
 Na rysunku \ref{fig:diag_errors_sum} zobaczyć można wynik zsumowania średniej wszystkich popełnionych błędów dla odpowiednich wersji gry w zależności od numeru podejścia do rozgrywki.
 
+
+\subsection{Czasy przejść poziomów}
+
+Wykres średnich czasów t AQbs oraz tBall
+
+wykres tThink do tAbs x 2 podejścia
+
+
+zakres absolutnego + zakres ball time -> jak bardzo rozproszone wyniki są dla graczy - największe rozproszenie czasu kulki dla poziomu piątego pokazuje, że wersje swipujące wspierały szybsze znalezienie rozwiązania dla pierwszego poziomu, który wymagał zastanowienia się od strony gracza
+
+\subsection{Różnice pomiędzy podejściami}
+Ważnym aspektem przeprowadzonych na potrzebę tej pracy badań jest porównanie sposobu, w jaki grali użytkownicy za pierwszym i drugim razem, gdy przechodzili te same poziomy. Wykorzystane zostały w tym celu dane obliczane ze wzoru \ref{eq_relative}.
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_absTime.png}
+	\caption{Wykres przedstawiający średnie względne czasy przejść poziomów. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_AbsTime}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_thinkTime.png}
+	\caption{Wykres przedstawiający średnie względne czasy myślenia na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_ThinkTime}
+\end{figure}
+
+Coraz mniejsze różnice - gracze osiągają większe wtajemniczenie już przy pierwszym przechodzeniu, w dalszym czasie spodziewać się można, że wartości te w dalszych poziomach będą bardzo zbliżone do 0.
+
+Największy spadek (między 4 a 5 poziomem) osiągnał click 3D - 
+Swipe 2d osiągnął w piątym poziomie wartość ujemną - oznacza to, że użytkownicy więcej czasu poświęcili za drugim razem na zastanawianie się nad sposobem informacja ta sfałszowana jest jednak poprzez jeden wynik, w którym użytkownik zdezorientował się w trakcie rozgryki
+
+Poziom 1 i 3 są poziomem, na którym za pierwszym razem użytkownicy zastanawiają się względnie najdłużej. Dla poziomu pierwszego jest to jak najbardziej spodziewane (dlaczego?) podczas gdy dla poziomu 3. jest to ważna informacja dla projektantów, gdyż oznacza, że użytkownicy mają problem ze zrozumieniem przedstawionego im trywialnego (w ramach gry \textit{Sphaze}) zadania na równi z tym, gdy po raz pierwszy patrzą na przedstawioną im aplikację. \\
+
+Należy pamiętać, że ilość interakcji wymaganych dla interfejsów typu Click i Swipe jest różna, dlatego żeby dobrze móc przeanalizować te dane należy najpierw sprowadzić je do porównywalnego stanu. Z tego też powodu zostały one podzielone przez referencyjne minimalne ilości wymaganych interakcji, które przedstawione zostały w tabeli .... 
+TABELA
+W tak przekształconych danych zmniejszone zostało przekłamanie związane głównie z poziomem drugim oraz piątym, w których to w interfejsach Click trzeba wykonać więcej operacji obrotu by osiągnąć taki sam obrót końcowy pierścieni co w wersjach gry Swipe. Wynika to z faktu, iż mechanika klikania pozwala tylko na obrót o 90 stopni podczas gdy przeciąganie palcem do zadanego obrotu nie posiada tego ograniczenia. Na rysunkach REF i REF przedstawione zostały zestawione ze sobą wykresy zawierające dane znormalizowane jak i te, które temu procesowi nie zostały poddane.
+
+
+
+
+
+
+
+
+%CHAPTER___________________________________________________________________________________________________
+\chapter{Wnioski}
+
+\section{Hipoteza 1}
+\textit{Zrozumienie mechanik gry mobilnej przychodzi użytkownikom łatwiej dla gier spełniających więcej heurystyk użyteczności.}\\
+
+\section{Hipoteza 2}
+
+\textit{Użytkownicy popełniają mniej błędów w wypadku gier spełniających więcej heurystyk użyteczności}\\
+
+
+Łatwo można zidentyfikować poprawność tej hipotezy poprzez analizę wykresu przedstawionego na rysunku \ref{fig:diag_errors_sum}. 
+
 \begin{figure}[h!]
 	\centering
   	\includegraphics[width=7cm]{diag/errors_sum.png}
@@ -481,18 +556,17 @@ Na rysunku \ref{fig:diag_errors_sum} zobaczyć można wynik zsumowania średniej
 	\label{fig:diag_errors_sum}
 \end{figure}
 
-\subsection{Czasy przejść poziomów}
-zakres absolutnego + zakres ball time -> jak bardzo rozproszone wyniki są dla graczy - największe rozproszenie czasu kulki dla poziomu piątego pokazuje, że wersje swipujące wspierały szybsze znalezienie rozwiązania dla pierwszego poziomu, który wymagał zastanowienia się od strony gracza
+Zauważyć można, iż najwięcej błędów popełnionych zostało dla wersji gry wykorzystującej interfejs Click 2D. W tym przypadku spełniona została jedynie jedna heurystyka z dwóch, co oznacza, że druga z przedstawionych hipotez nie została spełniona.
 
 
 
-%CHAPTER___________________________________________________________________________________________________
-\chapter{Podsumowanie i wnioski}
+\section{Hipoteza 3}
+\textit{Użytkownicy grający w grę spełniającą mniej heurystyk użyteczności osiągają gorsze wyniki od tych, którzy grają w wersję spełniającą ich więcej.}\\
 
 Które hipotezy zostały spełnione i w z jakiego powodu.
 
 
-\section{Wnioski}
+\section{}
 Popełnione błędy: 
 - przez długi czas mierzone były złe dane
 - danie zbyt dużej swobody badanym osobom
@@ -508,9 +582,10 @@ Co możnaby lepiej:
 - w jednym środowisku kontrolowanym
 - experts review, który rzadko przecież wykorzystywany jest w branży gamedevowej
 - eyetracking do sprawdzania
-- 
+- kolorystyka, obroty pierścieni i siatki ozdobne mogły być przy drugim podejściu inne, tak, żeby zmniejszyć "granie na pamięć"
 
-
+%CHAPTER___________________________________________________________________________________________________
+\chapter{Podsumowanie}
 
 \pagenumbering{gobble}
 \bibliography{biblio} 
