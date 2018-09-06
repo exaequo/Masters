@@ -328,6 +328,19 @@ c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
 
+\section{Wyniki referencyjne}
+Przydatnymi do oceny tego, jak dobrze gracze są w stanie poradzić sobie na określonych poziomach w danej wersji gry są dane referencyjne. Określają one zapewnione przez twórców najlepsze wyniki, jakie można uzyskać dla mierzonych parametrów bez przyśpieszania domyślnych animacji gry. Zauważyć należy, że przy pomiarach tych informacji jedyny istotny podział między wersjami gry to to, czy interfejs wykorzystuje interakcje za pomocą kliknięć czy przesunięć. Wartości te zamieszczone zostały w tabeli \ref{tab:ref_data}.
+
+\begin{table}[H]
+  %\centering
+  
+  \caption{Dane referencyjne gry \textit{Sphaze} dla interfejsów Click oraz Swipe.}
+  \resizebox{\textwidth}{!}{%
+	\input{tables/ref_RESULTS.tex}
+  }
+  \label{tab:ref_data}%
+\end{table}%
+
 \section{Podwójna analiza}
 
 Tutaj opisać dlaczego tak i co to może dać
@@ -494,10 +507,19 @@ Na rysunku \ref{fig:diag_errors_sum} zobaczyć można wynik zsumowania średniej
 
 \subsection{Czasy przejść poziomów}
 
-Wykres średnich czasów t AQbs oraz tBall
+Wykres średnich czasów t AQbs oraz tBall\\
 
-wykres tThink do tAbs x 2 podejścia
+Interesującym okazać się może sprawdzanie stosunku $n_{t} = \frac{t_{think}}{t_{abs}}$. Oznacza on jak duży procent całego czasu spędzonego na poziomie wykorzystany był przez użytkowników na zastanawianie się nad tym, jak go przejść. Wykres reprezentujący zebrane informacje przedstawiony został na rysunku \ref{fig:diag:ref:tThink_tAbs}.
 
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=\linewidth]{diag/ref_tThink_tAbs.png}
+	\caption{Zestawienie wykresów $n_{t}$ w zależności od poziomu dla pierwszego i drugiego przejścia gry.}
+	\label{fig:diag:ref:tThink_tAbs}
+\end{figure}
+
+Zobaczyć na nim można ciekawą zależność, która występuje we wszystkich typach interfejsów. Krzywe wyznaczone przez dane zarówno w zakresie pierwszego przejścia gry jak i drugiego są podobne dla każdej wersji. Widząc grę po raz pierwszy użytkownicy potrzebują względnie najwięcej czasu na zrozumienie prezentowanych im treści, bo zajmuje im to zwykle około 85\% całego czasu wykorzystanego w trakcie przechodzenia tej planszy. Interesującym okazać się może również fakt, iż ponownemu podejściu do tego samego poziomu towarzyszyły podobne wartości $n_{t}$ (około 75\%). Podyktowane może być to faktem, iż zaimplementowany w nim samouczek bardzo odcina się od dalszej zawartości gry, a co za tym idzie gracze przyzwyczajeni do normalnej rozgrywki po raz kolejny muszą się dostosować do prezentowanej im treści.
+Zaskakującym okazał się fakt, iż przy drugim podejściu do rozgrywki typowy użytkownik więcej czasu spędza na zastanawianiu się jak optymalnie przejść poziomy czwarty oraz piąty. Interpretować można to jako rezultat chęci poprawienia swoich wcześniejszych wyników, które gracze przedstawione jedynie jako liczbę zdobytych gwiazdek przy poprzednim podejściu. Poziomy te są pierwszymi nietrywialnymi dla gracza znającego podstawowe mechaniki gry, co tłumaczyć może skok pomiędzy danymi z trzeciego oraz czwartego poziomu. \\
 
 zakres absolutnego + zakres ball time -> jak bardzo rozproszone wyniki są dla graczy - największe rozproszenie czasu kulki dla poziomu piątego pokazuje, że wersje swipujące wspierały szybsze znalezienie rozwiązania dla pierwszego poziomu, który wymagał zastanowienia się od strony gracza
 
@@ -525,13 +547,39 @@ Swipe 2d osiągnął w piątym poziomie wartość ujemną - oznacza to, że uży
 
 Poziom 1 i 3 są poziomem, na którym za pierwszym razem użytkownicy zastanawiają się względnie najdłużej. Dla poziomu pierwszego jest to jak najbardziej spodziewane (dlaczego?) podczas gdy dla poziomu 3. jest to ważna informacja dla projektantów, gdyż oznacza, że użytkownicy mają problem ze zrozumieniem przedstawionego im trywialnego (w ramach gry \textit{Sphaze}) zadania na równi z tym, gdy po raz pierwszy patrzą na przedstawioną im aplikację. \\
 
-Należy pamiętać, że ilość interakcji wymaganych dla interfejsów typu Click i Swipe jest różna, dlatego żeby dobrze móc przeanalizować te dane należy najpierw sprowadzić je do porównywalnego stanu. Z tego też powodu zostały one podzielone przez referencyjne minimalne ilości wymaganych interakcji, które przedstawione zostały w tabeli .... 
-TABELA
-W tak przekształconych danych zmniejszone zostało przekłamanie związane głównie z poziomem drugim oraz piątym, w których to w interfejsach Click trzeba wykonać więcej operacji obrotu by osiągnąć taki sam obrót końcowy pierścieni co w wersjach gry Swipe. Wynika to z faktu, iż mechanika klikania pozwala tylko na obrót o 90 stopni podczas gdy przeciąganie palcem do zadanego obrotu nie posiada tego ograniczenia. Na rysunkach REF i REF przedstawione zostały zestawione ze sobą wykresy zawierające dane znormalizowane jak i te, które temu procesowi nie zostały poddane.
+Podobną analizę przeprowadzić można dla średnich obrotów pierścieni i kliknięć, które wykonywali użytkownicy. Wykresy średniej względnej uzyskanej ich wartości zobaczyć można odpowiednio na rysunkach \ref{fig:diag:rel:mean_Rotations} i \ref{fig:diag:rel:mean_Clicks}.
 
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_rotations.png}
+	\caption{Wykres przedstawiający średnie względne rotacje wykonane na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_Rotations}
+\end{figure}
 
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_clicks.png}
+	\caption{Wykres przedstawiający średnie względne ilości kliknięć wykonane na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_Clicks}
+\end{figure}
 
+Należy pamiętać, że ilość interakcji wymaganych w celu osiągnięcia tego samego celu dla interfejsów typu Click i Swipe jest różna. Żeby dobrze móc przeanalizować te dane należy najpierw sprowadzić je do porównywalnego stanu. Z tego też powodu zostały one podzielone przez referencyjne minimalne ilości wymaganych interakcji, które przedstawione zostały w tabeli \ref{tab:ref:rotations_clicks}. Dane przekształcone w ten sposób przedstawione zostały analogicznie do wersji nieznormalizowanych (rys. \ref{fig:diag:rel:mean_RotationsNorm} - \ref{fig:diag:rel:mean_ClicksNorm}).
 
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_rotationsNorm.png}
+	\caption{Wykres przedstawiający znormalizowane średnie względne rotacje wykonane na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_RotationsNorm}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_clicksNorm.png}
+	\caption{Wykres przedstawiający znormalizowane średnie względne ilości kliknięć wykonane na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
+	\label{fig:diag:rel:mean_ClicksNorm}
+\end{figure}
+
+W tak przekształconych danych zmniejszone zostało przekłamanie związane z poziomem drugim oraz piątym, w których to wykonać trzeba większą ilość operacji obrotu by osiągnąć taki sam obrót końcowy pierścieni (dla gier korzystających z interfejsu Swipe). Wynika to z faktu, iż mechanika klikania pozwala tylko na obrót o 90 stopni podczas gdy przeciąganie palcem do zadanego obrotu nie zawiera tego ograniczenia. Na rysunkach REF i REF przedstawione zostały zestawione ze sobą wykresy zawierające dane znormalizowane jak i te, które temu procesowi nie zostały poddane.
 
 
 
