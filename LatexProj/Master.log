@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  12 SEP 2018 23:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  13 SEP 2018 16:53
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -881,7 +881,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex (file ./first_page.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<first_page.pdf, id=223, 597.55246pt x 845.07718pt>
+<first_page.pdf, id=219, 597.55246pt x 845.07718pt>
 File: first_page.pdf Graphic file (type pdf)
 <use first_page.pdf>
 Package pdftex.def Info: first_page.pdf  used on input line 44.
@@ -902,7 +902,7 @@ ion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./first_page.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-<first_page.pdf, id=226, page=1, 597.55246pt x 845.07718pt>
+<first_page.pdf, id=222, page=1, 597.55246pt x 845.07718pt>
 File: first_page.pdf Graphic file (type pdf)
 <use first_page.pdf, page 1>
 Package pdftex.def Info: first_page.pdf , page1 used on input line 44.
@@ -976,7 +976,7 @@ Overfull \hbox (21.63507pt too wide) in paragraph at lines 170--170
 |[]\OT4/cmr/bx/n/24.88 Badanie przy-swa-ja-nia me-cha-nik gry| 
  []
 
-<fig/tmp.jpg, id=462, 491.8375pt x 867.24pt>
+<fig/tmp.jpg, id=457, 491.8375pt x 867.24pt>
 File: fig/tmp.jpg Graphic file (type jpg)
 <use fig/tmp.jpg>
 Package pdftex.def Info: fig/tmp.jpg  used on input line 182.
@@ -1003,7 +1003,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
-<fig/tmp2.jpg, id=475, 984.67876pt x 867.24pt>
+<fig/tmp2.jpg, id=470, 984.67876pt x 867.24pt>
 File: fig/tmp2.jpg Graphic file (type jpg)
 <use fig/tmp2.jpg>
 Package pdftex.def Info: fig/tmp2.jpg  used on input line 217.
@@ -1050,7 +1050,7 @@ Package pdftex.def Info: fig/tmp.jpg  used on input line 276.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [19]
-<fig/tmp5.jpg, id=511, 2465.21pt x 867.24pt>
+<fig/tmp5.jpg, id=506, 2465.21pt x 867.24pt>
 File: fig/tmp5.jpg Graphic file (type jpg)
 <use fig/tmp5.jpg>
 Package pdftex.def Info: fig/tmp5.jpg  used on input line 296.
@@ -1071,12 +1071,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 477--483
  []
 
 (tables/RESULTS_click_2d.tex) [26] [27] [28] [29] [30]
-<diag/tAbs_swipe12.png, id=587, 1219.55624pt x 391.4625pt>
+<diag/tAbs_swipe12.png, id=582, 1219.55624pt x 391.4625pt>
 File: diag/tAbs_swipe12.png Graphic file (type png)
 <use diag/tAbs_swipe12.png>
 Package pdftex.def Info: diag/tAbs_swipe12.png  used on input line 499.
 (pdftex.def)             Requested size: 441.01773pt x 141.55954pt.
-<diag/tAbs_click12.png, id=588, 1219.55624pt x 391.4625pt>
+<diag/tAbs_click12.png, id=583, 1219.55624pt x 391.4625pt>
 File: diag/tAbs_click12.png Graphic file (type png)
 <use diag/tAbs_click12.png>
 Package pdftex.def Info: diag/tAbs_click12.png  used on input line 506.
@@ -1087,7 +1087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 511--514
  []
 
 [31 <./diag/tAbs_swipe12.png> <./diag/tAbs_click12.png>]
-<diag/ref_tThink_tAbs.png, id=596, 1232.605pt x 681.54625pt>
+<diag/ref_tThink_tAbs.png, id=591, 1232.605pt x 681.54625pt>
 File: diag/ref_tThink_tAbs.png Graphic file (type png)
 <use diag/ref_tThink_tAbs.png>
 Package pdftex.def Info: diag/ref_tThink_tAbs.png  used on input line 519.
@@ -1098,7 +1098,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 524--526
  []
 
 [32 <./diag/ref_tThink_tAbs.png>]
-<diag/ref_rotations.png, id=605, 1224.575pt x 753.81625pt>
+<diag/ref_rotations.png, id=600, 1224.575pt x 753.81625pt>
 File: diag/ref_rotations.png Graphic file (type png)
 <use diag/ref_rotations.png>
 Package pdftex.def Info: diag/ref_rotations.png  used on input line 535.
@@ -1108,7 +1108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 544--545
 
  []
 
-<diag/ref_clicks.png, id=612, 1224.575pt x 753.81625pt>
+<diag/ref_clicks.png, id=607, 1224.575pt x 753.81625pt>
 File: diag/ref_clicks.png Graphic file (type png)
 <use diag/ref_clicks.png>
 Package pdftex.def Info: diag/ref_clicks.png  used on input line 548.
@@ -1118,7 +1118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--558
 
  []
 
-<diag/errors_1.png, id=620, 1184.425pt x 624.3325pt>
+<diag/errors_1.png, id=615, 1184.425pt x 624.3325pt>
 File: diag/errors_1.png Graphic file (type png)
 <use diag/errors_1.png>
 Package pdftex.def Info: diag/errors_1.png  used on input line 564.
@@ -1126,7 +1126,7 @@ Package pdftex.def Info: diag/errors_1.png  used on input line 564.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diag/errors_2.png, id=621, 1184.425pt x 624.3325pt>
+<diag/errors_2.png, id=616, 1184.425pt x 624.3325pt>
 File: diag/errors_2.png Graphic file (type png)
 <use diag/errors_2.png>
 Package pdftex.def Info: diag/errors_2.png  used on input line 571.
@@ -1134,14 +1134,20 @@ Package pdftex.def Info: diag/errors_2.png  used on input line 571.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Overfull \hbox (6.51999pt too wide) in paragraph at lines 576--577
+[]\OT4/cmr/m/n/12 Dzi¦ki ta-kie-mu przed-sta-wie-niu da-nych za-ob-ser-wo-wa¢ m
+o»-na cie-ka-we za-le»-no-±ci w bª¦-
+ []
+
 [35] [36 <./diag/errors_1.png> <./diag/errors_2.png>]
-<diag/rel_mean_absThinkTime.png, id=637, 1201.48875pt x 392.46625pt>
+<diag/rel_mean_absThinkTime.png, id=632, 1201.48875pt x 392.46625pt>
 File: diag/rel_mean_absThinkTime.png Graphic file (type png)
 <use diag/rel_mean_absThinkTime.png>
 Package pdftex.def Info: diag/rel_mean_absThinkTime.png  used on input line 589
 .
 (pdftex.def)             Requested size: 441.01773pt x 144.06042pt.
-<diag/rel_median_absThinkTime.png, id=639, 1201.48875pt x 392.46625pt>
+<diag/rel_median_absThinkTime.png, id=634, 1201.48875pt x 392.46625pt>
 File: diag/rel_median_absThinkTime.png Graphic file (type png)
 <use diag/rel_median_absThinkTime.png>
 Package pdftex.def Info: diag/rel_median_absThinkTime.png  used on input line 5
@@ -1156,7 +1162,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 605--606
 
  []
 
-<diag/rel_mean_rotations.png, id=648, 602.25pt x 301.125pt>
+<diag/rel_mean_rotations.png, id=643, 602.25pt x 301.125pt>
 File: diag/rel_mean_rotations.png Graphic file (type png)
 <use diag/rel_mean_rotations.png>
 Package pdftex.def Info: diag/rel_mean_rotations.png  used on input line 611.
@@ -1165,7 +1171,7 @@ Package pdftex.def Info: diag/rel_mean_rotations.png  used on input line 611.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [38 <./diag/rel_median_absThinkTime.png>]
-<diag/rel_mean_clicks.png, id=656, 602.25pt x 301.125pt>
+<diag/rel_mean_clicks.png, id=651, 602.25pt x 301.125pt>
 File: diag/rel_mean_clicks.png Graphic file (type png)
 <use diag/rel_mean_clicks.png>
 Package pdftex.def Info: diag/rel_mean_clicks.png  used on input line 622.
@@ -1179,7 +1185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 632--633
 
  []
 
-<diag/rel_mean_rotationsNorm.png, id=664, 1219.55624pt x 303.1325pt>
+<diag/rel_mean_rotationsNorm.png, id=659, 1219.55624pt x 303.1325pt>
 File: diag/rel_mean_rotationsNorm.png Graphic file (type png)
 <use diag/rel_mean_rotationsNorm.png>
 Package pdftex.def Info: diag/rel_mean_rotationsNorm.png  used on input line 64
@@ -1189,7 +1195,7 @@ Package pdftex.def Info: diag/rel_mean_rotationsNorm.png  used on input line 64
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [40 <./diag/rel_mean_clicks.png>]
-<diag/rel_mean_clicksNorm.png, id=671, 1219.55624pt x 303.1325pt>
+<diag/rel_mean_clicksNorm.png, id=666, 1219.55624pt x 303.1325pt>
 File: diag/rel_mean_clicksNorm.png Graphic file (type png)
 <use diag/rel_mean_clicksNorm.png>
 Package pdftex.def Info: diag/rel_mean_clicksNorm.png  used on input line 649.
@@ -1197,37 +1203,66 @@ Package pdftex.def Info: diag/rel_mean_clicksNorm.png  used on input line 649.
  [41 <./diag/rel_mean_rotationsNorm.png> <./diag/rel_mean_clicksNorm.png>]
 Rozdzia\PlPrIeC {\l } 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--663
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--666
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 675--676
+Underfull \hbox (badness 10000) in paragraph at lines 677--678
 
  []
 
-<diag/errors_sum.png, id=680, 434.62375pt x 600.2425pt>
-File: diag/errors_sum.png Graphic file (type png)
-<use diag/errors_sum.png>
-Package pdftex.def Info: diag/errors_sum.png  used on input line 682.
-(pdftex.def)             Requested size: 199.16928pt x 275.07077pt.
 [42
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 693--694
+<diag/errors_sum.png, id=680, 434.62375pt x 600.2425pt>
+File: diag/errors_sum.png Graphic file (type png)
+<use diag/errors_sum.png>
+Package pdftex.def Info: diag/errors_sum.png  used on input line 683.
+(pdftex.def)             Requested size: 199.16928pt x 275.07077pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 694--695
 
  []
 
-[43 <./diag/errors_sum.png>] [44]
+[43 <./diag/errors_sum.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
+
+ []
+
+<diag/tBall_sum.png, id=689, 275.0275pt x 513.92pt>
+File: diag/tBall_sum.png Graphic file (type png)
+<use diag/tBall_sum.png>
+Package pdftex.def Info: diag/tBall_sum.png  used on input line 702.
+(pdftex.def)             Requested size: 199.16928pt x 372.17859pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44] [45 <./diag/tBall_sum.png>]
 Rozdzia\PlPrIeC {\l } 8.
-[45
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 715--721
+
+ []
+
+[46
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 723--726
+
+ []
+
+[47]
 Rozdzia\PlPrIeC {\l } 9.
 (Master.bblpdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
@@ -1248,25 +1283,31 @@ Underfull \hbox (badness 7012) in paragraph at lines 16--19
 n/12 http : / / gamestudies . org / 0802 /
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+[]\OT4/cmr/m/n/12 ``What is eye trac-king?.'' []$\OT4/cmtt/m/n/12 https : / / w
+ww . tobiipro . com / blog /
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.69 
-      [2
+l.71 \bibitem{art_UserExperience}
+                                  [2
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.736 \listoffigures
+l.743 \listoffigures
                      [3]
 Rozdzia\PlPrIeC {\l } 11.
 (Master.lofpdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 ...\'o}w w dane wersji gry.}}{36}{figure.6.7}
+l.21 ...space {}dane wersji gry.}}{36}{figure.6.7}
                                                    [4
 
 ]
@@ -1283,34 +1324,34 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.737 \chapter
+l.744 \chapter
               {ZawartoÅ›Ä‡ pÅ‚yty} [5]
 Rozdzia\PlPrIeC {\l } 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 744.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 751.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.744 \end{document}
+l.751 \end{document}
                      [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 744.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 751.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 744.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 744.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 751.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 751.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 40D0782D897B1CF571CA9FDBCFA2F43B;3646.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 744.
+(rerunfilecheck)             Checksum: 23536BD132F9FBE9B147CA6CB418FCC3;3596.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 751.
  ) 
 Here is how much of TeX's memory you used:
- 9726 strings out of 493308
- 139096 string characters out of 3138793
- 1188967 words of memory out of 3000000
- 12883 multiletter control sequences out of 15000+200000
+ 9735 strings out of 493308
+ 139263 string characters out of 3138793
+ 1190297 words of memory out of 3000000
+ 12888 multiletter control sequences out of 15000+200000
  12222 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,43p,2298b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,18n,43p,2298b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/pltt.enc}{D:/Programy/LaTex/I
 nstalled/fonts/enc/dvips/pl/plrm.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvi
 ps/pl/plmi.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plms.enc}{D:/Pro
@@ -1323,9 +1364,9 @@ my/LaTex/Installed/fonts/type1/public/pl/plmi8.pfb><D:/Programy/LaTex/Installed
 c/pl/plr8.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plsy10.pfb><D:
 /Programy/LaTex/Installed/fonts/type1/public/pl/plti12.pfb><D:/Programy/LaTex/I
 nstalled/fonts/type1/public/pl/pltt12.pfb>
-Output written on Master.pdf (52 pages, 3058533 bytes).
+Output written on Master.pdf (54 pages, 3073384 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 178 named destinations out of 1000 (max. 500000)
- 546 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 892 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Cel, za\IeC {\l }o\IeC {\.z}enia oraz zakres pracy}{4}{chapter.2}
-\contentsline {chapter}{\numberline {3}Grywalno\IeC {\'s}\IeC {\'c} w grach mobilnych}{5}{chapter.3}
+\contentsline {chapter}{\numberline {3}Grywalno\IeC {\'s}\IeC {\'c} w\nobreakspace {}grach mobilnych}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Heurystyka}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Mechanika gry}{5}{section.3.2}
 \contentsline {section}{\numberline {3.3}Do\IeC {\'s}wiadczenie u\IeC {\.z}ytkownika}{5}{section.3.3}
@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {4.2}Heurystyki PLAY}{9}{section.4.2}
 \contentsline {section}{\numberline {4.3}Playability Heuristics for Mobile Games}{10}{section.4.3}
 \contentsline {section}{\numberline {4.4}Evaluation of mobile games using playability heuristics}{10}{section.4.4}
-\contentsline {section}{\numberline {4.5}Usability Evaluation of Mobile Game Applications: A Systematic Review}{11}{section.4.5}
+\contentsline {section}{\numberline {4.5}Usability Evaluation of Mobile Game Applications: a\nobreakspace {}Systematic Review}{11}{section.4.5}
 \contentsline {section}{\numberline {4.6}Evaluation of Mobile Games with Playability Heuristic Evaluation System}{11}{section.4.6}
 \contentsline {section}{\numberline {4.7}Podsumowanie}{11}{section.4.7}
 \contentsline {chapter}{\numberline {5}Badanie przyswajania mechanik gry}{13}{chapter.5}
@@ -43,12 +43,11 @@
 \contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{26}{subsection.6.6.1}
 \contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{33}{subsection.6.6.2}
 \contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{37}{subsection.6.6.3}
-\contentsline {chapter}{\numberline {7}Wnioski}{42}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hipoteza 1}{42}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hipoteza 2}{42}{section.7.2}
-\contentsline {section}{\numberline {7.3}Hipoteza 3}{43}{section.7.3}
-\contentsline {section}{\numberline {7.4}Wynik}{44}{section.7.4}
-\contentsline {chapter}{\numberline {8}Podsumowanie}{45}{chapter.8}
+\contentsline {chapter}{\numberline {7}Podsumowanie}{42}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hipoteza I}{42}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hipoteza II}{43}{section.7.2}
+\contentsline {section}{\numberline {7.3}Hipoteza III}{44}{section.7.3}
+\contentsline {chapter}{\numberline {8}Wnioski}{46}{chapter.8}
 \contentsline {chapter}{\numberline {9}Abstract}{}{chapter.9}
 \contentsline {chapter}{\numberline {10}Bibliografia}{}{chapter.10}
 \contentsline {chapter}{\numberline {11}Spis rysunk\'ow}{}{chapter.11}
