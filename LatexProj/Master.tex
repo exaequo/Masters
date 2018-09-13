@@ -50,23 +50,19 @@
 	%\setcitestyle{square}	
 %CHAPTER_______________________________________________________________________________________WSTĘP_______	
 \chapter{Wstęp}
-%TODO
-Rynek gier mobilnych - wartość 35.3 miliardów dolarów amerykańskich (2017) \cite{art_Market2017}. Jest to największa część całego rynku - 32 procent, podczas gdy gry na komputery stacjonarne to zaledwie 23 procent. 
+Branża gier wideo jest jedną z najprężniej rozwijających się gałęzi gospodarki. Około 2 mld graczy generuje rocznie ponad 100 mld przychodu. Największą tego część w roku 2017 zarejestrowano dla gier mobilnych. Składają się one na 32\% całego rynku, gdzie jeszcze rok wcześniej było to o trzy procent mniej. Do roku 2020 przewidywane jest że gry mobilne stanowić będą połowę wszystkich przychodów przemysłu gier \cite{art_Market2017}. 
 
-Projektowanie interfejsów jest tematyką bardzo złożoną i~nadzwyczaj kluczową w~procesie tworzenia aplikacji, w~tym, między innymi, gier komputerowych. Złe zaprojektowanie tej części w~prosty sposób może przyczynić się do całkowitego braku zrozumienia całego przesłania gry przez użytkowników. Istnieje wiele metodologii mających na celu analizę jakości stworzonego projektu - od metod całkowicie subiektywnych po takie, które stawiają za zadanie sprowadzenie jak największej części elementów do postaci parametrycznej. 
+W tak dynamicznie rozwijającym się środowisku coraz trudniej stworzyć jest produkt, który zauważony zostanie przez konsumentów. Twórcy prześcigają się zatem w tworzeniu coraz to lepszych produktów, które wyróżnić się mogą jakimiś określonymi cechami, które w przypadku gier mogą być powierzchowne jak i bardziej złożone. D tej drugiej kategorii zaliczać może się chociażby to, jakie odczucia wywołuje w użytkowniku korzystanie z danej aplikacji. Istnieje zawsze szansa, że wynikiem długiego procesu tworzenia może się okazać produkt, który nie spełnia oczekiwań użytkowników. Poszukiwany zatem jest pewien zestaw reguł, który już nawet na procesie projektowania gry pozwoliłby na określenie, czy ma ona szansę na osiągnięcie sukcesu. 
 
-- Trudne zadanie związane z tym, że poszukiwany jest pewien zbiór reguł, który ułatwiłby proces projektowania. 
-- Część z przedstawianych rozwiązań wybitnie nie pasuje do dziedziny mobilek
-- Problemy związane z projektowaniem dla mobilek
-- Przygotowane zostały heurystyki, które mają na celu dokładne określenie jakie warunki aplikacja musi spełniać, by mogła zostać dobrze odebrana przez użytkowników
-- coś o tym, że użytkownik w~czasie gry często zostaje postawiony przed przyswojeniem bardzo abstrakcyjnego zadania w~celu zrozumienia, a~co za tym idzie grania w~daną grę
+Powstało wiele publikacji, które mają na celu ścisłe przedstawienie heurystyk, które to powinny spełniać aplikacje. Dotyczą one wiele aspektów tworzenia tego typu produktów, między innymi \textit{użyteczności}. Podzbiorem tej kolekcji są prace naukowe, które usiłują znaleźć takie zasady dla bardziej sprecyzowanego zakresu, jakim są gry mobilne. Pod uwagę w procesie tworzenia trzeba bowiem w nich brać pod uwagę dużo więcej składowych, jak na przykład przyjemność, jaką gracze powinni odczuć w procesie użytkowania aplikacji czy charakterystyczny kontekst użycia. Wielu ekspertów podjęło się prób przedstawienia heurystyk, które często wykorzystywane są w dzisiejszych produkcjach.
 
-W pracy tej opisane zostało badanie mające na celu zweryfikowanie wpływ spełniania tych heurystyk na pozna
+Pojawia się jednak pytanie jak bardzo stosowanie się do tych ściśle określonych reguł wspomóc może projektantów w stworzeniu gry, której mechaniki będą dla graczy zrozumiałe. Nie jest wymagane by zawsze one miały odniesienie w rzeczywistości. Czasem wykonywanie abstrakcyjnych akcji może być zrozumiane przez użytkowników szybciej, niż to czego oczekuje od nich aplikacja, w której zadaniem jest wykonanie czegoś, co robią oni w życiu codziennym. W pracy tej przedstawione zostanie właśnie takie badanie, które na celu miało zweryfikować, czy gry spełniające wybrane heurystyki są czytelniejsze pod względem przedstawiania swoich zasad. 
+
 %CHAPTER__________________________________________________________________________CEL, ZAŁOŻENIA, ZAKRES__
 \chapter{Cel, założenia oraz zakres pracy}
 Celem tej pracy było zbadanie wpływu określonych heurystyk dotyczących projektowania interfejsów na jakość przyswajania nowych mechanik gry mobilnej, która z nich korzysta. Badaniu podane zostały zasady, które odnoszą się do użyteczności tworzonych aplikacji.
 
-Ustalanie heurystyk ma na celu określenie wytycznych, za pomocą których deweloperzy gier są już w~stanie określić, czy przygotowywany przez nich projekt ma szansę spodobać się odbiorcom. Spodziewać się można, że przy porównaniu dwóch aplikacji zajmujących się jednym zagadnieniem, gdzie jedna z nich spełnia większą ilość heurystyk użyteczności z zadanego zakresu to poprawnie wykonane testy wykażą, że jest ona bardziej użyteczna. Cecha ta definiuje między innymi stopień wydajności z jaką użytkownik jest w~stanie zrozumieć prezentowane mu przez aplikację treści. Oznaczać to może, że badając, jakie heurystyki spełnia dana gra, jesteśmy w~stanie oszacować jak zrozumiała mogła by ona być dla jej docelowego użytkownika.\\
+Ustalanie heurystyk ma na celu określenie wytycznych, za pomocą których deweloperzy gier są już w~stanie określić, czy przygotowywany przez nich projekt ma szansę spodobać się odbiorcom. Spodziewać się można, że przy porównaniu dwóch aplikacji zajmujących się jednym zagadnieniem, gdzie jedna z nich spełnia większą ilość heurystyk użyteczności z zadanego zakresu to poprawnie wykonane testy wykażą, że jest ona bardziej użyteczna. Cecha ta definiuje między innymi stopień wydajności z jaką użytkownik jest w~stanie zrozumieć prezentowane mu przez aplikację treści. Oznaczać to może, że badając, jakie heurystyki spełnia dana gra, można oszacować jak zrozumiała mogła by ona być dla jej docelowego użytkownika. Przetestowaniu podlegać ma zrozumienie mechanik gry, czyli to jak sprawnie gracze są w stanie wykorzystywać panujące w niej reguły do wykonywania założonych celów.\\
 Bazując na tych założeniach, praca ta ma na celu sprawdzenie następujących hipotez:
 
 \begin{enumerate}
@@ -74,8 +70,6 @@ Bazując na tych założeniach, praca ta ma na celu sprawdzenie następujących 
 \item Użytkownicy popełniają mniej błędów w~wypadku gier spełniających więcej heurystyk użyteczności
 \item Użytkownicy grający w~grę spełniającą mniej heurystyk użyteczności osiągają gorsze wyniki od tych, którzy grają w~wersję spełniającą ich więcej.
 \end{enumerate}
-
-Co rozumiemy przez "zrozumienie mechanik"
 
 W celu ich przetestowania przeprowadzone zostało doświadczenie, w~którym za pomocą testów rozgrywki (ang. \textit{playtesting}) badane były cztery wersje tej samej gry mobilnej w~różnym stopniu spełniające wybrane heurystyki odnoszące się do użyteczności gier. Dane z każdego testu były zapisywane automatycznie przez aplikację do pliku a~następnie zostały one przeniesione do arkusza kalkulacyjnego, gdzie wykonano ich analizę. Wyniki opracowano i~przedstawiono w~postaci czytelnych dla osób postronnych wykresów.
 
@@ -732,10 +726,17 @@ Podsumowując, w pracy tej udało się znaleźć związek pomiędzy zasadami okr
 
 %CHAPTER___________________________________________________________________________________________________
 \chapter{Abstract}
-jednostronicowy abstrakt całej pracy in engrish
-%TODO
+
+
+More and more usability heuristics are emerging from year to year, aimed at defining a set of rules that must be met in order to create an user-friendly product. They cover wide range of computer programs - from most basic interactive applications to even more specific case of mobile games. However, it is difficult to determine how much of an impact they have on the actual quality of the player's gameplay. For the purpose of this work, it has been checked whether the use of PLAY usability heuristics has a positive effect on understanding the previously unknown mechanics of a mobile game.
+
+A study was carried out for this purpose, in which an unique puzzle game was prepared in four versions that met a different set of selected design principles. Subjects were divided into appropriate subgroups without distinguishing them by age or gender. Each user had to pass five initial levels twice. Selected app utilizes unique rules and requires from the user to perform abstract tasks in order to proceed. Players that took part in this experiment has never before seen such game mechanics and therefore in their first attemt thay had to learn them from scratch. After users were finished with the initial levels they were told to play the game some more allowing them to properly learn how it works. When they gained proper skills they were asked to start it again from first level. Thanks to this approach it was managed to get results for one player, while he was both a novice and a person who knows well the rules of the game. This way, the impact of the individual's predisposition has been minimized on the final test results.
+
+From the analysis of those results it was proved that the version of the game that fulfilled the most of the PLAY heuristics was also the most understandable for the players. It has also been confirmed that players achieve worse results in games where less intuitive interactions are used to perform basic operations.
+
 \pagenumbering{gobble}
 \bibliography{biblio} 
+%\bibliographystyle{unsrt}
 \bibliographystyle{ieeetr}
 \renewcommand{\listoffigures}{\begingroup
 \tocchapter
