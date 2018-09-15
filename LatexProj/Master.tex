@@ -330,6 +330,99 @@ Zliczane również jest każde dotknięcie ekranu, jakie wykonał użytkownik po
 c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
 gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w~danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
+\section{Analiza danych}
+Zebrane dane rozdzielone zostały ze względu na wersje gry, dla której były zarejestrowane. W ramach i-tego parametru zdefiniowany został został zbiór $X = \{x_{i,1},x_{i,1},..., x_{i,n}\}$. gdzie n oznacza ilość zebranych danych dla danej wersji interfejsu. W celu wyeliminowanie wątpliwości związanych z wielkościami prób czy innymi czynnikami, które wpłynąć by mogły na czytelną analizę zebranych informacji przetworzono je za pomocą wybranych miar tendencji centralnej, rozproszenia oraz kształtu rozkładu \cite{online_Statistics}.
+
+\subsection{Miary tendencji centralnej}
+Miary tendencji centralnej wykorzystywane są w celu wyznaczenia największej koncentracji wyników. Do analizy wyników, które zostały zebrane w trakcie badań wykorzystane zostały średnia arytmetyczna oraz mediana.
+\begin{itemize}
+\item
+Średnia arytmetyczna (ang. \textit{mean}) - oznacza wartość, w której znaleźć można największe skupiska pomiarów. 
+Wyliczona była ona z następującego wzoru:
+\begin{equation}
+\label{eq_mean}
+\overline{x} = \frac{1}{n}\sum_{i=1}^{n}x_{i},
+\end{equation}
+gdzie $x_{i}$ to wartość i-tego pomiaru.
+%Miara tendencji centralnej, wartość, wokół której grupują się pomiary. 
+
+\item
+Kwartyle (eng. \textit{quartile}) - wartości zmiennej, które oddzielają informacje w zbiorze danych na stosunki, które wynoszą odpowiednio $\frac{l}{4}$. Zmienna $l$ oznacza numer kwartyla i jej wartości zawierają się w zbiorze  $\{1,2,3\}$.
+
+\begin{equation}
+\label{eq_quart}
+Q_{\frac{l}{4}}=(k+1-(n+1_\frac{l}{4})x_{(k)}+((n+1)\frac{l}{4}-k)x_{k+1},
+\end{equation}
+gdzie $k = [(n+1)\frac{l}{4}]$ oraz $[a]$ oznacza całkowitą część liczby $a$.
+
+Drugi kwartyl jest stosowany najczęściej i opisywany jest mianem mediany. Dzieli ona zbiór danych na dwie równe części, wyznacza wartość środkową. W celu jej obliczenia można zastosować następujący wzór:
+\begin{equation}
+\label{eq_median}
+Me=\left\{
+        \begin{array}{ll}
+             x_{(\frac{n+1}{2})}, & n - nieparzyste\\
+             \frac{1}{2}(x_{(\frac{n}{2})}+x_{(\frac{n}{2}+1)}), & n - parzyste\\
+             \end{array}
+        \right.
+\end{equation}
+%Wartości zmiennej, które dzielą dane na części pozostające ze sobą w odowiednim stosunku. Najczęściej używane kwantyle to kwartyle (podział na 4 części), decyle (podział na 10 części) i percentyle (podział na 100 części). Np. pierwszy kwartyl dzieli dane na dwie części w ten sposób, ze 1/4 z nich ma wartości od niego większe, a 3/4 - mniejsze. 
+\end{itemize}
+
+Zauważyć należy, iż w procesie przetwarzania danych pod względem tendencji centralnej pominięta została dominanta. Spowodowane zostało to tym, że zebrane dane to w większości liczby zmiennoprzecinkowe, które mają bardzo małą szansę na powtórzenie się pomiędzy wynikami dwóch różnych osób. Dominanta nie niosła by zatem ze sobą żadnej przydatnej informacji, gdyż określa ona wartość najczęściej występującą.
+
+\subsection{Miary rozproszenia}
+Miary rozproszenia definiują wielkość zróżnicowania wyników zawartych w zbiorze danych. Innymi słowy, określają one rozkład zmiennych wokół centralnej wartości. W przeprowadzonej analizie obliczano wartość minimalną i maksymalną, rozstęp, wariancję, odchylenie standardowe a także współczynnik zmienności.
+\begin{itemize}
+\item
+Rozstęp (ang. \textit{range}) - jest to różnica między największą, a najmniejszą wartością w zbiorze danych. Duże jego wartości oznaczają, iż w wynikach zawarte są informacje, które są od siebie bardzo odległe. Nie uwzględnia on jednak tego, jak bardzo dane te są skupione. Obliczany jest ze wzoru:
+\begin{equation}
+\label{eq_range}
+R = x_{max} - x_{min},
+\end{equation}
+gdzie $x_{max}$ i $x_{min}$ oznaczają odpowiednio wartość maksymalną oraz minimalną zbioru danych.
+
+\item
+Wariancja (eng. \textit{variance}) - mierzy jak bardzo dane rozproszone są względem ich średniej wartości. Opisywana jest wzorem:
+\begin{equation}
+\label{eq_variance}
+Var(X) = \frac{1}{n-1}\sum_{i=1}^{n}{(x_{i}-\overline{x})}^2.
+\end{equation}
+\item
+Odchylenie standardowe (eng. \textit{standard deviation}) - pierwiastek z wariancji, mierzy przeciętne odchylenie wyników od ich średniej. Opisać można je poprzez wzór:
+\begin{equation}
+\label{eq_stddev}
+s = \sqrt{Var(X)}.
+\end{equation}
+
+\item
+Współczynnik zmienności (ang. \textit{coefficient of variation}) - służy do pokazania zakresu różnorodności danych w relacji do ich wartości średniej. Zwykle przedstawiany jest jako wartość procentowa. Opisać można go następującym równaniem:
+\begin{equation}
+\label{eq_stddev}
+V = \frac{s}{\overline{x}}\cdot 100\%.
+\end{equation}
+
+Gdy $V$ jest mniejsze bądź równe od 50\% dane określane są jako mało zmienne. Wartość tego współczynnika znajdująca się w zakresie $50\% < V \leq 100\%$ oznacza umiarkowaną zmienność w zbiorze. W sytuacjach, gdy $V > 100\%$ to dane oznaczane są jako bardzo chwiejne.
+
+\end{itemize}
+
+\subsection{Miary kształtu rozkładu}
+Miary kształtu rozkładu pozwalają na określenie w jakim stopniu otrzymane dane zbliżone są do rozkładu normalnego. Na potrzeby opracowania zebranych informacji wykorzystano skośność oraz kurtozę.
+
+\begin{itemize}
+\item
+Skośność (ang. \textit{skewness}) - wyznacza w którą stronę "przechylony" jest opracowywany rozkład zmiennych. Dla dodatnich wartości tego współczynnika większa ilość danych zorientowana jest po "prawej" stronie średniej, dla ujemnego zależność ta jest odwrotna. Przedstawiając rozkład w reprezentacji graficznej dłuższy ogon znajduje się po prawej stronie dla ujemnych skośności, po lewej dla dodatnich.
+\begin{equation}
+\label{eq_skew}
+Sk = \frac{n\sum_{i=1}^{n}(x_i-\overline{x})^3}{(n-1)(n-2)s^3}
+\end{equation}
+
+\item
+Kurtoza (ang. \textit{kurtosis}) - mierzy jak duże skupienie jest danych wokół średniej. Większe jej wartości definiują mocniejsze koncentracje dla wartości centralnej. Jej znak określa relacje danych względem rozkładu normalnego. Jeżeli kurtoza jest dodatnia, to opracowywany zbiór zdefiniowany jest rozkładem bardziej od niego smukłym, zaś ujemne jej wartości definiują dane bardziej 'płaskie'. Opisuje się ją wzorem:
+\begin{equation}
+\label{eq_kurtosis}
+K = \frac{n(n+1)\sum_{i=1}^{n}(x_i-\overline{x})^4-3(n-1)(\sum_{i=1}^{n}(x_i-\overline{x})^2)^2}{(n-1)(n-2)(n-3)s^4}.
+\end{equation}
+\end{itemize}
 
 \section{Wyniki referencyjne}
 Przydatnymi do oceny tego, jak dobrze gracze są w~stanie poradzić sobie na określonych poziomach w~danej wersji gry są dane referencyjne. Określają one zapewnione przez twórców najlepsze wyniki, jakie można uzyskać dla mierzonych parametrów bez przyśpieszania domyślnych animacji gry. Zauważyć należy, że przy pomiarach tych informacji jedyny istotny podział między wersjami gry to to, czy interfejs wykorzystuje interakcje za pomocą kliknięć czy przesunięć. Wartości te zamieszczone zostały w~tabeli \ref{tab:ref_data}.
@@ -345,14 +438,20 @@ Przydatnymi do oceny tego, jak dobrze gracze są w~stanie poradzić sobie na okr
 \end{table}%
 
 \section{Podwójna analiza}
-%TODO
-Tutaj opisać dlaczego tak i~co to może dać
+Struktura przeprowadzanych badań wymaga, by każdy użytkownik dwukrotnie przeszedł pierwszych pięć poziomów gry. Przy pierwszym podejściu traktowany jest on jako osoba całkowicie niezaznajomiona z zasadami rozgrywki, podczas gdy druga próba rozpoczynana jest dopiero wtedy, gdy osiągnął on już określony stopień zaawansowania w graniu. Innymi słowy, zostają zebrane informacje dla tej samej osoby i tych samych poziomów wtedy gdy jest ona zarówno nowicjuszem, jak i zaawansowanym graczem. 
+
+Takie podejście pozwala na lepsze przetwarzanie tzw. \textit{danych względnych} dla badanych osób. Obliczane są one ze wzoru \ref{eq_relative} i oznaczają różnicę w poszczególnych statystykach przejścia gracza między pierwszym a drugim jego podejściem. 
+
 \begin{equation}
 \label{eq_relative}
 x_{ir} = x_{i2} - x_{i1},
 \end{equation}
 gdzie $x_{i1}$, $x_{i2}$ oznaczają odpowiednio wartość danego wyniku dla pierwszego i~drugiego przejścia.
 
+Informacje obliczone w ten sposób dodatnie są w przypadku, gdy lepsze wyniki udało się użytkownikowi będąc bardziej doświadczonym. Ich wartości minusowe są znakiem na to, że ta sama osoba lepiej sobie z jakiegoś powodu poradziła przy pierwszym podejściu. Zero oznaczać ma, że nie zarejestrowano różnicy pomiędzy dwoma przejściami gry.
+
+Zbieranie danych względnych pomóc ma w zniwelowaniu czynników ludzkich, które mogą mieć wpływ na przebieg badania. Zaliczają się do nich przykładowo predyspozycje jednostki, jak chociażby to, jak dobrze jest ona w stanie rozwiązywać przedstawione przed nią problemy. Umiejętność ta nie jest w stanie zauważalnie polepszyć się pomiędzy dwoma podejściami do rozgrywki, więc jej wpływ zostanie zignorowany.
+Również czynniki zewnętrze, przy założeniu iż są one stałe względem jednego badania, zostaną w ten sposób odsiane. Jest to oczywiście bardzo duże uproszczenie, gdyż testy przeprowadzane są głównie w środowiskach, w których naturalnym jest, że od czasu do czasu pojawiają się bardzo mocne, ale chwilowe rozproszenia graczy, które wpłynąć mogą na zebrane informacje.
 
 %CHAPTER________________________________________________________________________________________WYNIKI______
 \chapter{Wyniki}
