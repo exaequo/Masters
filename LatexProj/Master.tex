@@ -256,26 +256,26 @@ W rozgrywce widoczny jest jedynie jeden wskaźnik statusu - określa on pozosta�
 Spełnianie drugiej z wybranych heurystyk określić można jako sterowanie zbliżone do tego, jak wyglądałoby wykonywanie akcji z gry w~normalnym świecie. Tak więc, aby obrócić pierścień naturalnym zdaje się ruch przeciągania. Również przeniesienie kulki z miejsca na miejsce wydaje się oczywiste, że powinno zostać wykonane poprzez "złapanie" jej i~przeciągnięcie w~miejsce docelowe gdzie finalnie następuje jej "upuszczenie". Dzięki takiemu podejściu do tych mechanik uzyskane zostaje wrażenie fizyczności obiektów w~przestrzeni gry. Stworzona zostaje iluzja, że zachodzi faktyczna interakcja z obiektami, które wyświetlane są na ekranie. Inaczej prezentuje się to przy mniej realnej wersji interakcji. Wykorzystana w~niej zostaje inna znana mechanika z urządzeń mobilnych - proste kliknięcie w~interesujące nas miejsce. Tym sposobem użytkownik jest w~stanie zakomunikować, w~którą stronę chce obrócić pierścień poprzez dotknięcie go z odpowiedniej strony. Przeniesienie kulki w~tym scenariuszu odbywa się poprzez dotknięcie wybranej sfery, a~następnie powtórzenie tej akcji dla miejsca docelowego. w~tym wypadku użytkownik, który dobrze rozumie te mechaniki może znacznie szybciej wykonywać akcje w~trakcie gry. Wiąże się to jednak z utratą części wiarygodności, którą uzyskać można było sposobem pierwszym.
 
 Na podstawie wybranych heurystyk przygotowane zostały zatem cztery wersje gry. Każda z nich spełnia inną kombinację zadanych założeń. Takie podejście pozwala na dokładne przetestowanie, jaki wpływ zasady te mają na grywalność aplikacji. 
-\subsection{Interfejs SWIPE 2D}
-Jako pierwszy wyróżniony został interfejs \textit{SWIPE 2D}, który w~założeniu spełnia zarówno pierwszą, jak i~drugą heurystykę. Jego reprezentację graficzną dla pierwszego poziomu gry zobaczyć można na rysunku \ref{fig:interface_swipe_2d}. Zegar zdefiniowany jest w~nim jako element dwuwymiarowy znajdujący się w~górnej części ekranu, a~wszelkie interakcje rozwiązane są poprzez jak najwierniejsze odwzorowanie ich odpowiedników z rzeczywistości. Spodziewać się zatem można najmniejszej ilości błędów popełnianych przez użytkowników już od samego początku gry. Również różnice w~czasach pojedynczego testu powinny być dla tej wersji względnie niewielkie.
+\subsection{Interfejs Swipe 2D}
+Jako pierwszy wyróżniony został interfejs \textit{Swipe 2D}, który w~założeniu spełnia zarówno pierwszą, jak i~drugą heurystykę. Jego reprezentację graficzną dla pierwszego poziomu gry zobaczyć można na rysunku \ref{fig:interface_Swipe_2d}. Zegar zdefiniowany jest w~nim jako element dwuwymiarowy znajdujący się w~górnej części ekranu, a~wszelkie interakcje rozwiązane są poprzez jak najwierniejsze odwzorowanie ich odpowiedników z rzeczywistości. Spodziewać się zatem można najmniejszej ilości błędów popełnianych przez użytkowników już od samego początku gry. Również różnice w~czasach pojedynczego testu powinny być dla tej wersji względnie niewielkie.
 \begin{figure}[h!]
 	\centering
   	\includegraphics[height=8cm]{fig/tmp.jpg}
-	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{SWIPE 2D}.}
-	\label{fig:interface_swipe_2d}
+	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{Swipe 2D}.}
+	\label{fig:interface_Swipe_2d}
 \end{figure}
-\subsection{Interfejs SWIPE 3D}
-Wersja interfejsu wykorzystująca mechanikę przesuwania lecz niespełniająca pierwszej z wybranych heurystyk określona została mianem \textit{SWIPE 3D}. Jego wygląd zaprezentowany jest na rysunku \ref{fig:interface_swipe_3d}. Siatka stanowiąca zegar umieszczona została w~świecie gry, jako element znajdujący się wizualnie przy wyborze kul. Położenie to zostało zmienione z racji na charakterystyczne ustawienie kamery w~grze. Nie pozwala ono na ustawienie tak ciężkiego elementu powyżej labiryntu, gdyż wpływałoby to negatywnie na estetykę gry. To rozwiązanie wpływać może rozgrywkę, gdyż niewykluczona jest sytuacja, w~której gracz może odbierać czasomierz jako element, z którym  należy wejść w~jakąś interakcję. Spodziewać się tu można zatem większej ilości błędów, które popełniane mogą być przy pierwszej styczności użytkownika z grą.
+\subsection{Interfejs Swipe 3D}
+Wersja interfejsu wykorzystująca mechanikę przesuwania lecz niespełniająca pierwszej z wybranych heurystyk określona została mianem \textit{Swipe 3D}. Jego wygląd zaprezentowany jest na rysunku \ref{fig:interface_Swipe_3d}. Siatka stanowiąca zegar umieszczona została w~świecie gry, jako element znajdujący się wizualnie przy wyborze kul. Położenie to zostało zmienione z racji na charakterystyczne ustawienie kamery w~grze. Nie pozwala ono na ustawienie tak ciężkiego elementu powyżej labiryntu, gdyż wpływałoby to negatywnie na estetykę gry. To rozwiązanie wpływać może rozgrywkę, gdyż niewykluczona jest sytuacja, w~której gracz może odbierać czasomierz jako element, z którym  należy wejść w~jakąś interakcję. Spodziewać się tu można zatem większej ilości błędów, które popełniane mogą być przy pierwszej styczności użytkownika z grą.
 \begin{figure}[h!]
 	\centering
   	\includegraphics[height=8cm]{fig/tmp.jpg}
-	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{SWIPE 3D}.}
-	\label{fig:interface_swipe_3d}
+	\caption{Wygląd poziomu pierwszego dla wersji gry wykorzystującej interfejs \textit{Swipe 3D}.}
+	\label{fig:interface_Swipe_3d}
 \end{figure}
-\subsection{Interfejs CLICK 2D}
-Interfejs \textit{CLICK 2D} wizualnie nie rózni się od wersji \textit{SWIPE 2D}. Zmieniony jest tu jednak styl sterowania głównymi mechanikami gry na takie, które są w~znacznie mniejszym stopniu reprezentacją rzeczywistych interakcji. Cechują się one tym, że by osiągnąć ten sam cel wykonywane mogą być znacznie szybsze ruchy (kliknięcie zamiast przesuwania palca po ekranie). Oznaczać to może, że doświadczony użytkownik jest w~stanie uzyskać w~tej wersji lepsze czasy niż ten, który umiejętnie posługuje się wersją z mechaniką przesuwania. Idąc tym tropem założyć można, iż różnica w~czasach przechodzenia poszczególnych poziomów będzie zatem tutaj zauważalnie większa, gdyż wymaga on nauczenia się mniej intuicyjnej zasady gry.
-\subsection{Interfejs CLICK 3D}
-Podobnie jak w~poprzednim przypadku, w~wersji interfejsu \textit{CLICK 2D} brak jest różnic wizualnych względem \textit{SWIPE 2D}. w~tym wypadku jednak nie jest spełniona żadna ze sprawdzanych heurystyk. Oznaczać to może, że wyniki dla tego wypadku będą najmniej korzystne. Spodziewać się można dużej ilości początkowych błędów spowodowanych mniej odciętym od całości gry zegarem oraz większych różnic w~statystykach podczas przechodzenia tego samego poziomu dwukrotnie przez pojedynczego gracza.
+\subsection{Interfejs Click 2D}
+Interfejs \textit{Click 2D} wizualnie nie rózni się od wersji \textit{Swipe 2D}. Zmieniony jest tu jednak styl sterowania głównymi mechanikami gry na takie, które są w~znacznie mniejszym stopniu reprezentacją rzeczywistych interakcji. Cechują się one tym, że by osiągnąć ten sam cel wykonywane mogą być znacznie szybsze ruchy (kliknięcie zamiast przesuwania palca po ekranie). Oznaczać to może, że doświadczony użytkownik jest w~stanie uzyskać w~tej wersji lepsze czasy niż ten, który umiejętnie posługuje się wersją z mechaniką przesuwania. Idąc tym tropem założyć można, iż różnica w~czasach przechodzenia poszczególnych poziomów będzie zatem tutaj zauważalnie większa, gdyż wymaga on nauczenia się mniej intuicyjnej zasady gry.
+\subsection{Interfejs Click 3D}
+Podobnie jak w~poprzednim przypadku, w~wersji interfejsu \textit{Click 2D} brak jest różnic wizualnych względem \textit{Swipe 2D}. w~tym wypadku jednak nie jest spełniona żadna ze sprawdzanych heurystyk. Oznaczać to może, że wyniki dla tego wypadku będą najmniej korzystne. Spodziewać się można dużej ilości początkowych błędów spowodowanych mniej odciętym od całości gry zegarem oraz większych różnic w~statystykach podczas przechodzenia tego samego poziomu dwukrotnie przez pojedynczego gracza.
 \section{Struktura badania}
 Na potrzeby przeprowadzenia testów przygotowane zostało badanie mające na celu wydobycie z przebiegów gry przydatnych informacji. 
 Użytkownik miał za zadanie zagrać w~przygotowaną wcześniej grę w~ściśle określony sposób:
@@ -329,7 +329,7 @@ Zliczane również jest każde dotknięcie ekranu, jakie wykonał użytkownik po
 \label{eq_errors}
 c_{err} = c_{scr} - r_{rot} - c_{start},
 \end{equation}
-gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w~danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{click} wynosi ono $c_{start} = 2$.
+gdzie  $c_{start}$ oznacza liczbę kliknięć potrzebnych do wystartowania jednej kulki w~danej wersji gry. Dla interfejsów wykorzystujących mechanikę \textit{Swipe} jest to $c_{start} = 1$, podczas gdy dla interfejsów typu \textit{Click} wynosi ono $c_{start} = 2$.
 \section{Analiza danych}
 Zebrane dane rozdzielone zostały ze względu na wersje gry, dla której były zarejestrowane. W ramach i-tego parametru zdefiniowany został został zbiór $X = \{x_{i,1},x_{i,1},..., x_{i,n}\}$. gdzie n oznacza ilość zebranych danych dla danej wersji interfejsu. W celu wyeliminowanie wątpliwości związanych z wielkościami prób czy innymi czynnikami, które wpłynąć by mogły na czytelną analizę zebranych informacji przetworzono je za pomocą wybranych miar tendencji centralnej, rozproszenia oraz kształtu rozkładu \cite{online_Statistics}.
 
@@ -455,7 +455,7 @@ Również czynniki zewnętrze, przy założeniu iż są one stałe względem jed
 
 %CHAPTER________________________________________________________________________________________WYNIKI______
 \chapter{Wyniki}
-W rozdziale tym przedstawione zostaną warunki oraz wyniki przeprowadzonych badań posegregowane względem wersji gry, dla której zostały zmierzone. Oprócz tego wyróżnione będą statystyki mające na celu porównanie zebranych danych.
+W rozdziale tym przedstawione zostaną warunki oraz wyniki przeprowadzonych badań posegregowane względem wersji gry, dla której zostały zmierzone. Oprócz tego wyróżnione będą statystyki mające na celu porównanie zebranych danych. Ich opis rozdzielony zostanie w ramach jednego interfejsu na dwie grupy - dane odnośnie czasu i dane związane z interakcjami. Rozdział ten wynika z tego, że poszczególne podelementy tych zestawień są ze sobą powiązane i ułatwia to ich odpowiednie opracowanie.
 
 \section{Warunki}
 Testy przeprowadzane były w~różnych środowiskach, zarówno takich pozwalających na skupienie (cichy, dobrze oświetlony pokój), jak i~wyjątkowo niesprzyjających pod względem światła i~hałasu otoczenia (podczas jazdy względnie zatłoczonym tramwajem w~południe). Średni czas pojedynczego badania wynosił 15 minut. Niektórzy uczestnicy zniechęcali się przy pierwszym wyzwaniu im postawionym, podczas gdy zdarzały się przypadki, iż osobie bardzo zależało na pełnym ukończeniu wszystkich wyzwań poświęcając na to nawet półtorej godziny nieprzerwanego grania. Wyróżnić można dwa duże wydarzenia, na których ochotnicy mogli podejść i~zagrać w~arbitralnie wybraną dla nich wersję gry. Zaliczają się do nich:
@@ -489,96 +489,138 @@ Do wszystkich testów wykorzystany został telefon Samsung Note 3 N9005, któreg
 \end{table}
 
 
-\section{Interfejs SWIPE 3D}%++++++++++++++++++++++++++++++++++++++++++++
-W badaniu tej wersji wzięło udział pięcioro uczestników. Zebrane wyniki przedstawione zostały w~tabeli \ref{tab:results_SWIPE3d}, zaś ich podstawowa analiza w~tabeli \ref{tab:analysis_SWIPE3d}. Zaob
-Dla wszystkich poziomów zaobserwować można, iż użytkownicy przy drugim przejściu potrzebowali mniej czasu na zastnawianie się, jak również zmniejszeniu uległa ilość operacji, które wykonywali, by wykonać przedstawione im zadania. 
-Interesującym okazać się może fakt, iż poziom 3. przy pierwszym podejściu zmuszał uczestników do najdłuższego zastanawiania się. Przy drugim podejściu wyraźna różnica w~zastanawianiu się między poziomami została zatracona.
+\section{Interfejs Swipe 3D}%++++++++++++++++++++++++++++++++++++++++++++
+W badaniu tej wersji wzięło udział pięcioro uczestników. Zebrane wyniki przedstawione zostały w~tabeli \ref{tab:results_Swipe3d}, zaś ich podstawowa analiza w~tabeli \ref{tab:analysis_Swipe3d}. 
 
+Średnia arytmetyczna obliczonych czasów dla wszystkich poziomów większa była od mediany. Oznaczać to może, iż największe skupisko danych znajduje się po prawej stronie centrum, czyli jest od niego większa. Potwierdzone niejako to jest w głównie dodatnich wartościach skośności dla tych danych. Są one jednak względnie niewielkie (<25), więc nie wpływa to specjalnie na reprezentatywność średniej dla tych danych. 
+Warto przyjrzeć się jednak wynikom zebranym dla drugiej planszy, gdyż okazuje się że centrum czasu absolutnego jest tam większe od trzeciego kwartyla. Zaobserwować tam można również względnie wysoką kurtozę, która informuje o tym, że informacje są bardzo skupione wokół wartości centralnej.
+Kurtoza w zależności od poziomu i opisywanej statystyki chwieje się od -50 do nawet 115 dla czasu myślenia na poziomie piątym. Jej wysokość nie jest jednak alarmująca, gdyż odchyły od rozkładu normalnego, o których informuje są uznane za dopuszczalne ze względu na niskie wartości współczynników zmienności (poniżej 50%).
+
+Analogiczną analizę przeprowadzić można dla zebranych informacji o interkacjach wykonanych dla tej wersji gry. Podobnie jak w przypadku poprzedniej grupy statystyk, mediana dla wszystkich poziomów mniejsza jest od średniej arytmetycznej. Interesującym jest, że przy drugim podejściu zarejestrowano zbliżoną ilość wykonanych rotacji dla wszystkich użytkowników, co skutkuje tym, że rozstęp tego paremetru dla większości poziomów jest równy zeru. Dla pierwszego podejścia trzeciej planszy zaobserwować można też największą wartość tej współrzędnej dla wykonanych dotknięć. W zależności od użytkownika zaobserwowano tam bowiem od 3 do nawet 11 wykonanych operacji.
+Dane interakcji związane z pierwszym podejściem są bardziej zmienne, niż te dla drugiego, co przedstawione jest tym, że ich wariacja i współczynnik zmienności są nawet cztery razy większe. Wartości kurtozy oraz skośności prezentują podobną tendencję, co oznacza iż wartości zebrane dla początkujących graczy są bardziej oddalone od ich centrum ciężkości. Zauważyć należy, że miary kształtu rozkładu dla tych danych są bardzo blisko zera więc rozkłady te są wielce zbliżone do normalnego.
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
 
   %\centering
-  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs SWIPE 3D}
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs Swipe 3D}
   \resizebox{\textwidth}{!}{%
-	\input{tables/swipe_mesh.tex}
+	\input{tables/Swipe_mesh.tex}
   \end{tabular}%
   }
-  \label{tab:results_SWIPE3d}%
+  \label{tab:results_Swipe3d}%
 %%%____________
   %\centering
-  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs SWIPE 3D}
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs Swipe 3D}
   \resizebox{\textwidth}{!}{%
-	\input{tables/RESULTS_swipe_mesh.tex}
+	\input{tables/RESULTS_Swipe_mesh.tex}
   \end{tabular}%
   }
-  \label{tab:analysis_SWIPE3d}%
+  \label{tab:analysis_Swipe3d}%
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
 
-\section{Interfejs SWIPE 2D}%++++++++++++++++++++++++++++++++++++++++++++
-Tekst
+\section{Interfejs Swipe 2D}%++++++++++++++++++++++++++++++++++++++++++++
+Ilość użytkowników
+miary tendencji centralnej:
+	średnie
+	mediany
+	pierwszy i trzeci kwartyl
+miary rozproszenia:
+	zakres
+	wariacja
+	odchylenie standardowe
+	współczynnik zmienności
+miary kształtu rozkładu:
+	skośność
+	kurtoza
+
 %TODO
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
   %\centering
-  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs SWIPE 2D}
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs Swipe 2D}
   \resizebox{0.9\textwidth}{!}{%
-	\input{tables/swipe_2d.tex}
+	\input{tables/Swipe_2d.tex}
   }
-  \label{tab:results_SWIPE2d}%
+  \label{tab:results_Swipe2d}%
   
   %%%___________
   
   %\centering
-  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs SWIPE 2D}
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs Swipe 2D}
   \resizebox{0.9\textwidth}{!}{%
-	\input{tables/RESULTS_swipe_2d.tex}
+	\input{tables/RESULTS_Swipe_2d.tex}
   }
-  \label{tab:analysis_SWIPE2d}%
+  \label{tab:analysis_Swipe2d}%
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
-\section{Interfejs CLICK 3D}%++++++++++++++++++++++++++++++++++++++++++++
-Tekst
+\section{Interfejs Click 3D}%++++++++++++++++++++++++++++++++++++++++++++
+Ilość użytkowników
+miary tendencji centralnej:
+	średnie
+	mediany
+	pierwszy i trzeci kwartyl
+miary rozproszenia:
+	zakres
+	wariacja
+	odchylenie standardowe
+	współczynnik zmienności
+miary kształtu rozkładu:
+	skośność
+	kurtoza
+
 %TODO
 
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
   %\centering
-  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs CLICK 3D}
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs Click 3D}
   \resizebox{0.9\textwidth}{!}{%
-	\input{tables/click_mesh.tex}
+	\input{tables/Click_mesh.tex}
   }
-  \label{tab:results_CLICK3d}%
+  \label{tab:results_Click3d}%
 %%%____________
   %\centering
-  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs CLICK 3D}
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs Click 3D}
   \resizebox{0.9\textwidth}{!}{%
-	\input{tables/RESULTS_click_mesh.tex}
+	\input{tables/RESULTS_Click_mesh.tex}
   }
-  \label{tab:analysis_CLICK3d}%
+  \label{tab:analysis_Click3d}%
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
-\section{Interfejs CLICK 2D}%++++++++++++++++++++++++++++++++++++++++++++
-Tekst
+\section{Interfejs Click 2D}%++++++++++++++++++++++++++++++++++++++++++++
+Ilość użytkowników
+miary tendencji centralnej:
+	średnie
+	mediany
+	pierwszy i trzeci kwartyl
+miary rozproszenia:
+	zakres
+	wariacja
+	odchylenie standardowe
+	współczynnik zmienności
+miary kształtu rozkładu:
+	skośność
+	kurtoza
 %TODO
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
   %\centering
-  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs CLICK 2D}
+  \caption{Dane zebrane dla testów wersji gry wykorzystującej interfejs Click 2D}
   \resizebox{\textwidth}{!}{%
-	\input{tables/click_2d.tex}
+	\input{tables/Click_2d.tex}
   }
-  \label{tab:results_CLICK2d}%
+  \label{tab:results_Click2d}%
 %%%____________
   %\centering
-  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs CLICK 2D}
+  \caption{Wyniki analizy danych zebranych dla wersji gry wykorzystującej interfejs Click 2D}
   \resizebox{\textwidth}{!}{%
-	\input{tables/RESULTS_click_2d.tex}
+	\input{tables/RESULTS_Click_2d.tex}
   }
-  \label{tab:analysis_CLICK2d}%
+  \label{tab:analysis_Click2d}%
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
@@ -586,20 +628,20 @@ Tekst
 \subsection{Czasy przejść poziomów}
 Najważniejszym czynnikiem służącym do wyznaczenia jak dobrze użytkownicy radzili sobie podczas rozgrywki w~grę \textit{Sphaze} są czasy, jakie osiągnęli oni na wybranych pięciu poziomach. Jak zauważono, dla użytkownika doskonale znającego mechaniki gry \textit{Sphaze} różnice w~statystykach czasowych pomiędzy interfejsami wykorzystującymi te same interakcje są pomijalne. Dane z tej dziedziny posortowane zostały zatem w~dwie podkategorie: wyniki dla interfejsów Click oraz Swipe. Dzięki takiemu podejściu w~ramach jednej kategorii można porównywać je do danych referencyjnych, które zamieszczone zostały w~tabeli \ref{tab:ref_data}. 
 
-Najważniejszym mierzonym czasem jest $t_{abs}$. Jego analiza pozwala na szybkie określenie jak dobrze dany użytkownik poradził sobie z wybranym poziomem. Zestawienie czasów absolutnych dla interfejsów wykorzystujących interakcje przeciągania i~klikania ukazane zostały odpowiednio na rysunkach \ref{fig:diag:tAbs_swipe12} oraz \ref{fig:diag:tAbs_click12}.
+Najważniejszym mierzonym czasem jest $t_{abs}$. Jego analiza pozwala na szybkie określenie jak dobrze dany użytkownik poradził sobie z wybranym poziomem. Zestawienie czasów absolutnych dla interfejsów wykorzystujących interakcje przeciągania i~klikania ukazane zostały odpowiednio na rysunkach \ref{fig:diag:tAbs_Swipe12} oraz \ref{fig:diag:tAbs_Click12}.
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[width=\linewidth]{diag/tAbs_swipe12.png}
+  	\includegraphics[width=\linewidth]{diag/tAbs_Swipe12.png}
 	\caption{Wykresy przedstawiające porównanie średnich $t_{abs}$ dla interfejsów wykorzystujących interakcję przesuwania. Wykres po lewej stronie przedstawia wyniki dla pierwszego przejścia gry, a~ten po prawej dla drugiego. Niebieską linią zaznaczony został czas referencyjny.}
-	\label{fig:diag:tAbs_swipe12}
+	\label{fig:diag:tAbs_Swipe12}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[width=\linewidth]{diag/tAbs_click12.png}
+  	\includegraphics[width=\linewidth]{diag/tAbs_Click12.png}
 	\caption{Wykresy przedstawiające porównanie średnich $t_{abs}$ dla interfejsów wykorzystujących interakcję klikania. Wykres po lewej stronie przedstawia wyniki dla pierwszego przejścia gry, a~ten po prawej dla drugiego. Niebieską linią zaznaczony został czas referencyjny.}
-	\label{fig:diag:tAbs_click12}
+	\label{fig:diag:tAbs_Click12}
 \end{figure}
 
 Nie okazało się zaskoczeniem, że niezależnie od wersji gry czasy absolutne zmniejszyły się przy powtarzaniu poziomów. Wynika to zarówno, z tego, że gracze mogą pamiętać, jak przejść te plansze jak również znają oni wtedy zasady rządzące grą, a~co za tym idzie szybciej są w~stanie wywnioskować odpowiednie rozwiązanie. Zwrócić należy na uwagę, że relacja pomiędzy wynikami dla interfejsów w~danej kategorii jest stała. Jeżeli aplikacja wykorzystująca Swipe 2D przy pierwszym podejściu generowała lepsze wyniki od analogicznej wersji 3D to taką samą zależność zaobserwować można przy drugim podejściu.\\
@@ -622,7 +664,7 @@ Zaskakującym okazał się fakt, iż przy drugim podejściu do rozgrywki typowy 
 Drugim kluczowym aspektem wpływającym na ocenę rozgrywki użytkownika są interakcje, jakie wykonał w~trakcie przechodzenia poszczególnych poziomów. Do tego grona zaliczają się zarówno zwykłe dotknięcia ekranu jak i~rotacje wykonywane na pierścieniach. Połączenie tych statystyk pozwala w~bardzo prosty sposób oszacować jak dużo użytkownicy używający tej aplikacji pozostawiają przypadkowi w~celu osiągnięcia zamierzonych celów. 
 
 Podobnie jak w~przypadku przedstawiania danych dla absolutnego czasu, zarówno rotację jak i~kliknięcia przedstawić można w~zestawieniu z danymi referencyjnymi (tab. \ref{tab:ref_data}). w~przypadku tych statystyk również należy rozróżnić wyniki pomiędzy kategoriami Click i~Swipe. Rysunki
-\ref{fig:ref:rotations} oraz \ref{fig:ref:clicks} przedstawiają zestawienia odpowiednich wykresów dla średniej ilości rotacji i~kliknięć na poziomach. Wartym zauważenia jest, że dla tego typu danych referencja określona jest w~sposób dokładny, brak na niej odchylenia standardowego. Wynika to z faktu, iż ilość i~referencyjny sposób wykonania zadanych interakcji istnieje tylko jeden i~jest on powtarzalny dla dowolnej ilości prób.
+\ref{fig:ref:rotations} oraz \ref{fig:ref:Clicks} przedstawiają zestawienia odpowiednich wykresów dla średniej ilości rotacji i~kliknięć na poziomach. Wartym zauważenia jest, że dla tego typu danych referencja określona jest w~sposób dokładny, brak na niej odchylenia standardowego. Wynika to z faktu, iż ilość i~referencyjny sposób wykonania zadanych interakcji istnieje tylko jeden i~jest on powtarzalny dla dowolnej ilości prób.
 
 \begin{figure}[h!]
 	\centering
@@ -639,9 +681,9 @@ Wartym zwrócenia uwagi jest fakt, iż, z wyjątkiem pierwszego przejścia pozio
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[width=\linewidth]{diag/ref_clicks.png}
+  	\includegraphics[width=\linewidth]{diag/ref_Clicks.png}
 	\caption{Wykres przedstawiający porównanie średniej ilości kliknięć wykonanych dla interfejsów z dwóch kategorii do wartości referencyjnych (od lewego górnego rogu: Click pierwsze podejście, Click drugie podejście, Swipe pierwsze podejście, Swipe drugie podejście). Oś odciętych oznacza kolejne poziomy gry, podczas gdy oś rzędnych określa średnią ilość rotacji w~danej wersji gry.}
-	\label{fig:ref:clicks}
+	\label{fig:ref:Clicks}
 \end{figure}
 
 Podobną analizę wykonać można dla średniej ilości kliknięć wykonywanych przez użytkowników. Pierwszym wnioskiem, który wysnuć można obserwując wykresy z wynikami jest fakt, iż niezależnie od wersji oraz doświadczenia gracza wykonywanych było średnio przynajmniej dwa kliknięcia więcej niż jest to konieczne. Jest wiele czynników, które wpływać mogą na taką zależność. Najbardziej prawdopodobnym jednak wydaje się to, że elementy,  z którymi możemy wejść w~interakcję, a~zwłaszcza kulki, są zbyt małe. Zaobserwowana zostało zachowanie, że czasem, by umiejscowić sferę w~punkcie startowym użytkownicy musieli wykonywać parę podejść zanim w~końcu udało im się zakomunikować grze swoją potrzebę. Również należy pamiętać, iż z racji tego, że gra wspiera mechanikę wielokrotnego dotyku, jako kliknięcie rejestrowane był dowolny nacisk, nawet taki, który związany był z trzymaniem telefonu w~rękach i~przypadkowym dotknięciem ekranu innym palcem. 
@@ -669,7 +711,7 @@ Na rysunku \ref{fig:diag_errors_1} przedstawiony został wykres porównujący il
 
 Dzięki takiemu przedstawieniu danych zaobserwować można ciekawe zależności w~błędach, które popełniają użytkownicy. Jak można było się spodziewać, gracz doświadczony wykonuje ponad dwukrotnie mniej akcji, które nie są wspierane przez aplikację. 
 
-Łatwo zauważyć, że już przy pierwszym podejściu użytkownicy popełniają ich najmniej dla wersji gry wykorzystującej interfejs Swipe 3D. Zastanawiające jest, że dla poziomu drugiego i~czwartego średnia ilość popełnionych błędów wzrosła w~drugim przejściu. Gdy gra osoba niedoświadczona to wyniki uzyskane dla tych plansz są bardzo satysfakcjonujące, gdyż oscylują one w~granicach zera. Biorąc pod uwagę wyniki zaprezentowane na rysunkach \ref{fig:ref:rotations} oraz \ref{fig:ref:clicks} wywnioskować można że błędy te wynikają głównie z faktu niepotrzebnych dotknięć wykonanych na ekranie, które nie są związane z rotacjami pierścieni.
+Łatwo zauważyć, że już przy pierwszym podejściu użytkownicy popełniają ich najmniej dla wersji gry wykorzystującej interfejs Swipe 3D. Zastanawiające jest, że dla poziomu drugiego i~czwartego średnia ilość popełnionych błędów wzrosła w~drugim przejściu. Gdy gra osoba niedoświadczona to wyniki uzyskane dla tych plansz są bardzo satysfakcjonujące, gdyż oscylują one w~granicach zera. Biorąc pod uwagę wyniki zaprezentowane na rysunkach \ref{fig:ref:rotations} oraz \ref{fig:ref:Clicks} wywnioskować można że błędy te wynikają głównie z faktu niepotrzebnych dotknięć wykonanych na ekranie, które nie są związane z rotacjami pierścieni.
 
 Dla wersji gry wykorzystującej interfejs Click 2D zarejestrowanych zostało najwięcej błędów. Jak pokazują dane przedstawione wyżej wysokie wartości w~tych wykresach spowodowane są niepotrzebnymi operacjami, do których zaliczają się zarówno zbędne dotyki jak i~obroty fragmentów labiryntu.
 
@@ -708,12 +750,12 @@ Podobną analizę przeprowadzić można dla danych względnych dotyczących śre
 \end{figure}
 
 Obserwując dane zebrane o względnych rotacjach zobaczyć można, iż dla interfejsu Swipe 2D zanotowano sumarycznie najmniejsze wartości względnych rotacji. Oznacza to, że użytkownicy nie za pierwszym i~za drugim razem wykonywali podobną ilość obrotów pierścieni przy rozgrywaniu poziomów. Nie należy jednak zapominać, iż interakcja w~interfejsach kategorii Swipe pozwala na "przytrzymywanie" elementów planszy. Oznacza to, że kąt $\alpha_r$ zanotowanego pojedynczego obrotu opisać tam można zależnością $\alpha_r = n * 90$, gdzie n jest dowolną liczbą całkowitą. Inaczej sprawa wygląda dla interfejsów Click, gdyż tam n wynosić może tylko +/-1. Z tego powodu spodziewać się można, iż część użytkowników korzystała z tej zależności i~zastanawiając się nad prawidłowym ułożeniem pierścieni po prostu ustawiała je w~coraz to kolejnych obrotach nie przestając przy tym ich przytrzymywać, co poskutkowało mniejszą ilością wynikowych obrotów. \\
-Zastanawiającym jest, że pomimo tego faktu wyniki Swipe 3D dla drugiego poziomu wskazują na to, że część użytkowników wykonała więcej obrotów za drugim przejściem (uwidocznione to zostało ujemną wartością względną dla tych danych). Szybkie porównanie z wartościami z tabeli \ref{tab:analysis_SWIPE3d} pozwala na określenie, że proceder ten powtórzył się dla prawie 75\% wszystkich użytkowników, którzy korzystali z wersji gry wykorzystującej ten interfejs (trzeci kwartyl wartości względnej jest ujemny). Dopatrywać się tu zatem można, iż użytkownicy odnosili wrażenie, iż ukryte jest w~ramach tego poziomu ustawienie pierścieni, które pozwala na szybsze jego przejście. \\
+Zastanawiającym jest, że pomimo tego faktu wyniki Swipe 3D dla drugiego poziomu wskazują na to, że część użytkowników wykonała więcej obrotów za drugim przejściem (uwidocznione to zostało ujemną wartością względną dla tych danych). Szybkie porównanie z wartościami z tabeli \ref{tab:analysis_Swipe3d} pozwala na określenie, że proceder ten powtórzył się dla prawie 75\% wszystkich użytkowników, którzy korzystali z wersji gry wykorzystującej ten interfejs (trzeci kwartyl wartości względnej jest ujemny). Dopatrywać się tu zatem można, iż użytkownicy odnosili wrażenie, iż ukryte jest w~ramach tego poziomu ustawienie pierścieni, które pozwala na szybsze jego przejście. \\
 Zaskakujące również okazać się może to, że dla interfejsu Click 2D - dla którego to w~większości przypadków odnotowano największe wartości względne - poziom drugi okazał się tym, w~którym ilości rotacji za pierwszym i~drugim przejściem niemalże się pokrywały. Wynikać to może z faktu iż ograniczenia, które niesie ze sobą ta wersja gry wpływają na to, czy gracz ma ochotę szukać bardziej optymalnego rozwiązania dla względnie oczywistego poziomu.
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_clicks.png}
+  	\includegraphics[width=0.9\linewidth]{diag/rel_mean_Clicks.png}
 	\caption{Wykres przedstawiający średnie względne ilości kliknięć wykonane na poziomach. Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względny czas.}
 	\label{fig:diag:rel:mean_Clicks}
 \end{figure}
@@ -740,7 +782,7 @@ Znormalizowanie danych dla obrotów pierścieni dla interfejsów Swipe wpływa t
 
 \begin{figure}[h!]
 	\centering
-  	\includegraphics[width=\linewidth]{diag/rel_mean_clicksNorm.png}
+  	\includegraphics[width=\linewidth]{diag/rel_mean_ClicksNorm.png}
 	\caption{Zestawienie wykresów przedstawiających względne ilości kliknięć (od lewej: dla danych nieznormalizowanych oraz dane znormalizowanych). Oś odciętych oznacza kolejne poziomy, zaś rzędnych określa względne kliknięcia.}
 	\label{fig:diag:rel:mean_ClicksNorm}
 \end{figure}
@@ -789,7 +831,7 @@ Osiągnięcie takich wyników pozwala na poddanie pod wątpliwość, czy samo sp
 
 W niejednej grze bardzo trudne jest określenie co definiuje jakość z jaką udaje się graczowi wykonywać zadania. w~przypadku badanej aplikacji pod uwagę brany został czynnik, który w~niej samej stanowi wyznacznik tego ile gwiazdek, czyli nagrody za przejście poziomu, udzielić użytkownikowi. Jedyną statystyką, która na to wpływa jest czas, w~jakim udało się przejść dany poziom. w~zebranych na potrzeby tej pracy danych opisywana była ona jako $t_abs$. Minimalny czas, w~jakim można przejść daną planszę, od wystartowania rozgrywki do dostarczenia ostatniej kulki do środka labiryntu, jest niezależny od rodzaju interfejsu użytkownika. 
 
-Dla każdego poziomu zdefiniowana jest wartość referencyjna, której użytkownicy nie są w~stanie przekroczyć. Zebrane wyniki pomniejszyć można zatem o referencje zyskując tym samym informację o tym jak optymalne drogi zostały wybrane dla poszczególnych wersji gry. Na rysunku \ref{fig:diag_tball_sum} przedstawiony został wykres, na którym zamieszczone zostały te sumaryczne średnie wartości nadmiaru wykorzystanego czasu na przejście poziomu dla pierwszego i~drugiego przejścia gry. Jako odchylenie standardowe przyjęte zostały sumy odchyleń dla poszczególnych poziomów i wersji gry, które zamieszczone zostały w~tabelach \ref{tab:results_SWIPE3d} - \ref{tab:analysis_CLICK2d}.\\
+Dla każdego poziomu zdefiniowana jest wartość referencyjna, której użytkownicy nie są w~stanie przekroczyć. Zebrane wyniki pomniejszyć można zatem o referencje zyskując tym samym informację o tym jak optymalne drogi zostały wybrane dla poszczególnych wersji gry. Na rysunku \ref{fig:diag_tball_sum} przedstawiony został wykres, na którym zamieszczone zostały te sumaryczne średnie wartości nadmiaru wykorzystanego czasu na przejście poziomu dla pierwszego i~drugiego przejścia gry. Jako odchylenie standardowe przyjęte zostały sumy odchyleń dla poszczególnych poziomów i wersji gry, które zamieszczone zostały w~tabelach \ref{tab:results_Swipe3d} - \ref{tab:analysis_Click2d}.\\
 
 \begin{figure}[h!]
 	\centering

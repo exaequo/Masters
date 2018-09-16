@@ -21,10 +21,10 @@
 \BOOKMARK [2][-]{subsection.5.2.1}{Samouczki}{section.5.2}% 21
 \BOOKMARK [1][-]{section.5.3}{Heurystyki}{chapter.5}% 22
 \BOOKMARK [1][-]{section.5.4}{Rodzaje interfejs\363w}{chapter.5}% 23
-\BOOKMARK [2][-]{subsection.5.4.1}{Interfejs SWIPE 2D}{section.5.4}% 24
-\BOOKMARK [2][-]{subsection.5.4.2}{Interfejs SWIPE 3D}{section.5.4}% 25
-\BOOKMARK [2][-]{subsection.5.4.3}{Interfejs CLICK 2D}{section.5.4}% 26
-\BOOKMARK [2][-]{subsection.5.4.4}{Interfejs CLICK 3D}{section.5.4}% 27
+\BOOKMARK [2][-]{subsection.5.4.1}{Interfejs Swipe 2D}{section.5.4}% 24
+\BOOKMARK [2][-]{subsection.5.4.2}{Interfejs Swipe 3D}{section.5.4}% 25
+\BOOKMARK [2][-]{subsection.5.4.3}{Interfejs Click 2D}{section.5.4}% 26
+\BOOKMARK [2][-]{subsection.5.4.4}{Interfejs Click 3D}{section.5.4}% 27
 \BOOKMARK [1][-]{section.5.5}{Struktura badania}{chapter.5}% 28
 \BOOKMARK [2][-]{subsection.5.5.1}{Czas absolutny}{section.5.5}% 29
 \BOOKMARK [2][-]{subsection.5.5.2}{Czas kuli}{section.5.5}% 30
@@ -39,10 +39,10 @@
 \BOOKMARK [1][-]{section.5.8}{Podw\363jna analiza}{chapter.5}% 39
 \BOOKMARK [0][-]{chapter.6}{Wyniki}{}% 40
 \BOOKMARK [1][-]{section.6.1}{Warunki}{chapter.6}% 41
-\BOOKMARK [1][-]{section.6.2}{Interfejs SWIPE 3D}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.3}{Interfejs SWIPE 2D}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.4}{Interfejs CLICK 3D}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.5}{Interfejs CLICK 2D}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Interfejs Swipe 3D}{chapter.6}% 42
+\BOOKMARK [1][-]{section.6.3}{Interfejs Swipe 2D}{chapter.6}% 43
+\BOOKMARK [1][-]{section.6.4}{Interfejs Click 3D}{chapter.6}% 44
+\BOOKMARK [1][-]{section.6.5}{Interfejs Click 2D}{chapter.6}% 45
 \BOOKMARK [1][-]{section.6.6}{Analiza wynik\363w}{chapter.6}% 46
 \BOOKMARK [2][-]{subsection.6.6.1}{Czasy przejsc poziom\363w}{section.6.6}% 47
 \BOOKMARK [2][-]{subsection.6.6.2}{Pope\233niane b\233edy}{section.6.6}% 48
