@@ -19,17 +19,17 @@
 \contentsline {section}{\numberline {5.1}Za\IeC {\l }o\IeC {\.z}enia}{13}{section.5.1}
 \contentsline {section}{\numberline {5.2}Gra mobilna}{13}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Samouczki}{14}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Heurystyki}{16}{section.5.3}
+\contentsline {section}{\numberline {5.3}Heurystyki}{17}{section.5.3}
 \contentsline {section}{\numberline {5.4}Rodzaje interfejs\IeC {\'o}w}{18}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Interfejs Swipe 2D}{18}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.1}Interfejs Swipe 2D}{19}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Interfejs Swipe 3D}{19}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Interfejs Click 2D}{19}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Interfejs Click 3D}{19}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.3}Interfejs Click 2D}{20}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Interfejs Click 3D}{20}{subsection.5.4.4}
 \contentsline {section}{\numberline {5.5}Struktura badania}{20}{section.5.5}
 \contentsline {subsection}{\numberline {5.5.1}Czas absolutny}{22}{subsection.5.5.1}
 \contentsline {subsection}{\numberline {5.5.2}Czas kuli}{22}{subsection.5.5.2}
 \contentsline {subsection}{\numberline {5.5.3}Czas my\IeC {\'s}lenia}{22}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{22}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{23}{subsection.5.5.4}
 \contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{23}{subsection.5.5.5}
 \contentsline {section}{\numberline {5.6}Analiza danych}{23}{section.5.6}
 \contentsline {subsection}{\numberline {5.6.1}Miary tendencji centralnej}{23}{subsection.5.6.1}
@@ -41,12 +41,12 @@
 \contentsline {section}{\numberline {6.1}Warunki}{28}{section.6.1}
 \contentsline {section}{\numberline {6.2}Interfejs Swipe 3D}{29}{section.6.2}
 \contentsline {section}{\numberline {6.3}Interfejs Swipe 2D}{31}{section.6.3}
-\contentsline {section}{\numberline {6.4}Interfejs Click 3D}{33}{section.6.4}
+\contentsline {section}{\numberline {6.4}Interfejs Click 3D}{31}{section.6.4}
 \contentsline {section}{\numberline {6.5}Interfejs Click 2D}{33}{section.6.5}
 \contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{35}{section.6.6}
 \contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{35}{subsection.6.6.1}
 \contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{38}{subsection.6.6.2}
-\contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{41}{subsection.6.6.3}
+\contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{42}{subsection.6.6.3}
 \contentsline {chapter}{\numberline {7}Podsumowanie}{48}{chapter.7}
 \contentsline {section}{\numberline {7.1}Hipoteza I}{48}{section.7.1}
 \contentsline {section}{\numberline {7.2}Hipoteza II}{49}{section.7.2}
