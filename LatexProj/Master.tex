@@ -555,21 +555,13 @@ W zarejestrowanych dla tego interfejsu danych zauważony został jeden przebieg,
 
 
 \section{Interfejs Click 3D}%++++++++++++++++++++++++++++++++++++++++++++
-Ilość użytkowników
-miary tendencji centralnej:
-	średnie
-	mediany
-	pierwszy i trzeci kwartyl
-miary rozproszenia:
-	zakres
-	wariacja
-	odchylenie standardowe
-	współczynnik zmienności
-miary kształtu rozkładu:
-	skośność
-	kurtoza
+Dla interfejsu Click 3D przeprowadzonych zostało 12 pełnych testów. Wartości zebrane w ich trakcie przedstawione zostały w tabeli \ref{tab:results_Click3d}, a wyniki ich podstawowej analizy zawarte zostały w tabeli \ref{tab:analysis_Click3d}.
 
-%TODO
+Dane mówiące o czasie w większości przypadków mają zbliżone wartości średniej oraz mediany. Jest to pierwszy znak, iż średnia arytmetyczna może być dobrym przybliżeniem zebranego na potrzeby badań tej wersji gry zbioru. Widoczna dla poziomów 2 i 3 różnica pomiędzy tymi dwoma parametrami informuje o tym, że wyniki dla tych plansz mogły zostać zakrzywione jakimiś odchyłami. Potwierdzeniem na to są w obecne w tych miejscach duże wartości rozstępu, kurtozy i skośności. Na ich podstawie zobaczyć można, iż znacznie większe odchylenie występuje dla drugiej planszy i to, które obecne jest dla trzeciej uznać można za pomijalne. Współczynniki te dla pozostałych trzech poziomów potwierdzają "zdrowie" zebranych danych. Obydwie miary kształtu rozkładu zbliżone są do zera i w zależności od opracowywanej statystyki mają znak dodatni bądź ujemny co świadczy o tym, iż niezarejestrowana została tendencja w określonym kierunku dla tych wyników. Zauważyć można, iż są one całkiem skupione, o czym informują względnie niewielkie wartości wariancji, odchylenia standardowego oraz najbardziej bezpośredniej informacji w postaci współczynnika zmienności.
+
+Szybka analiza danych dotyczących interakcji pozwala na określenie, że w ich przypadku nie zaobserowowano wartości mocno skrajnych. Zarówno dla pierwszego jak i drugiego podejścia graczy do rozgryki zapisane zostały zbliżone wartości dla średniej i mediany. Wyliczone rozstępy potrafią być dla tych wyników większe od wartości centralnej, co oznacza że rozkład jest dla nich lekko przechylony na prawo. Potwierdzają to głównie dodatnie wyniki skośności. Umiarkowanie wysokie potrafią być niektóre z wartości zapisanych we współczynniku zmienności. Z racji na to, że dane wyniki zebrane w tych zbiorach są bardzo zależne od personalnych predyspozycji użytkownika to uznać można, iż mocno zmienne dane nie są niczym alarmującym.\\
+
+Podobnie jak w przypadku interfejsu Swipe 2D znalazła się wartość zakrzywiająca kilka opisanych w tej sekcji wyników. Podobnie jednak jak i w tamtym przypadku uznać można, że średnia połączona z odchyleniem standardowym jest dobrym opisem informacji zebranych dla tej wersji gry. 
 
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
@@ -589,21 +581,18 @@ miary kształtu rozkładu:
 \end{sidewaystable}%
 %%% DUŻA TABELA END----------------------------------
 
+
 \section{Interfejs Click 2D}%++++++++++++++++++++++++++++++++++++++++++++
-Ilość użytkowników
-miary tendencji centralnej:
-	średnie
-	mediany
-	pierwszy i trzeci kwartyl
-miary rozproszenia:
-	zakres
-	wariacja
-	odchylenie standardowe
-	współczynnik zmienności
-miary kształtu rozkładu:
-	skośność
-	kurtoza
-%TODO
+Na potrzeby badań tego interfejsu przeprowadzono 8 testów, w których użytkownicy dwukrotnie przeszli zadane im poziomy. Wyniki zostały zebrane i zamieszczone w tabeli \ref{tab:results_Click2d}, a ich analiza wstępna w tabeli \ref{tab:analysis_Click2d}.
+
+Podobnie jak w poprzednich wersjach pierwszą z aanalizowanych podgrup parametrów jest ta dotycząca czasu, który rejestrowany był w trakcie rozgrywki. Powtarzającym schematem jest również to, że wyniki średniej i mediany, które zostały uzyskane dla tych danych są do siebie zbliżone. Co jest zaskakujące, to że w większości przypadków minimalnie większy okazała się mediana. Zarejestrowane zostało względnie równe róznice pomiędzy wynikami dla kolejnych kwartyli co oznaczać może, że zebrane informacje są względnie równomiernie rozłożone. Dane w większości wypadków większe są od obliczonych rozstępów, co jest całkiem zadowalającym wynikiem. Oznacza, że pomiędzy poszczególnymi testami nie zapisane zostały mocno różne wyniki. Jedynymi parametrami, dla których zależność ta nie została do końca spełniona są te określające drugie podejście w piątym poziomie, gdzie okazało się, że gracze znajdowali zupełnie rozbieżne sposoby na rozwiązanie zawartego tam labiryntu. Współczynnik wariancji unosi się dla zebranych czasów na bardzo zadowalającym poziomie, gdyż największa jego wartość to 36\% dla $t_{ball}$ w pierwszym poziomie. Wartości kurtozy pokazują, iż zebrane informacje odstają od rozkładu normalnego. Dla poziomu trzeciego i piątego są to wartości dodatnie, więc spodziewać się można tam, iż dane są bardziej skupione. Inaczej wygląda to dla planszy drugiej gdzie ujemna wartość kurtozy informuje o tym, że rozciągają się one na większym zakresie. Zbliżone do zera wartości skośności oznaczają, iż obecne odchylenia od średniej nie mają swojego największego skupiska daleko od niej.
+
+W przypadku podgrupy związanej z interakcją zaobserwowane zostało, iż wyniki w niej zawarte charakteryzują się względnie wysokim rozstępem. Bardziej uwypuklone to zostało dla rotacji, która dla pierwszego podejścia jest w wiekszości przypadków dwa razy większa od obliczonej średniej arytmetycznej. Rozstrzał tych danych widoczny jest również dla współczynnika zmienności, który dla poziomu piątego osiąga nawet 76\%. Nie został przekroczony jednak próg pozwalający na niepokój związany z tymi wynikami. Rozkład danych z pierwszych czterech poziomów jest bardziej rozstrzelony aniżeli normalny. W wypadku planszy piątej zależność jest odwrotna, gdyż tam wyniki są bardziej skupione. Bardzo bliskie zeru wyniki skośności pozwalają na określenie, że zarówno po lewej jak i prawej stronie średniej arytmetycznej zapisanych została podobna ilość danych.\\
+
+Dla tej wersji gry nie został zarejestrowany żaden wynik, który mocno zakrzywiałby pozostałe dane. Wykorzystanie średniej jako wyznacznika centrum zbioru wydaje się dla tych danych rozsądnym rozwiązaniem.
+
+
+
 %%% DUŻA TABELA START----------------------------------
 \begin{sidewaystable}[htbp]
   %\centering

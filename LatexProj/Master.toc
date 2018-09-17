@@ -43,15 +43,15 @@
 \contentsline {section}{\numberline {6.3}Interfejs Swipe 2D}{31}{section.6.3}
 \contentsline {section}{\numberline {6.4}Interfejs Click 3D}{33}{section.6.4}
 \contentsline {section}{\numberline {6.5}Interfejs Click 2D}{33}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{33}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{33}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{37}{subsection.6.6.2}
+\contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{35}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{35}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{38}{subsection.6.6.2}
 \contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{41}{subsection.6.6.3}
-\contentsline {chapter}{\numberline {7}Podsumowanie}{47}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hipoteza I}{47}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hipoteza II}{48}{section.7.2}
-\contentsline {section}{\numberline {7.3}Hipoteza III}{49}{section.7.3}
-\contentsline {chapter}{\numberline {8}Wnioski}{51}{chapter.8}
+\contentsline {chapter}{\numberline {7}Podsumowanie}{48}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hipoteza I}{48}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hipoteza II}{49}{section.7.2}
+\contentsline {section}{\numberline {7.3}Hipoteza III}{50}{section.7.3}
+\contentsline {chapter}{\numberline {8}Wnioski}{52}{chapter.8}
 \contentsline {chapter}{\numberline {9}Abstract}{}{chapter.9}
 \contentsline {chapter}{\numberline {10}Bibliografia}{}{chapter.10}
 \contentsline {chapter}{\numberline {11}Spis rysunk\'ow}{}{chapter.11}
