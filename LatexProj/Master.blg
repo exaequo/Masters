@@ -5,6 +5,8 @@ Warning--empty author in ArticlePLAY
 Warning--empty journal in ArticlePLAY
 Warning--empty journal in art_PLAY1
 Warning--empty journal in art_PLAY2
+Warning--empty journal in art_GameMechanics
+Warning--empty journal in art_HeuristicsDef
 Warning--empty journal in art_UsabilityEvaluationSystematicReview
 Warning--empty journal in art_evaluationOfMGevaluationSystem
 Warning--empty journal in art_playabilityHeuristics
@@ -16,4 +18,4 @@ Warning--empty journal in art_Usability
 Warning--empty journal in art_Playability
 Warning--empty journal in art_UserExperience
 Warning--empty journal in art_WithHeuristic
-(There were 15 warnings)
+(There were 17 warnings)

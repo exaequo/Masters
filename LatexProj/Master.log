@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  18 SEP 2018 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.8.12)  5 OCT 2018 18:01
 entering extended mode
 **./Master.tex
 (Master.tex
@@ -967,316 +967,314 @@ Rozdzia\PlPrIeC {\l } 2.
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-[5
-
-] [6] [7] [8]
-Rozdzia\PlPrIeC {\l } 4.
-[9
-
-] [10] [11] [12]
-Rozdzia\PlPrIeC {\l } 5.
-
-Overfull \hbox (21.63507pt too wide) in paragraph at lines 165--165
-|[]\OT4/cmr/bx/n/24.88 Badanie przy-swa-ja-nia me-cha-nik gry| 
- []
-
-<fig/twoBalls_threeRings.jpg, id=477, 491.8375pt x 867.24pt>
-File: fig/twoBalls_threeRings.jpg Graphic file (type jpg)
-<use fig/twoBalls_threeRings.jpg>
-Package pdftex.def Info: fig/twoBalls_threeRings.jpg  used on input line 177.
-(pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13
-
-]
-<fig/start_points.jpg, id=484, 491.8375pt x 867.24pt>
-File: fig/start_points.jpg Graphic file (type jpg)
-<use fig/start_points.jpg>
-Package pdftex.def Info: fig/start_points.jpg  used on input line 189.
-(pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./fig/twoBalls_threeRings.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
-
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 92.
 (D:\Programy\LaTex\Installed\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
-<fig/tut1.jpg, id=491, 999.735pt x 867.24pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 92.
+ [5
+
+] [6] [7] [8] [9]
+Rozdzia\PlPrIeC {\l } 4.
+[10
+
+] [11] [12] [13]
+Rozdzia\PlPrIeC {\l } 5.
+
+Overfull \hbox (21.63507pt too wide) in paragraph at lines 190--190
+|[]\OT4/cmr/bx/n/24.88 Badanie przy-swa-ja-nia me-cha-nik gry| 
+ []
+
+<fig/twoBalls_threeRings.jpg, id=486, 491.8375pt x 867.24pt>
+File: fig/twoBalls_threeRings.jpg Graphic file (type jpg)
+<use fig/twoBalls_threeRings.jpg>
+Package pdftex.def Info: fig/twoBalls_threeRings.jpg  used on input line 202.
+(pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14
+
+]
+<fig/start_points.jpg, id=493, 491.8375pt x 867.24pt>
+File: fig/start_points.jpg Graphic file (type jpg)
+<use fig/start_points.jpg>
+Package pdftex.def Info: fig/start_points.jpg  used on input line 214.
+(pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./fig/twoBalls_threeRings.jpg>]
+<fig/tut1.jpg, id=500, 999.735pt x 867.24pt>
 File: fig/tut1.jpg Graphic file (type jpg)
 <use fig/tut1.jpg>
-Package pdftex.def Info: fig/tut1.jpg  used on input line 212.
+Package pdftex.def Info: fig/tut1.jpg  used on input line 237.
 (pdftex.def)             Requested size: 262.39622pt x 227.62204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<fig/l3.jpg, id=493, 491.8375pt x 867.24pt>
+<fig/l3.jpg, id=502, 491.8375pt x 867.24pt>
 File: fig/l3.jpg Graphic file (type jpg)
 <use fig/l3.jpg>
-Package pdftex.def Info: fig/l3.jpg  used on input line 224.
+Package pdftex.def Info: fig/l3.jpg  used on input line 249.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
-[15 <./fig/start_points.jpg>] [16 <./fig/tut1.jpg> <./fig/l3.jpg>]
-<fig/l3_closeup.jpg, id=507, 491.8375pt x 867.24pt>
+[16 <./fig/start_points.jpg>] [17 <./fig/tut1.jpg> <./fig/l3.jpg>]
+<fig/l3_closeup.jpg, id=515, 491.8375pt x 867.24pt>
 File: fig/l3_closeup.jpg Graphic file (type jpg)
 <use fig/l3_closeup.jpg>
-Package pdftex.def Info: fig/l3_closeup.jpg  used on input line 232.
+Package pdftex.def Info: fig/l3_closeup.jpg  used on input line 257.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
-<fig/l4_l5.jpg, id=509, 999.735pt x 867.24pt>
+<fig/l4_l5.jpg, id=517, 999.735pt x 867.24pt>
 File: fig/l4_l5.jpg Graphic file (type jpg)
 <use fig/l4_l5.jpg>
-Package pdftex.def Info: fig/l4_l5.jpg  used on input line 241.
+Package pdftex.def Info: fig/l4_l5.jpg  used on input line 266.
 (pdftex.def)             Requested size: 262.39622pt x 227.62204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (21.86104pt too wide) in paragraph at lines 253--260
+Overfull \hbox (21.86104pt too wide) in paragraph at lines 278--285
  [][] 
  []
 
-[17 <./fig/l3_closeup.jpg>] [18 <./fig/l4_l5.jpg>]
-<fig/timer_2d.jpg, id=525, 491.8375pt x 867.24pt>
+[18 <./fig/l3_closeup.jpg>] [19 <./fig/l4_l5.jpg>]
+<fig/timer_2d.jpg, id=533, 491.8375pt x 867.24pt>
 File: fig/timer_2d.jpg Graphic file (type jpg)
 <use fig/timer_2d.jpg>
-Package pdftex.def Info: fig/timer_2d.jpg  used on input line 272.
+Package pdftex.def Info: fig/timer_2d.jpg  used on input line 297.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
-<fig/timer_3d.jpg, id=527, 491.8375pt x 867.24pt>
+<fig/timer_3d.jpg, id=535, 491.8375pt x 867.24pt>
 File: fig/timer_3d.jpg Graphic file (type jpg)
 <use fig/timer_3d.jpg>
-Package pdftex.def Info: fig/timer_3d.jpg  used on input line 280.
+Package pdftex.def Info: fig/timer_3d.jpg  used on input line 305.
 (pdftex.def)             Requested size: 129.0905pt x 227.62204pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./fig/timer_2d.jpg>] [20 <./fig/timer_3d.jpg>]
-<fig/all_levels.jpg, id=538, 2513.39pt x 893.3375pt>
+[20 <./fig/timer_2d.jpg>] [21 <./fig/timer_3d.jpg>]
+<fig/all_levels.jpg, id=546, 2513.39pt x 893.3375pt>
 File: fig/all_levels.jpg Graphic file (type jpg)
 <use fig/all_levels.jpg>
-Package pdftex.def Info: fig/all_levels.jpg  used on input line 300.
+Package pdftex.def Info: fig/all_levels.jpg  used on input line 325.
 (pdftex.def)             Requested size: 441.01773pt x 156.74533pt.
- [21 <./fig/all_levels.jpg>] [22] [23] [24] (tables/ref_RESULTS.tex) [25] [26] 
-[27]
+ [22 <./fig/all_levels.jpg>] [23] [24] [25] (tables/ref_RESULTS.tex) [26] [27] 
+[28]
 Rozdzia\PlPrIeC {\l } 6.
-[28
+[29
 
 ] (tables/Swipe_mesh.tex) (tables/RESULTS_Swipe_mesh.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 527--529
+Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
-[29] [30] (tables/Swipe_2d.tex) (tables/RESULTS_Swipe_2d.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 559--560
+[30] [31] (tables/Swipe_2d.tex) (tables/RESULTS_Swipe_2d.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 584--585
 
  []
 
-[31] [32]
-Underfull \hbox (badness 10000) in paragraph at lines 569--570
+[32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
 
-(tables/Click_mesh.tex) (tables/RESULTS_Click_mesh.tex) [33] [34]
-Underfull \hbox (badness 10000) in paragraph at lines 597--598
+(tables/Click_mesh.tex) (tables/RESULTS_Click_mesh.tex) [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 622--623
 
  []
 
 (tables/Click_2d.tex) (tables/RESULTS_Click_2d.tex)
-<diag/tAbs_Swipe12.png, id=650, 1219.55624pt x 391.4625pt>
+<diag/tAbs_Swipe12.png, id=658, 1219.55624pt x 391.4625pt>
 File: diag/tAbs_Swipe12.png Graphic file (type png)
 <use diag/tAbs_Swipe12.png>
-Package pdftex.def Info: diag/tAbs_Swipe12.png  used on input line 629.
+Package pdftex.def Info: diag/tAbs_Swipe12.png  used on input line 654.
 (pdftex.def)             Requested size: 441.01773pt x 141.55954pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<diag/tAbs_Click12.png, id=651, 1219.55624pt x 391.4625pt>
+<diag/tAbs_Click12.png, id=659, 1219.55624pt x 391.4625pt>
 File: diag/tAbs_Click12.png Graphic file (type png)
 <use diag/tAbs_Click12.png>
-Package pdftex.def Info: diag/tAbs_Click12.png  used on input line 636.
+Package pdftex.def Info: diag/tAbs_Click12.png  used on input line 661.
 (pdftex.def)             Requested size: 441.01773pt x 141.55954pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 641--644
+Underfull \hbox (badness 10000) in paragraph at lines 666--669
 
  []
 
-[35] [36]
-<diag/ref_tThink_tAbs.png, id=664, 1232.605pt x 681.54625pt>
+[36] [37]
+<diag/ref_tThink_tAbs.png, id=672, 1232.605pt x 681.54625pt>
 File: diag/ref_tThink_tAbs.png Graphic file (type png)
 <use diag/ref_tThink_tAbs.png>
-Package pdftex.def Info: diag/ref_tThink_tAbs.png  used on input line 649.
+Package pdftex.def Info: diag/ref_tThink_tAbs.png  used on input line 674.
 (pdftex.def)             Requested size: 441.01773pt x 243.84853pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 654--656
+Underfull \hbox (badness 10000) in paragraph at lines 679--681
 
  []
 
-[37 <./diag/tAbs_Swipe12.png> <./diag/tAbs_Click12.png>] [38 <./diag/ref_tThink
+[38 <./diag/tAbs_Swipe12.png> <./diag/tAbs_Click12.png>] [39 <./diag/ref_tThink
 _tAbs.png>]
-<diag/ref_rotations.png, id=679, 1224.575pt x 753.81625pt>
+<diag/ref_rotations.png, id=687, 1224.575pt x 753.81625pt>
 File: diag/ref_rotations.png Graphic file (type png)
 <use diag/ref_rotations.png>
-Package pdftex.def Info: diag/ref_rotations.png  used on input line 665.
+Package pdftex.def Info: diag/ref_rotations.png  used on input line 690.
 (pdftex.def)             Requested size: 441.01773pt x 271.47717pt.
- [39 <./diag/ref_rotations.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 674--675
+ [40 <./diag/ref_rotations.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 699--700
 
  []
 
-<diag/ref_Clicks.png, id=684, 1224.575pt x 753.81625pt>
+<diag/ref_Clicks.png, id=692, 1224.575pt x 753.81625pt>
 File: diag/ref_Clicks.png Graphic file (type png)
 <use diag/ref_Clicks.png>
-Package pdftex.def Info: diag/ref_Clicks.png  used on input line 678.
+Package pdftex.def Info: diag/ref_Clicks.png  used on input line 703.
 (pdftex.def)             Requested size: 441.01773pt x 271.47717pt.
-[40 <./diag/ref_Clicks.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 687--688
+[41 <./diag/ref_Clicks.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
 
  []
 
-<diag/errors_1.png, id=692, 1184.425pt x 624.3325pt>
+<diag/errors_1.png, id=700, 1184.425pt x 624.3325pt>
 File: diag/errors_1.png Graphic file (type png)
 <use diag/errors_1.png>
-Package pdftex.def Info: diag/errors_1.png  used on input line 694.
+Package pdftex.def Info: diag/errors_1.png  used on input line 719.
 (pdftex.def)             Requested size: 441.01773pt x 232.46649pt.
-<diag/errors_2.png, id=693, 1184.425pt x 624.3325pt>
+<diag/errors_2.png, id=701, 1184.425pt x 624.3325pt>
 File: diag/errors_2.png Graphic file (type png)
 <use diag/errors_2.png>
-Package pdftex.def Info: diag/errors_2.png  used on input line 701.
+Package pdftex.def Info: diag/errors_2.png  used on input line 726.
 (pdftex.def)             Requested size: 441.01773pt x 232.46649pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (6.51999pt too wide) in paragraph at lines 706--707
+Overfull \hbox (6.51999pt too wide) in paragraph at lines 731--732
 []\OT4/cmr/m/n/12 Dzi¦ki ta-kie-mu przed-sta-wie-niu da-nych za-ob-ser-wo-wa¢ m
 o»-na cie-ka-we za-le»-no-±ci w bª¦-
  []
 
-[41 <./diag/errors_1.png>] [42 <./diag/errors_2.png>]
-<diag/rel_mean_absThinkTime.png, id=710, 1201.48875pt x 392.46625pt>
+[42 <./diag/errors_1.png>] [43 <./diag/errors_2.png>]
+<diag/rel_mean_absThinkTime.png, id=718, 1201.48875pt x 392.46625pt>
 File: diag/rel_mean_absThinkTime.png Graphic file (type png)
 <use diag/rel_mean_absThinkTime.png>
-Package pdftex.def Info: diag/rel_mean_absThinkTime.png  used on input line 719
+Package pdftex.def Info: diag/rel_mean_absThinkTime.png  used on input line 744
 .
 (pdftex.def)             Requested size: 441.01773pt x 144.06042pt.
-<diag/rel_median_absThinkTime.png, id=712, 1201.48875pt x 392.46625pt>
+<diag/rel_median_absThinkTime.png, id=720, 1201.48875pt x 392.46625pt>
 File: diag/rel_median_absThinkTime.png Graphic file (type png)
 <use diag/rel_median_absThinkTime.png>
 Package pdftex.def Info: diag/rel_median_absThinkTime.png  used on input line 7
-28.
+53.
 (pdftex.def)             Requested size: 441.01773pt x 144.06042pt.
- [43 <./diag/rel_mean_absThinkTime.png> <./diag/rel_median_absThinkTime.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+ [44 <./diag/rel_mean_absThinkTime.png> <./diag/rel_median_absThinkTime.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
 
  []
 
-<diag/rel_mean_rotations.png, id=720, 602.25pt x 301.125pt>
+<diag/rel_mean_rotations.png, id=728, 602.25pt x 301.125pt>
 File: diag/rel_mean_rotations.png Graphic file (type png)
 <use diag/rel_mean_rotations.png>
-Package pdftex.def Info: diag/rel_mean_rotations.png  used on input line 741.
+Package pdftex.def Info: diag/rel_mean_rotations.png  used on input line 766.
 (pdftex.def)             Requested size: 396.91325pt x 198.46281pt.
-[44 <./diag/rel_mean_rotations.png>]
-<diag/rel_mean_Clicks.png, id=728, 602.25pt x 301.125pt>
+[45 <./diag/rel_mean_rotations.png>]
+<diag/rel_mean_Clicks.png, id=736, 602.25pt x 301.125pt>
 File: diag/rel_mean_Clicks.png Graphic file (type png)
 <use diag/rel_mean_Clicks.png>
-Package pdftex.def Info: diag/rel_mean_Clicks.png  used on input line 752.
+Package pdftex.def Info: diag/rel_mean_Clicks.png  used on input line 777.
 (pdftex.def)             Requested size: 396.91325pt x 198.46281pt.
- [45 <./diag/rel_mean_Clicks.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
+ [46 <./diag/rel_mean_Clicks.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 787--788
 
  []
 
-<diag/rel_mean_rotationsNorm.png, id=736, 1219.55624pt x 303.1325pt>
+<diag/rel_mean_rotationsNorm.png, id=744, 1219.55624pt x 303.1325pt>
 File: diag/rel_mean_rotationsNorm.png Graphic file (type png)
 <use diag/rel_mean_rotationsNorm.png>
-Package pdftex.def Info: diag/rel_mean_rotationsNorm.png  used on input line 77
-0.
+Package pdftex.def Info: diag/rel_mean_rotationsNorm.png  used on input line 79
+5.
 (pdftex.def)             Requested size: 441.01773pt x 109.6179pt.
-[46 <./diag/rel_mean_rotationsNorm.png>]
-<diag/rel_mean_ClicksNorm.png, id=743, 1219.55624pt x 303.1325pt>
+[47 <./diag/rel_mean_rotationsNorm.png>]
+<diag/rel_mean_ClicksNorm.png, id=751, 1219.55624pt x 303.1325pt>
 File: diag/rel_mean_ClicksNorm.png Graphic file (type png)
 <use diag/rel_mean_ClicksNorm.png>
-Package pdftex.def Info: diag/rel_mean_ClicksNorm.png  used on input line 779.
+Package pdftex.def Info: diag/rel_mean_ClicksNorm.png  used on input line 804.
 (pdftex.def)             Requested size: 441.01773pt x 109.6179pt.
- [47 <./diag/rel_mean_ClicksNorm.png>]
+ [48 <./diag/rel_mean_ClicksNorm.png>]
 Rozdzia\PlPrIeC {\l } 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--798
+Underfull \hbox (badness 10000) in paragraph at lines 821--823
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 807--808
+Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
-[48
+[49
 
 ]
-<diag/errors_sum.png, id=757, 434.62375pt x 600.2425pt>
+<diag/errors_sum.png, id=765, 434.62375pt x 600.2425pt>
 File: diag/errors_sum.png Graphic file (type png)
 <use diag/errors_sum.png>
-Package pdftex.def Info: diag/errors_sum.png  used on input line 813.
+Package pdftex.def Info: diag/errors_sum.png  used on input line 838.
 (pdftex.def)             Requested size: 199.16928pt x 275.07077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 824--825
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
 
  []
 
-[49 <./diag/errors_sum.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 828--829
+[50 <./diag/errors_sum.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 853--854
 
  []
 
-<diag/tBall_sum.png, id=766, 275.0275pt x 513.92pt>
+<diag/tBall_sum.png, id=774, 275.0275pt x 513.92pt>
 File: diag/tBall_sum.png Graphic file (type png)
 <use diag/tBall_sum.png>
-Package pdftex.def Info: diag/tBall_sum.png  used on input line 832.
+Package pdftex.def Info: diag/tBall_sum.png  used on input line 857.
 (pdftex.def)             Requested size: 199.16928pt x 372.17859pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[50] [51 <./diag/tBall_sum.png>]
+[51] [52 <./diag/tBall_sum.png>]
 Rozdzia\PlPrIeC {\l } 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--844
+Underfull \hbox (badness 10000) in paragraph at lines 868--869
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 845--851
+Underfull \hbox (badness 10000) in paragraph at lines 870--876
 
  []
 
-[52
+[53
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 853--856
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
-[53]
+[54]
 Rozdzia\PlPrIeC {\l } 9.
 (Master.bblpdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
@@ -1287,18 +1285,18 @@ l.1 \begin{thebibliography}{10}
 
 ]
 Rozdzia\PlPrIeC {\l } 10.
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 17.
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 25.
 
 (D:\Programy\LaTex\Installed\tex\latex\polski\ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-Underfull \hbox (badness 7012) in paragraph at lines 16--19
+Underfull \hbox (badness 7012) in paragraph at lines 24--27
 []\OT4/cmr/m/n/12 M. Si-cart, ``De-fi-ning ga-me me-cha-nics.'' []$\OT4/cmtt/m/
 n/12 http : / / gamestudies . org / 0802 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--45
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 []\OT4/cmr/m/n/12 ``What is eye trac-king?.'' []$\OT4/cmtt/m/n/12 https : / / w
 ww . tobiipro . com / blog /
  []
@@ -1307,21 +1305,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 
-      [2
+l.71 \bibitem{art_evaluationOfMG}
+                                  [2
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{page.}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.880 \listoffigures
+l.905 \listoffigures
                      [3]
 Rozdzia\PlPrIeC {\l } 11.
 (Master.lofpdfTeX warning (ext4): destination with the same identifier (name{pa
 ge.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 ...space {}dane wersji gry.}}{42}{figure.6.7}
+l.22 ...space {}dane wersji gry.}}{43}{figure.6.7}
                                                    [4
 
 ]
@@ -1338,38 +1336,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.881 \chapter
+l.906 \chapter
               {ZawartoÅ›Ä‡ pÅ‚yty} [5]
 Rozdzia\PlPrIeC {\l } 12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 888.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 913.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.888 \end{document}
+l.913 \end{document}
                      [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 888.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 913.
  (Master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 888.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 888.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 913.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 913.
 Package rerunfilecheck Info: File `Master.out' has not changed.
-(rerunfilecheck)             Checksum: 4F0C983AEDBE60B20DC0919B20D0AE6C;3896.
+(rerunfilecheck)             Checksum: 2364B86872EE53DE71076ED7299173AD;3833.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 888.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 913.
  ) 
 Here is how much of TeX's memory you used:
- 9804 strings out of 493308
- 140429 string characters out of 3138793
- 558899 words of memory out of 3000000
- 12928 multiletter control sequences out of 15000+200000
+ 9809 strings out of 493308
+ 140518 string characters out of 3138793
+ 558982 words of memory out of 3000000
+ 12930 multiletter control sequences out of 15000+200000
  12222 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,18n,43p,2298b,474s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,18n,43p,2298b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/pltt.enc}{D:/Programy/LaTex/I
 nstalled/fonts/enc/dvips/pl/plrm.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvi
 ps/pl/plme.enc}{D:/Programy/LaTex/Installed/fonts/enc/dvips/pl/plmi.enc}{D:/Pro
@@ -1384,9 +1382,9 @@ ogramy/LaTex/Installed/fonts/type1/public/pl/plr6.pfb><D:/Programy/LaTex/Instal
 led/fonts/type1/public/pl/plr8.pfb><D:/Programy/LaTex/Installed/fonts/type1/pub
 lic/pl/plsy10.pfb><D:/Programy/LaTex/Installed/fonts/type1/public/pl/plti12.pfb
 ><D:/Programy/LaTex/Installed/fonts/type1/public/pl/pltt12.pfb>
-Output written on Master.pdf (60 pages, 4242760 bytes).
+Output written on Master.pdf (61 pages, 4247355 bytes).
 PDF statistics:
- 983 PDF objects out of 1000 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
+ 993 PDF objects out of 1000 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
  605 words of extra memory for PDF output out of 10000 (max. 10000000)
 

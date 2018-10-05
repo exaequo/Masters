@@ -2,56 +2,56 @@
 \contentsline {chapter}{\numberline {2}Cel, za\IeC {\l }o\IeC {\.z}enia oraz zakres pracy}{4}{chapter.2}
 \contentsline {chapter}{\numberline {3}Grywalno\IeC {\'s}\IeC {\'c} w\nobreakspace {}grach mobilnych}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Heurystyka}{5}{section.3.1}
-\contentsline {section}{\numberline {3.2}Mechanika gry}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Do\IeC {\'s}wiadczenie u\IeC {\.z}ytkownika}{5}{section.3.3}
+\contentsline {section}{\numberline {3.2}Mechanika gry}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Do\IeC {\'s}wiadczenie u\IeC {\.z}ytkownika}{6}{section.3.3}
 \contentsline {section}{\numberline {3.4}U\IeC {\.z}yteczno\IeC {\'s}\IeC {\'c}}{6}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Mierzenie u\IeC {\.z}yteczno\IeC {\'s}ci}{6}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}Grywalno\IeC {\'s}\IeC {\'c}}{7}{section.3.5}
-\contentsline {chapter}{\numberline {4}Stan techniki}{9}{chapter.4}
-\contentsline {section}{\numberline {4.1}Dziesi\IeC {\k e}\IeC {\'c} heurystyk Nielsena}{9}{section.4.1}
-\contentsline {section}{\numberline {4.2}Heurystyki PLAY}{9}{section.4.2}
-\contentsline {section}{\numberline {4.3}Playability Heuristics for Mobile Games}{10}{section.4.3}
-\contentsline {section}{\numberline {4.4}Evaluation of mobile games using playability heuristics}{10}{section.4.4}
-\contentsline {section}{\numberline {4.5}Usability Evaluation of Mobile Game Applications: a\nobreakspace {}Systematic Review}{11}{section.4.5}
-\contentsline {section}{\numberline {4.6}Evaluation of Mobile Games with Playability Heuristic Evaluation System}{11}{section.4.6}
-\contentsline {section}{\numberline {4.7}Podsumowanie}{11}{section.4.7}
-\contentsline {chapter}{\numberline {5}Badanie przyswajania mechanik gry}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Za\IeC {\l }o\IeC {\.z}enia}{13}{section.5.1}
-\contentsline {section}{\numberline {5.2}Gra mobilna}{13}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Samouczki}{14}{subsection.5.2.1}
-\contentsline {section}{\numberline {5.3}Heurystyki}{17}{section.5.3}
-\contentsline {section}{\numberline {5.4}Rodzaje interfejs\IeC {\'o}w}{18}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Interfejs Swipe 2D}{19}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Interfejs Swipe 3D}{19}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Interfejs Click 2D}{20}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Interfejs Click 3D}{20}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Struktura badania}{20}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Czas absolutny}{22}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Czas kuli}{22}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Czas my\IeC {\'s}lenia}{22}{subsection.5.5.3}
-\contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{23}{subsection.5.5.4}
-\contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{23}{subsection.5.5.5}
-\contentsline {section}{\numberline {5.6}Analiza danych}{23}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Miary tendencji centralnej}{23}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Miary rozproszenia}{24}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Miary kszta\IeC {\l }tu rozk\IeC {\l }adu}{25}{subsection.5.6.3}
-\contentsline {section}{\numberline {5.7}Wyniki referencyjne}{25}{section.5.7}
-\contentsline {section}{\numberline {5.8}Podw\IeC {\'o}jna analiza}{26}{section.5.8}
-\contentsline {chapter}{\numberline {6}Wyniki}{28}{chapter.6}
-\contentsline {section}{\numberline {6.1}Warunki}{28}{section.6.1}
-\contentsline {section}{\numberline {6.2}Interfejs Swipe 3D}{29}{section.6.2}
-\contentsline {section}{\numberline {6.3}Interfejs Swipe 2D}{31}{section.6.3}
-\contentsline {section}{\numberline {6.4}Interfejs Click 3D}{31}{section.6.4}
-\contentsline {section}{\numberline {6.5}Interfejs Click 2D}{33}{section.6.5}
-\contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{35}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{35}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{38}{subsection.6.6.2}
-\contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{42}{subsection.6.6.3}
-\contentsline {chapter}{\numberline {7}Podsumowanie}{48}{chapter.7}
-\contentsline {section}{\numberline {7.1}Hipoteza I}{48}{section.7.1}
-\contentsline {section}{\numberline {7.2}Hipoteza II}{49}{section.7.2}
-\contentsline {section}{\numberline {7.3}Hipoteza III}{50}{section.7.3}
-\contentsline {chapter}{\numberline {8}Wnioski}{52}{chapter.8}
+\contentsline {subsection}{\numberline {3.4.1}Mierzenie u\IeC {\.z}yteczno\IeC {\'s}ci}{7}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.5}Grywalno\IeC {\'s}\IeC {\'c}}{8}{section.3.5}
+\contentsline {chapter}{\numberline {4}Stan techniki}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dziesi\IeC {\k e}\IeC {\'c} heurystyk Nielsena}{10}{section.4.1}
+\contentsline {section}{\numberline {4.2}Heurystyki PLAY}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}Pocz\IeC {\k a}tki heurystyk dla urz\IeC {\k a}dze\IeC {\'n} mobilnych}{11}{section.4.3}
+\contentsline {section}{\numberline {4.4}Badanie wp\IeC {\l }ywu spe\IeC {\l }niania heurystyk dla gier mobilnych}{11}{section.4.4}
+\contentsline {section}{\numberline {4.5}Przegl\IeC {\k a}d zasad projektowania dla gier mobilnych}{12}{section.4.5}
+\contentsline {section}{\numberline {4.6}Automatyzacja ewaluacji}{12}{section.4.6}
+\contentsline {section}{\numberline {4.7}Podsumowanie}{12}{section.4.7}
+\contentsline {chapter}{\numberline {5}Badanie przyswajania mechanik gry}{14}{chapter.5}
+\contentsline {section}{\numberline {5.1}Za\IeC {\l }o\IeC {\.z}enia}{14}{section.5.1}
+\contentsline {section}{\numberline {5.2}Gra mobilna}{14}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Samouczki}{15}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Heurystyki}{18}{section.5.3}
+\contentsline {section}{\numberline {5.4}Rodzaje interfejs\IeC {\'o}w}{19}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Interfejs Swipe 2D}{20}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Interfejs Swipe 3D}{20}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Interfejs Click 2D}{21}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Interfejs Click 3D}{21}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Struktura badania}{21}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Czas absolutny}{23}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Czas kuli}{23}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Czas my\IeC {\'s}lenia}{23}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Ilo\IeC {\'s}\IeC {\'c} obrot\IeC {\'o}w}{24}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Ilo\IeC {\'s}\IeC {\'c} dotkni\IeC {\k e}\IeC {\'c} ekranu}{24}{subsection.5.5.5}
+\contentsline {section}{\numberline {5.6}Analiza danych}{24}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Miary tendencji centralnej}{24}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Miary rozproszenia}{25}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Miary kszta\IeC {\l }tu rozk\IeC {\l }adu}{26}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}Wyniki referencyjne}{26}{section.5.7}
+\contentsline {section}{\numberline {5.8}Podw\IeC {\'o}jna analiza}{27}{section.5.8}
+\contentsline {chapter}{\numberline {6}Wyniki}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}Warunki}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Interfejs Swipe 3D}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Interfejs Swipe 2D}{32}{section.6.3}
+\contentsline {section}{\numberline {6.4}Interfejs Click 3D}{32}{section.6.4}
+\contentsline {section}{\numberline {6.5}Interfejs Click 2D}{34}{section.6.5}
+\contentsline {section}{\numberline {6.6}Analiza wynik\IeC {\'o}w}{36}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Czasy przej\IeC {\'s}\IeC {\'c} poziom\IeC {\'o}w}{36}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Pope\IeC {\l }niane b\IeC {\l }\IeC {\k e}dy}{39}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}R\IeC {\'o}\IeC {\.z}nice pomi\IeC {\k e}dzy podej\IeC {\'s}ciami}{43}{subsection.6.6.3}
+\contentsline {chapter}{\numberline {7}Podsumowanie}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}Hipoteza I}{49}{section.7.1}
+\contentsline {section}{\numberline {7.2}Hipoteza II}{50}{section.7.2}
+\contentsline {section}{\numberline {7.3}Hipoteza III}{51}{section.7.3}
+\contentsline {chapter}{\numberline {8}Wnioski}{53}{chapter.8}
 \contentsline {chapter}{\numberline {9}Abstract}{}{chapter.9}
 \contentsline {chapter}{\numberline {10}Bibliografia}{}{chapter.10}
 \contentsline {chapter}{\numberline {11}Spis rysunk\'ow}{}{chapter.11}
