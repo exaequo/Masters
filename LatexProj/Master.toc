@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {3.1}Heurystyka}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Mechanika gry}{6}{section.3.2}
 \contentsline {section}{\numberline {3.3}Do\IeC {\'s}wiadczenie u\IeC {\.z}ytkownika}{6}{section.3.3}
-\contentsline {section}{\numberline {3.4}U\IeC {\.z}yteczno\IeC {\'s}\IeC {\'c}}{6}{section.3.4}
+\contentsline {section}{\numberline {3.4}U\IeC {\.z}yteczno\IeC {\'s}\IeC {\'c}}{7}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Mierzenie u\IeC {\.z}yteczno\IeC {\'s}ci}{7}{subsection.3.4.1}
 \contentsline {section}{\numberline {3.5}Grywalno\IeC {\'s}\IeC {\'c}}{8}{section.3.5}
 \contentsline {chapter}{\numberline {4}Stan techniki}{10}{chapter.4}
